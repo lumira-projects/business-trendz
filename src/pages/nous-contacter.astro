@@ -51,18 +51,14 @@ const breadcrumbSchema = {
         </div>
       </div>
 
-      <!--
-        Form is routed via Web3Forms to lumiraprojects@gmail.com.
-        Replace WEB3FORMS_ACCESS_KEY with the real access key at deploy time
-        (free key obtained at https://web3forms.com/).
-      -->
+      <!-- Form routed via Web3Forms → lumiraprojects@gmail.com -->
       <form
         class="contact-form"
         id="contact-form"
         action="https://api.web3forms.com/submit"
         method="POST"
       >
-        <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY" />
+        <input type="hidden" name="access_key" value="8b7e2d8c-98b9-4652-8cab-0ea9ff1b2e3c" />
         <input type="hidden" name="from_name" value="Business Trendz · Formulaire de contact" />
         <input type="hidden" name="subject" value="Nouveau message depuis Business Trendz" />
         <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
