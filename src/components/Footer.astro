@@ -1,0 +1,141 @@
+---
+const categories = [
+  { name: 'Business', slug: 'business' },
+  { name: 'Entrepreneuriat', slug: 'entrepreneuriat' },
+  { name: 'Finance', slug: 'finance' },
+  { name: 'Formation', slug: 'formation' },
+  { name: 'Immobilier', slug: 'immobilier' },
+  { name: 'Lifestyle', slug: 'lifestyle' },
+  { name: 'Marketing', slug: 'marketing' },
+  { name: 'High Tech', slug: 'high-tech' },
+];
+
+const legalLinks = [
+  { name: 'Politique de confidentialité', href: '/politique-confidentialite/' },
+  { name: 'Politique de cookies', href: '/politique-de-cookies/' },
+  { name: 'Mentions légales', href: '/mentions-legales/' },
+  { name: 'Nous contacter', href: '/nous-contacter/' },
+];
+
+const year = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="/" class="footer-logo">BUSINESS<span class="footer-logo-accent">TRENDZ</span></a>
+      <p class="footer-tagline">
+        Le blog des tendances <em>business</em>, finance, marketing & innovations tech.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h3 class="footer-heading">Catégories</h3>
+      <ul>
+        {categories.map((c) => (
+          <li><a href={`/c/${c.slug}/`}>{c.name}</a></li>
+        ))}
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3 class="footer-heading">Informations</h3>
+      <ul>
+        {legalLinks.map((l) => (
+          <li><a href={l.href}>{l.name}</a></li>
+        ))}
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom container">
+    <span>© {year} Business Trendz · Tous droits réservés.</span>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: #0A0A0A;
+    color: #E5E5E5;
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-md);
+  }
+
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+    padding-bottom: var(--space-xl);
+  }
+
+  .footer-brand { max-width: 360px; }
+
+  .footer-logo {
+    font-family: var(--font-headline);
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: -0.01em;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+
+  .footer-logo-accent {
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-left: 0.15em;
+  }
+
+  .footer-tagline {
+    font-size: 0.95rem;
+    color: #A0A0A0;
+    line-height: 1.6;
+  }
+
+  .footer-tagline em {
+    font-family: var(--font-serif);
+    font-style: italic;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .footer-heading {
+    font-family: var(--font-headline);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+    color: white;
+    margin-bottom: 1.25rem;
+  }
+
+  .footer-col ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+
+  .footer-col a {
+    color: #B0B0B0;
+    font-size: 0.92rem;
+    transition: color 0.2s ease;
+  }
+
+  .footer-col a:hover { color: white; }
+
+  .footer-bottom {
+    padding-top: var(--space-md);
+    border-top: 1px solid #1F1F1F;
+    font-size: 0.85rem;
+    color: #707070;
+  }
+
+  @media (min-width: 768px) {
+    .footer-inner {
+      grid-template-columns: 1.5fr 1fr 1fr;
+    }
+  }
+</style>

@@ -1,0 +1,533 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  pubDate: Date;
+  updatedDate?: Date;
+  author: string;
+  categories: string[];
+  heroImage?: string;
+  heroImageAlt?: string;
+  readingTime?: number;
+  canonicalURL?: string;
+}
+
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  author,
+  categories,
+  heroImage,
+  heroImageAlt,
+  readingTime,
+  canonicalURL,
+} = Astro.props;
+
+const SITE_URL = 'https://business-trendz.com';
+
+const dateStr = pubDate.toLocaleDateString('fr-FR', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const updatedStr = updatedDate
+  ? updatedDate.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })
+  : null;
+
+// Category slug map (display name → URL slug)
+const categorySlugMap: Record<string, string> = {
+  'Business': 'business',
+  'Entreprise': 'entreprise',
+  'Entrepreneuriat': 'entrepreneuriat',
+  'Finance': 'finance',
+  'Fiscalité': 'fiscalite',
+  'Formation': 'formation',
+  'High Tech': 'high-tech',
+  'Immobilier': 'immobilier',
+  'Lifestyle': 'lifestyle',
+  'Marketing': 'marketing',
+};
+
+// ---------- Structured Data ----------
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  image: heroImage ? new URL(heroImage, SITE_URL).toString() : new URL('/og-default.svg', SITE_URL).toString(),
+  datePublished: pubDate.toISOString(),
+  dateModified: (updatedDate || pubDate).toISOString(),
+  author: {
+    '@type': 'Organization',
+    name: author,
+    url: SITE_URL,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Business Trendz',
+    logo: {
+      '@type': 'ImageObject',
+      url: new URL('/favicon.svg', SITE_URL).toString(),
+    },
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': canonicalURL,
+  },
+  articleSection: categories,
+  inLanguage: 'fr-FR',
+};
+
+const breadcrumbItems = [
+  { name: 'Accueil', url: SITE_URL + '/' },
+];
+if (categories[0]) {
+  const catSlug = categorySlugMap[categories[0]] || categories[0].toLowerCase();
+  breadcrumbItems.push({
+    name: categories[0],
+    url: `${SITE_URL}/c/${catSlug}/`,
+  });
+}
+breadcrumbItems.push({ name: title, url: canonicalURL || '' });
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: breadcrumbItems.map((item, idx) => ({
+    '@type': 'ListItem',
+    position: idx + 1,
+    name: item.name,
+    item: item.url,
+  })),
+};
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  ogImage={heroImage}
+  canonicalURL={canonicalURL}
+  structuredData={[articleSchema, breadcrumbSchema]}
+  ogType="article"
+>
+  <article class="article">
+    <div class="container article-container">
+
+      <!-- Sticky sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-sticky">
+          <div class="sidebar-block">
+            <span class="sidebar-label">Publié le</span>
+            <p class="sidebar-value">{dateStr}</p>
+            {updatedStr && (
+              <p class="sidebar-updated">Mis à jour le {updatedStr}</p>
+            )}
+          </div>
+
+          <nav class="toc" id="toc" aria-label="Sommaire de l'article">
+            <h2 class="sidebar-heading">Sommaire</h2>
+            <ol id="toc-list">
+              <!-- Filled in by client-side script -->
+            </ol>
+          </nav>
+
+          <div class="sidebar-cta">
+            <p class="cta-eyebrow">Une question ?</p>
+            <h3 class="cta-title">Contactez-nous</h3>
+            <p class="cta-desc">Une remarque, une suggestion, un partenariat ? On vous répond rapidement.</p>
+            <a href="/nous-contacter/" class="btn btn-gradient cta-btn">Nous écrire</a>
+          </div>
+
+          <div class="sidebar-share">
+            <span class="sidebar-label">Partager</span>
+            <div class="share-buttons">
+              <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(canonicalURL || '')}&text=${encodeURIComponent(title)}`} target="_blank" rel="noopener noreferrer" aria-label="Partager sur X">𝕏</a>
+              <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonicalURL || '')}`} target="_blank" rel="noopener noreferrer" aria-label="Partager sur LinkedIn">in</a>
+              <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonicalURL || '')}`} target="_blank" rel="noopener noreferrer" aria-label="Partager sur Facebook">f</a>
+              <button id="copy-link" aria-label="Copier le lien">⌬</button>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Article content -->
+      <div class="article-main">
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <a href="/">Accueil</a>
+          <span aria-hidden="true">/</span>
+          {categories[0] && (
+            <>
+              <a href={`/c/${categorySlugMap[categories[0]] || categories[0].toLowerCase()}/`}>{categories[0]}</a>
+              <span aria-hidden="true">/</span>
+            </>
+          )}
+          <span class="current">{title}</span>
+        </nav>
+
+        <div class="article-header">
+          <div class="article-meta">
+            {categories.map((cat) => (
+              <a href={`/c/${categorySlugMap[cat] || cat.toLowerCase()}/`} class="tag">{cat}</a>
+            ))}
+            {readingTime && <span class="reading-time">{readingTime} min de lecture</span>}
+          </div>
+
+          <h1 class="headline article-title">{title}</h1>
+        </div>
+
+        {heroImage && (
+          <figure class="article-hero">
+            <img src={heroImage} alt={heroImageAlt || title} />
+          </figure>
+        )}
+
+        <div class="prose article-prose" id="article-content">
+          <slot />
+        </div>
+
+        <div class="article-footer">
+          <p class="article-footer-author">Article publié par <strong>{author}</strong> le {dateStr}.</p>
+        </div>
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .article {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-2xl);
+  }
+
+  .article-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  /* ----- Sidebar ----- */
+  .sidebar { order: 2; }
+
+  .sidebar-sticky {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .sidebar-block,
+  .sidebar-cta,
+  .sidebar-share,
+  .toc {
+    padding: 1.25rem;
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+  }
+
+  .sidebar-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    color: var(--color-text-muted);
+  }
+
+  .sidebar-value {
+    font-size: 0.95rem;
+    margin-top: 0.25rem;
+    font-weight: 500;
+  }
+
+  .sidebar-updated {
+    font-size: 0.78rem;
+    color: var(--color-text-muted);
+    margin-top: 0.25rem;
+  }
+
+  .sidebar-heading {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 400;
+  }
+
+  .toc ol {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .toc a {
+    display: block;
+    position: relative;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: var(--color-text);
+    padding: 0.45rem 0.75rem 0.45rem 0.85rem;
+    border-radius: 6px;
+    border-left: 2px solid var(--color-border);
+    margin-left: -2px; /* align border with left edge */
+    transition: background 0.2s ease, color 0.2s ease, padding-left 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+  }
+
+  .toc a:hover {
+    background: linear-gradient(135deg, rgba(99,102,241,0.10) 0%, rgba(255,107,107,0.10) 100%);
+    border-left-color: var(--color-coral);
+    padding-left: 1.1rem;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  /* Active state: gradient text + thicker gradient border on the left */
+  .toc a.active {
+    background: linear-gradient(135deg, rgba(30,58,138,0.08) 0%, rgba(255,107,107,0.08) 100%);
+    border-left-width: 3px;
+    border-image: var(--gradient-brand) 1;
+    font-weight: 700;
+  }
+
+  .toc a.active::after {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-left: 6px;
+    border-radius: 50%;
+    background: var(--gradient-brand);
+    vertical-align: middle;
+  }
+
+  /* ----- Sidebar CTA ----- */
+  .sidebar-cta {
+    background: var(--gradient-brand);
+    border: none;
+    color: white;
+  }
+
+  .cta-eyebrow {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.85;
+    margin-bottom: 0.35rem;
+  }
+
+  .cta-title {
+    font-family: var(--font-headline);
+    font-size: 1.5rem;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.75rem;
+  }
+
+  .cta-desc {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    opacity: 0.92;
+    margin-bottom: 1rem;
+  }
+
+  .cta-btn {
+    background: white;
+    color: var(--color-text);
+    width: 100%;
+  }
+
+  .cta-btn:hover {
+    background: var(--color-text);
+    color: white;
+  }
+
+  /* ----- Share ----- */
+  .share-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+
+  .share-buttons a,
+  .share-buttons button {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--color-border-strong);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    background: transparent;
+    color: var(--color-text);
+    transition: all 0.2s ease;
+  }
+
+  .share-buttons a:hover,
+  .share-buttons button:hover {
+    background: var(--color-text);
+    color: var(--color-bg);
+  }
+
+  /* ----- Article main ----- */
+  .article-main { order: 1; min-width: 0; }
+
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-lg);
+  }
+
+  .breadcrumb a:hover { color: var(--color-text); }
+  .breadcrumb .current {
+    color: var(--color-text);
+    max-width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .article-header { margin-bottom: var(--space-xl); }
+
+  .article-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.65rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .reading-time {
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+  }
+
+  .article-title {
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    margin-bottom: 0;
+  }
+
+  .article-hero {
+    margin: var(--space-lg) 0 var(--space-xl);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .article-hero img {
+    width: 100%;
+    max-height: 540px;
+    object-fit: cover;
+  }
+
+  .article-prose {
+    max-width: var(--content-max);
+  }
+
+  .article-footer {
+    margin-top: var(--space-2xl);
+    padding-top: var(--space-lg);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .article-footer-author {
+    font-size: 0.92rem;
+    color: var(--color-text-muted);
+  }
+
+  /* ----- Desktop layout ----- */
+  @media (min-width: 1024px) {
+    .article-container {
+      grid-template-columns: 260px minmax(0, 1fr);
+      gap: var(--space-2xl);
+    }
+
+    .sidebar { order: 1; }
+    .article-main { order: 2; }
+
+    .sidebar-sticky {
+      position: sticky;
+      top: 100px;
+    }
+  }
+
+  /* Constrain only the TOC list, so the CTA + share boxes remain visible
+     even when the article has many H2 sections or the viewport is short. */
+  .toc ol {
+    max-height: 38vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    /* Light fade at the bottom to hint at scrollability */
+    mask-image: linear-gradient(to bottom, black 0%, black 92%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 0%, black 92%, transparent 100%);
+    padding-right: 4px;
+  }
+</style>
+
+<script>
+  // Build TOC from H2 headings only (H1 is the article title shown above)
+  const article = document.getElementById('article-content');
+  const tocList = document.getElementById('toc-list');
+
+  if (article && tocList) {
+    const headings = article.querySelectorAll('h2');
+    headings.forEach((h, idx) => {
+      // Auto-generate ID if missing
+      if (!h.id) {
+        const slug = (h.textContent || `section-${idx}`)
+          .toLowerCase()
+          .normalize('NFD').replace(/[̀-ͯ]/g, '')
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-+|-+$/g, '');
+        h.id = slug;
+      }
+
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = `#${h.id}`;
+      a.textContent = h.textContent || '';
+      li.appendChild(a);
+      tocList.appendChild(li);
+    });
+
+    // Active section highlighting
+    const tocLinks = tocList.querySelectorAll('a');
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            tocLinks.forEach((link) => {
+              link.classList.toggle('active', link.getAttribute('href') === `#${entry.target.id}`);
+            });
+          }
+        });
+      },
+      { rootMargin: '-30% 0px -65% 0px' }
+    );
+
+    headings.forEach((h) => observer.observe(h));
+  }
+
+  // Copy link button
+  const copyBtn = document.getElementById('copy-link');
+  copyBtn?.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      copyBtn.textContent = '✓';
+      setTimeout(() => { copyBtn.textContent = '⌬'; }, 1500);
+    } catch (e) {
+      console.error('Copy failed', e);
+    }
+  });
+</script>

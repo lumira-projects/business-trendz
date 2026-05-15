@@ -1,0 +1,68 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  updatedDate?: Date;
+  canonicalURL?: string;
+}
+
+const { title, description, updatedDate, canonicalURL } = Astro.props;
+
+const updatedStr = updatedDate
+  ? updatedDate.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })
+  : null;
+---
+
+<BaseLayout title={title} description={description} canonicalURL={canonicalURL}>
+  <article class="page">
+    <div class="container page-container">
+      <header class="page-header">
+        <p class="page-eyebrow">Information</p>
+        <h1 class="headline page-title">{title}</h1>
+        {updatedStr && <p class="page-meta">Dernière mise à jour : {updatedStr}</p>}
+      </header>
+
+      <div class="prose page-prose">
+        <slot />
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .page {
+    padding: var(--space-2xl) 0 var(--space-3xl);
+  }
+
+  .page-container {
+    max-width: var(--content-max);
+  }
+
+  .page-header {
+    margin-bottom: var(--space-xl);
+    padding-bottom: var(--space-lg);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .page-eyebrow {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    margin-bottom: 0.75rem;
+  }
+
+  .page-title {
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    margin-bottom: 0.75rem;
+  }
+
+  .page-meta {
+    font-size: 0.92rem;
+    color: var(--color-text-muted);
+  }
+
+  .page-prose { font-size: 1.05rem; }
+</style>

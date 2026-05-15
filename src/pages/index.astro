@@ -1,0 +1,282 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const allArticles = (await getCollection('articles'))
+  .filter((a) => !a.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// Helper to take N most recent articles matching any of the given categories
+const byCategory = (cats: string[], limit = 3) =>
+  allArticles
+    .filter((a) => a.data.categories.some((c) => cats.includes(c)))
+    .slice(0, limit);
+
+const recent = allArticles.slice(0, 3);
+
+const sections = [
+  {
+    title: 'Business',
+    accent: '& Entreprise',
+    slug: 'business',
+    articles: byCategory(['Business', 'Entreprise', 'Entrepreneuriat']),
+  },
+  {
+    title: 'Finance',
+    accent: '& Investissement',
+    slug: 'finance',
+    articles: byCategory(['Finance', 'Fiscalité']),
+  },
+  {
+    title: 'Marketing',
+    accent: '& Acquisition',
+    slug: 'marketing',
+    articles: byCategory(['Marketing']),
+  },
+  {
+    title: 'High Tech',
+    accent: '& Innovation',
+    slug: 'high-tech',
+    articles: byCategory(['High Tech']),
+  },
+  {
+    title: 'Immobilier',
+    accent: '& Patrimoine',
+    slug: 'immobilier',
+    articles: byCategory(['Immobilier']),
+  },
+  {
+    title: 'Formation',
+    accent: '& Lifestyle',
+    slug: 'formation',
+    articles: byCategory(['Formation', 'Lifestyle']),
+  },
+];
+---
+
+<BaseLayout
+  title="Business Trendz · Blog des tendances business"
+  description="Découvrez Business Trendz, le blog des tendances business: entrepreneuriat, finance, marketing et innovations high-tech."
+>
+  <section class="hero">
+    <div class="container">
+      <p class="hero-eyebrow">Le blog des tendances</p>
+      <h1 class="headline hero-title">
+        Découvrir les <span class="serif-accent">dernières tendances</span> du business.
+      </h1>
+      <p class="hero-desc">
+        Entrepreneuriat, finance, marketing, immobilier et innovations tech.
+        Notre veille hebdomadaire pour comprendre où va le business aujourd'hui.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-first">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="headline section-title">
+          Derniers <span class="serif-accent">articles</span>
+        </h2>
+      </div>
+
+      <div class="grid grid-3">
+        {recent.map((a) => (
+          <ArticleCard
+            href={`/${a.slug}/`}
+            title={a.data.title}
+            description={a.data.description}
+            category={a.data.categories[0]}
+            pubDate={a.data.pubDate}
+            heroImage={a.data.heroImage}
+            heroImageAlt={a.data.heroImageAlt}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {sections.map((section, idx) => section.articles.length > 0 && (
+    <section class={`section ${idx % 2 === 0 ? 'section-alt' : ''}`}>
+      <div class="container">
+        <div class="section-head">
+          <h2 class="headline section-title">
+            {section.title} <span class="serif-accent">{section.accent}</span>
+          </h2>
+          <a href={`/c/${section.slug}/`} class="section-more">Voir tout →</a>
+        </div>
+
+        <div class="grid grid-3">
+          {section.articles.map((a) => (
+            <ArticleCard
+              href={`/${a.slug}/`}
+              title={a.data.title}
+              description={a.data.description}
+              category={a.data.categories[0]}
+              pubDate={a.data.pubDate}
+              heroImage={a.data.heroImage}
+              heroImageAlt={a.data.heroImageAlt}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <!-- Full-width contact CTA -->
+  <section class="cta-band">
+    <div class="cta-band-inner container">
+      <h2 class="headline cta-headline">
+        Une <span class="serif-accent">idée</span> à partager ?
+      </h2>
+      <p class="cta-desc">
+        Suggestion de sujet, retour sur un article, ou projet éditorial.
+        Chaque message est lu, et on revient vers vous sous 48h.
+      </p>
+      <a href="/nous-contacter/" class="btn cta-btn">Nous écrire</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding: var(--space-2xl) 0 var(--space-xl);
+  }
+
+  .hero-eyebrow {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    margin-bottom: 1.25rem;
+  }
+
+  .hero-title {
+    font-size: clamp(2.25rem, 6vw, 4.5rem);
+    max-width: 18ch;
+    line-height: 1.05;
+    margin-bottom: 1.25rem;
+  }
+
+  .hero-desc {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    max-width: 56ch;
+    color: var(--color-text-muted);
+  }
+
+  /* Sections */
+  .section { padding: var(--space-2xl) 0; }
+  .section-first { padding-top: var(--space-xl); }
+  .section-alt { background: var(--color-bg-soft); }
+
+  .section-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: var(--space-lg);
+  }
+
+  .section-title {
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
+  }
+
+  .section-more {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 640px) {
+    .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (min-width: 1024px) {
+    .grid-3 { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  /* ---------- Full-width contact CTA band (gradient, left-aligned) ---------- */
+  .cta-band {
+    margin-top: var(--space-2xl);
+    background: var(--gradient-brand);
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta-band::before {
+    /* Soft halos for depth */
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 15% 25%, rgba(255,255,255,0.18) 0%, transparent 50%),
+      radial-gradient(circle at 85% 75%, rgba(255,255,255,0.12) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  .cta-band-inner {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 1.5rem;
+    padding-top: var(--space-3xl);
+    padding-bottom: var(--space-3xl);
+    max-width: 720px;
+  }
+
+  .cta-headline {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 1.1;
+    color: white;
+  }
+
+  /* Override the gradient on the serif accent inside the band — keep it readable on the gradient */
+  .cta-headline .serif-accent {
+    background: none;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    color: white;
+    opacity: 0.95;
+  }
+
+  .cta-desc {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.92);
+    max-width: 52ch;
+  }
+
+  .cta-btn {
+    background: white;
+    color: var(--color-text);
+    padding: 1.1rem 2.5rem;
+    font-size: 0.95rem;
+    transition: all 0.25s ease;
+  }
+
+  .cta-btn:hover {
+    background: var(--color-text);
+    color: white;
+    transform: translateY(-2px);
+  }
+</style>

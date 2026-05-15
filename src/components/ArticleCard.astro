@@ -1,0 +1,133 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  description: string;
+  category?: string;
+  pubDate: Date;
+  heroImage?: string;
+  heroImageAlt?: string;
+  size?: 'default' | 'large';
+}
+
+const { href, title, description, category, pubDate, heroImage, heroImageAlt, size = 'default' } = Astro.props;
+
+const dateStr = pubDate.toLocaleDateString('fr-FR', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<article class={`card card-${size}`}>
+  <a href={href} class="card-link" aria-label={title}>
+    {heroImage && (
+      <div class="card-image-wrap">
+        <img src={heroImage} alt={heroImageAlt || title} class="card-image" loading="lazy" />
+      </div>
+    )}
+
+    <div class="card-body">
+      <div class="card-meta">
+        {category && <span class="tag">{category}</span>}
+        <time datetime={pubDate.toISOString()}>{dateStr}</time>
+      </div>
+
+      <h3 class="card-title">{title}</h3>
+
+      {description && <p class="card-desc">{description}</p>}
+
+      <span class="card-cta">Lire l'article →</span>
+    </div>
+  </a>
+</article>
+
+<style>
+  .card {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    height: 100%;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px -8px rgba(0,0,0,0.12);
+    border-color: var(--color-border-strong);
+  }
+
+  .card-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .card-image-wrap {
+    aspect-ratio: 16/10;
+    overflow: hidden;
+    background: var(--color-bg-soft);
+  }
+
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .card:hover .card-image { transform: scale(1.04); }
+
+  .card-body {
+    padding: 1.25rem 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    flex: 1;
+  }
+
+  .card-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+  }
+
+  .card-title {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.25;
+    color: var(--color-text);
+    letter-spacing: -0.01em;
+  }
+
+  .card-desc {
+    font-size: 0.93rem;
+    line-height: 1.55;
+    color: var(--color-text-muted);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-cta {
+    margin-top: auto;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .card-large .card-title {
+    font-size: 1.75rem;
+  }
+</style>

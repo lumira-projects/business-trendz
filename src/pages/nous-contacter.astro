@@ -1,0 +1,252 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const SITE_URL = 'https://business-trendz.com';
+const canonicalURL = `${SITE_URL}/nous-contacter/`;
+
+const contactSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Nous contacter · Business Trendz',
+  description: "Une question, une suggestion, un partenariat ? Contactez l'équipe Business Trendz.",
+  url: canonicalURL,
+  inLanguage: 'fr-FR',
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: SITE_URL + '/' },
+    { '@type': 'ListItem', position: 2, name: 'Nous contacter', item: canonicalURL },
+  ],
+};
+---
+
+<BaseLayout
+  title="Nous contacter"
+  description="Une question, une suggestion, un partenariat ? Contactez l'équipe Business Trendz."
+  canonicalURL={canonicalURL}
+  structuredData={[contactSchema, breadcrumbSchema]}
+>
+  <section class="contact-page">
+    <div class="container contact-grid">
+
+      <div class="contact-intro">
+        <p class="eyebrow">Contact</p>
+        <h1 class="headline contact-title">
+          On vous <span class="serif-accent">écoute</span>.
+        </h1>
+        <p class="contact-lede">
+          Une question sur un article ? Une suggestion de sujet ?
+          Un projet de partenariat éditorial ou commercial ?
+          Écrivez-nous via le formulaire ci-contre, on revient vers vous sous 48h.
+        </p>
+
+        <div class="contact-info">
+          <div>
+            <span class="info-label">Délai de réponse</span>
+            <p class="info-value">Sous 48h ouvrées</p>
+          </div>
+        </div>
+      </div>
+
+      <!--
+        Form is routed via Web3Forms to lumiraprojects@gmail.com.
+        Replace WEB3FORMS_ACCESS_KEY with the real access key at deploy time
+        (free key obtained at https://web3forms.com/).
+      -->
+      <form
+        class="contact-form"
+        id="contact-form"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+      >
+        <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY" />
+        <input type="hidden" name="from_name" value="Business Trendz · Formulaire de contact" />
+        <input type="hidden" name="subject" value="Nouveau message depuis Business Trendz" />
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+
+        <div class="form-row">
+          <label for="name">Nom *</label>
+          <input type="text" id="name" name="name" required autocomplete="name" />
+        </div>
+
+        <div class="form-row">
+          <label for="email">E-mail *</label>
+          <input type="email" id="email" name="email" required autocomplete="email" />
+        </div>
+
+        <div class="form-row">
+          <label for="topic">Sujet *</label>
+          <input type="text" id="topic" name="topic" required />
+        </div>
+
+        <div class="form-row">
+          <label for="message">Votre message</label>
+          <textarea id="message" name="message" rows="6"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-gradient form-submit">Envoyer</button>
+
+        <p class="form-status" id="form-status" aria-live="polite"></p>
+      </form>
+
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .contact-page {
+    padding: var(--space-2xl) 0 var(--space-3xl);
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+  }
+
+  .eyebrow {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    margin-bottom: 0.75rem;
+  }
+
+  .contact-title {
+    font-size: clamp(2.25rem, 6vw, 4rem);
+    margin-bottom: 1.25rem;
+  }
+
+  .contact-lede {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--color-text-muted);
+    max-width: 50ch;
+    margin-bottom: 2rem;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .info-label {
+    display: block;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+    margin-bottom: 0.25rem;
+  }
+
+  .info-value {
+    font-size: 1.05rem;
+    font-weight: 500;
+  }
+
+  /* Form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: var(--space-lg);
+    background: var(--color-bg-soft);
+    border-radius: 16px;
+  }
+
+  .form-row { display: flex; flex-direction: column; gap: 0.4rem; }
+
+  .form-row label {
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+
+  .form-row input,
+  .form-row textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background: white;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+  }
+
+  .form-row input:focus,
+  .form-row textarea:focus {
+    outline: none;
+    border-color: var(--color-text);
+  }
+
+  .form-row textarea { resize: vertical; }
+
+  .form-submit { align-self: flex-start; padding: 0.9rem 2rem; }
+
+  .form-status {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+  }
+
+  .form-status.success { color: #059669; }
+  .form-status.error { color: #DC2626; }
+
+  @media (min-width: 900px) {
+    .contact-grid {
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+    }
+  }
+</style>
+
+<script>
+  // Form submission via Web3Forms — sends to lumiraprojects@gmail.com on the backend.
+  const form = document.getElementById('contact-form') as HTMLFormElement | null;
+  const status = document.getElementById('form-status');
+  const submitBtn = form?.querySelector('button[type="submit"]') as HTMLButtonElement | null;
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (!form || !status) return;
+
+    // If the access key hasn't been set yet, show a friendly placeholder.
+    const accessKey = (form.querySelector('input[name="access_key"]') as HTMLInputElement | null)?.value;
+    if (!accessKey || accessKey === 'WEB3FORMS_ACCESS_KEY') {
+      status.textContent = 'Formulaire en cours de configuration. Le système d\'envoi sera actif au lancement du nouveau site.';
+      status.className = 'form-status';
+      return;
+    }
+
+    if (submitBtn) submitBtn.disabled = true;
+    status.textContent = 'Envoi en cours…';
+    status.className = 'form-status';
+
+    try {
+      const formData = new FormData(form);
+      const res = await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' },
+      });
+      const data = await res.json();
+      if (data.success) {
+        status.textContent = 'Message envoyé. On revient vers vous sous 48h.';
+        status.className = 'form-status success';
+        form.reset();
+      } else {
+        throw new Error(data.message || 'Erreur inconnue');
+      }
+    } catch (err) {
+      status.textContent = 'Désolé, l\'envoi a échoué. Merci de réessayer dans quelques instants.';
+      status.className = 'form-status error';
+    } finally {
+      if (submitBtn) submitBtn.disabled = false;
+    }
+  });
+</script>

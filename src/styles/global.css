@@ -1,0 +1,299 @@
+/* ----------------------------------------------------------
+   Business Trendz — Design System
+   Inspired by Suxeed editorial style, adapted with a
+   blue → coral gradient identity.
+   ---------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Typography */
+  --font-headline: 'Archivo Black', 'Arial Black', sans-serif;
+  --font-serif: 'DM Serif Display', 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Colors */
+  --color-bg: #FFFFFF;
+  --color-bg-soft: #FAFAF8;
+  --color-text: #0A0A0A;
+  --color-text-muted: #6B6B6B;
+  --color-border: #E5E5E5;
+  --color-border-strong: #0A0A0A;
+
+  /* Brand gradient: deep blue → coral */
+  --color-blue: #1E3A8A;
+  --color-blue-deep: #0F1E5C;
+  --color-coral: #FF6B6B;
+  --color-coral-soft: #FFB199;
+  --gradient-brand: linear-gradient(135deg, #1E3A8A 0%, #6366F1 35%, #EC4899 70%, #FF6B6B 100%);
+  --gradient-brand-soft: linear-gradient(135deg, #1E3A8A20 0%, #FF6B6B20 100%);
+  --gradient-text: linear-gradient(135deg, #1E3A8A 0%, #FF6B6B 100%);
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 5rem;
+  --space-3xl: 8rem;
+
+  /* Layout */
+  --container-max: 1280px;
+  --content-max: 720px;
+}
+
+/* ---------- Reset ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; padding: 0; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+img, svg, video { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; cursor: pointer; background: none; border: none; color: inherit; }
+
+/* ---------- Typography ---------- */
+.headline {
+  font-family: var(--font-headline);
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  font-weight: 900;
+}
+
+.serif-accent {
+  font-family: var(--font-serif);
+  font-style: italic;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+/* ---------- Container ---------- */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .container { padding: 0 var(--space-lg); }
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 1.75rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--color-text);
+  color: var(--color-bg);
+}
+
+.btn-primary:hover {
+  background: var(--gradient-brand);
+  transform: translateY(-1px);
+}
+
+.btn-gradient {
+  background: var(--gradient-brand);
+  color: white;
+  border: none;
+}
+
+.btn-gradient:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--color-text);
+  border: 1.5px solid var(--color-text);
+}
+
+.btn-outline:hover {
+  background: var(--color-text);
+  color: var(--color-bg);
+}
+
+/* ---------- Category tags ---------- */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  background: transparent;
+  transition: background 0.2s ease;
+}
+
+.tag:hover {
+  background: var(--color-text);
+  color: var(--color-bg);
+}
+
+/* ---------- Prose (article body) ---------- */
+.prose {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--color-text);
+}
+
+.prose > * + * { margin-top: 1.25em; }
+
+.prose h2 {
+  font-family: var(--font-headline);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.15;
+  margin-top: 2.5em;
+  margin-bottom: 0.75em;
+  letter-spacing: -0.02em;
+}
+
+.prose h3 {
+  font-family: var(--font-headline);
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  line-height: 1.2;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  letter-spacing: -0.015em;
+}
+
+.prose h4 {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+}
+
+.prose p { margin-bottom: 1.25em; }
+
+.prose a {
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  border-bottom: 1.5px solid currentColor;
+  border-image: var(--gradient-brand) 1;
+}
+
+.prose strong { font-weight: 700; }
+.prose em { font-style: italic; }
+
+.prose ul, .prose ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25em;
+}
+
+.prose li { margin-bottom: 0.5em; }
+.prose ul li::marker { color: var(--color-coral); }
+.prose ol li::marker { font-weight: 700; }
+
+.prose blockquote {
+  border-left: 4px solid;
+  border-image: var(--gradient-brand) 1;
+  padding-left: 1.25rem;
+  margin: 1.5em 0;
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
+.prose img {
+  border-radius: 8px;
+  margin: 2em 0;
+}
+
+.prose code {
+  background: var(--color-bg-soft);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family: 'Menlo', 'Monaco', monospace;
+}
+
+/* ----------------------------------------------------------
+   Tables — Style C: accent gradient + bordure arrondie
+   ---------------------------------------------------------- */
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+  font-size: 0.95em;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  overflow: hidden;
+  /* 4px gradient stripe at the top of every table */
+  background:
+    linear-gradient(135deg,
+      #1E3A8A 0%,
+      #6366F1 35%,
+      #EC4899 70%,
+      #FF6B6B 100%) top / 100% 4px no-repeat,
+    var(--color-bg);
+}
+
+.prose th, .prose td {
+  padding: 1rem 1rem;
+  border: none;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+}
+
+.prose th {
+  background: var(--color-bg-soft);
+  font-weight: 700;
+  font-size: 0.92em;
+  letter-spacing: 0;
+  /* Extra top padding to make room for the 4px gradient line */
+  padding-top: 1.3rem;
+}
+
+.prose tbody tr:last-child td { border-bottom: none; }
+
+/* Horizontal scroll on narrow viewports */
+@media (max-width: 640px) {
+  .prose table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+}
+
+/* ---------- Utility ---------- */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
