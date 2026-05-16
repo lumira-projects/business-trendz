@@ -2,11 +2,11 @@
 title: "Politique de confidentialité"
 description: "Introduction"
 pubDate: "2024-07-09T15:17:10.000Z"
-updatedDate: "2024-07-09T15:19:02.000Z"
+updatedDate: "2026-05-16T00:00:00.000Z"
 ---
 
 **Introduction**  
-Chez business-trendz.com, propriété de Monsieur Pierre Lefèvre, situé au 12 Rue des Lumières, Paris, 75002, France, nous nous engageons à protéger la vie privée de nos visiteurs et utilisateurs. Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons, et protégeons vos informations personnelles lorsque vous visitez notre site web.
+Chez business-trendz.com, propriété de Monsieur François Aublin, situé au 12 Rue des Lumières, Paris, 75002, France, nous nous engageons à protéger la vie privée de nos visiteurs et utilisateurs. Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons, et protégeons vos informations personnelles lorsque vous visitez notre site web.
 
 **Collecte des informations personnelles**  
 Les types d’informations personnelles que nous pouvons collecter sur vous incluent, mais ne se limitent pas à :
