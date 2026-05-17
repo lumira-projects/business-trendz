@@ -3,7 +3,7 @@ title: "Pourquoi et comment solliciter un avocat fiscaliste à Paris ?"
 description: "Pour les non-initiés, il est souvent difficile de se retrouver parmi les multiples lois, réglementations et jurisprudences de la fiscalité. C’est pourquoi faire appel à un avocat fiscaliste est une dé"
 pubDate: "2024-11-30T07:46:33.000Z"
 updatedDate: "2024-11-30T07:48:01.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Fiscalité"
 heroImage: "/uploads/2024/11/A_realistic_photograph_of_a_Parisian_tax_attorney_ba2f5e57-e3a8-4098-bc6c-ac1eab861cd0.webp"

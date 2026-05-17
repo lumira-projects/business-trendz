@@ -3,7 +3,7 @@ title: "Salaire des infirmières en France en 2024 : tout savoir"
 description: "Les salaires des infirmières en France sont influencés par plusieurs facteurs allant de l'expérience, la spécialisation, jusqu'au type d'établissement de santé."
 pubDate: "2024-08-26T15:30:28.000Z"
 updatedDate: "2024-08-28T15:34:07.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
 heroImage: "/uploads/2024/08/salaire-infirmiere.webp"

@@ -3,7 +3,7 @@ title: "Quelle différence entre Cc et Cci dans les mails ?"
 description: "La communication par email est devenue un pilier de la correspondance professionnelle. Pour dynamiser notre échange d'informations, deux champs sont essentiels : le \"cc\" (copie carbone) et le \"cci\" (c"
 pubDate: "2024-07-09T18:13:07.000Z"
 updatedDate: "2024-07-16T17:25:43.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
 heroImage: "/uploads/2024/07/hugo.primelis_Create_a_realistic_image_of_a_female_entrepreneur_0b39e270-3a98-483f-b23c-ee690a5f1665.webp"

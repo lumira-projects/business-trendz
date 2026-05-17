@@ -3,7 +3,7 @@ title: "Comment calculer son chiffre d’affaires? Définition et exemple"
 description: "Calculer son chiffre d'affaires (CA) est une étape cruciale pour toute entreprise, qu'elle soit en démarrage ou déjà bien établie. Le chiffre d'affaires permet non seulement de mesurer la performance "
 pubDate: "2024-07-23T20:18:39.000Z"
 updatedDate: "2024-07-28T10:59:48.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Entreprise"

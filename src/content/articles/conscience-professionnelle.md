@@ -3,7 +3,7 @@ title: "Conscience pro : Le facteur secret pour réussir votre carrière !"
 description: "La conscience professionnelle est une notion fondamentale dans le monde du travail. Elle désigne cette attention qu'un individu porte à ses devoirs professionnels, en mettant un point d'honneur à acco"
 pubDate: "2024-10-01T14:56:54.000Z"
 updatedDate: "2024-10-02T13:32:06.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Entreprise"

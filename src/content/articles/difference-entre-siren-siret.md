@@ -3,7 +3,7 @@ title: "Quelle est la différence entre SIREN et SIRET"
 description: "Lorsqu'on parle d'immatriculation d'entreprise, deux termes reviennent souvent : le SIREN et le SIRET. Bien que ces deux numéros soient essentiels pour identifier les entreprises en France, ils ont de"
 pubDate: "2024-07-26T06:01:33.000Z"
 updatedDate: "2024-07-28T11:46:30.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Entreprise"

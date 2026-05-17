@@ -3,7 +3,7 @@ title: "Signalétique événementielle: 5 dispositifs à privilégier pour réus
 description: "La signalétique événementielle regroupe les différents supports et visuels utilisés par une entreprise lors des événements et salons professionnels ou associatifs. Ces outils de communication sont uti"
 pubDate: "2024-12-27T17:40:19.000Z"
 updatedDate: "2024-12-27T17:40:20.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
 heroImage: "/uploads/2024/12/realistic_photograph_of_an_elegant_Latin_woman__f04eaa18-5ff8-4225-a904-a8ddbe613d18.webp"

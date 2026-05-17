@@ -3,7 +3,7 @@ title: "Retail : Définition & Tendances"
 description: "Le terme \"retail\" trouve son origine dans le commerce de détail, se référant à la vente de produits directement aux consommateurs finaux en petites quantités. En tant que dernier maillon de la chaîne "
 pubDate: "2024-08-05T16:51:15.000Z"
 updatedDate: "2024-08-13T09:58:57.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Marketing"

@@ -3,7 +3,7 @@ title: "Royalties : Le truc caché que les pros ne veulent pas que vous sachiez 
 description: "Les royalties, ou redevances, sont essentielles dans des secteurs variés comme la musique, l'édition, et la technologie, représentant des paiements réguliers pour l'utilisation d'une propriété intelle"
 pubDate: "2024-10-01T17:20:06.000Z"
 updatedDate: "2024-10-02T13:31:51.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
 heroImage: "/uploads/2024/10/royalties-def.webp"

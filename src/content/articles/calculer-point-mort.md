@@ -3,7 +3,7 @@ title: "Point mort : La méthode secrète pour exploser vos profits !"
 description: "Le calcul du point mort, ou seuil de rentabilité, est essentiel dans la gestion financière des entreprises, permettant de déterminer à partir de quel moment une entreprise commence à générer des profi"
 pubDate: "2024-10-01T17:34:56.000Z"
 updatedDate: "2024-10-02T13:31:19.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
 heroImage: "/uploads/2024/10/calculer-le-point-mort.webp"

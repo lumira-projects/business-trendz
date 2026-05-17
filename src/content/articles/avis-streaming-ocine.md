@@ -3,7 +3,7 @@ title: "Avis streaming Ocine: détails et fiabilité"
 description: "Ocine est une plateforme de streaming qui attire de plus en plus l'attention des amateurs de contenu vidéo en ligne. Nous allons décourvrir ses fonctionnalités, sa bibliothèque de contenu, son expérie"
 pubDate: "2024-08-28T15:54:05.000Z"
 updatedDate: "2024-08-28T15:54:05.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Lifestyle"
 heroImage: "/uploads/2024/08/avis-streaming-ocine.webp"

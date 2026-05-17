@@ -3,7 +3,7 @@ title: "TVA en Suisse : tout savoir sur les taux, catégories et obligations"
 description: "La taxe sur la valeur ajoutée (TVA) en Suisse est un impôt indirect prélevé sur la consommation de biens et services. Elle constitue une source importante de revenus pour le gouvernement suisse."
 pubDate: "2024-08-28T15:42:50.000Z"
 updatedDate: "2024-08-28T15:42:50.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Fiscalité"
 heroImage: "/uploads/2024/08/tva-suisse.webp"

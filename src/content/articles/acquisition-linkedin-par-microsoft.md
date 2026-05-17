@@ -3,7 +3,7 @@ title: "A quel GAFAM appartient LinkedIn : comprendre son acquisition par Micros
 description: "LinkedIn est l'un des réseaux professionnels les plus reconnus et utilisés dans le monde. Ce grand réseau social a su se démarquer parmi les autres réseaux sociaux grâce à sa spécialisation dans le do"
 pubDate: "2024-07-10T08:40:04.000Z"
 updatedDate: "2024-08-24T19:07:18.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Finance"

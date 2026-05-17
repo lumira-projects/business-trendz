@@ -3,7 +3,7 @@ title: "Comment améliorer la gestion des entrepôts avec un étiquetage efficac
 description: "Une gestion efficace des entrepôts repose sur une organisation rigoureuse et une identification rapide des marchandises. Un étiquetage adapté permet de gagner du temps, de réduire les erreurs et d’opt"
 pubDate: "2025-04-15T00:37:13.000Z"
 updatedDate: "2025-04-15T00:48:30.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
 heroImage: "/uploads/2025/04/portrait-man-working-as-warehouse-attendant-scaled.webp"

@@ -3,7 +3,7 @@ title: "Trump vs. Europe : les GAFAM au cœur d'une guerre commerciale explosive
 description: "Les relations transatlantiques sont de nouveau sous tension. L'administration Trump a récemment intensifié ses critiques envers les régulations européennes visant les géants du numérique américains, l"
 pubDate: "2025-04-27T20:11:47.000Z"
 updatedDate: "2025-04-27T20:16:13.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
 heroImage: "/uploads/2025/04/portrait-indigenous-person-integrated-into-modern-life-scaled.webp"

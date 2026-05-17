@@ -62,11 +62,9 @@ const articleSchema = {
   image: heroImage ? new URL(heroImage, SITE_URL).toString() : new URL('/og-default.svg', SITE_URL).toString(),
   datePublished: pubDate.toISOString(),
   dateModified: (updatedDate || pubDate).toISOString(),
-  author: {
-    '@type': 'Organization',
-    name: author,
-    url: SITE_URL,
-  },
+  author: author === 'Business Trendz'
+    ? { '@type': 'Organization', name: author, url: SITE_URL }
+    : { '@type': 'Person', name: author, url: `${SITE_URL}/auteurs/francois-aublin/` },
   publisher: {
     '@type': 'Organization',
     name: 'Business Trendz',
@@ -191,7 +189,13 @@ const breadcrumbSchema = {
         </div>
 
         <div class="article-footer">
-          <p class="article-footer-author">Article publié par <strong>{author}</strong> le {dateStr}.</p>
+          <p class="article-footer-author">
+            Article publié par{' '}
+            {author === 'Business Trendz'
+              ? <strong>{author}</strong>
+              : <strong><a href="/auteurs/francois-aublin/">{author}</a></strong>
+            }{' '}le {dateStr}.
+          </p>
         </div>
       </div>
     </div>

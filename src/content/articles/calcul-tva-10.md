@@ -3,7 +3,7 @@ title: "Calcul de la TVA à 10% : astuces et méthodes pour les biens et service
 description: "La taxe sur la valeur ajoutée (TVA) joue un rôle clé dans les transactions commerciales en France. Une bonne maîtrise du calcul de la TVA, notamment au taux de 10%, permet d’optimiser la gestion finan"
 pubDate: "2024-12-01T11:17:11.000Z"
 updatedDate: "2024-12-01T11:17:45.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Fiscalité"
 heroImage: "/uploads/2024/12/realistic_photograph_of_a_restaurant_chef_prepa_b8e31aa2-7332-4427-b137-25611a2717ed.webp"

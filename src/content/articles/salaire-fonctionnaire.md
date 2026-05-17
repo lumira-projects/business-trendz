@@ -3,7 +3,7 @@ title: "Salaire fonctionnaire : structure, calcul et paiement en 2024"
 description: "Le salaire des fonctionnaires en France est un sujet essentiel car il détermine non seulement leurs conditions de vie, mais aussi la structure de leur travail au quotidien. Composé principalement du t"
 pubDate: "2024-08-11T18:01:32.000Z"
 updatedDate: "2024-08-12T10:04:47.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
 heroImage: "/uploads/2024/08/salaire-fonctionnaire.webp"

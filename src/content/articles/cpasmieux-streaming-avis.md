@@ -3,7 +3,7 @@ title: "Cpasmieux streaming avis : évaluation des caractéristiques, du contenu
 description: "Dans l'univers en constante évolution du streaming en ligne, trouver une plateforme qui allie richesse de contenu, qualité de service et une expérience utilisateur fluide peut s'avérer être un véritab"
 pubDate: "2024-12-01T12:00:20.000Z"
 updatedDate: "2024-12-01T12:00:22.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "High Tech"
   - "Lifestyle"

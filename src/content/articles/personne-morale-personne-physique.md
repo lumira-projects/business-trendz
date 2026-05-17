@@ -3,7 +3,7 @@ title: "Personne morale et personne physique, quelle différence ?"
 description: "Les concepts de personnalité juridique des personnes physiques et personnalité morale des personnes morales sont essentiels pour comprendre divers aspects du droit public et du droit privé ainsi que d"
 pubDate: "2024-07-09T19:18:21.000Z"
 updatedDate: "2024-07-23T19:57:22.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Entreprise"

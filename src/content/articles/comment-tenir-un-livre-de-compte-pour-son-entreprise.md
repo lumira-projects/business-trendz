@@ -3,7 +3,7 @@ title: "Comment tenir un livre de compte pour son entreprise"
 description: "Gérer les finances d'une entreprise, qu'elle soit petite ou grande, nécessite une rigueur et une organisation sans faille. Tenir un livre de compte est une méthode incontournable pour suivre les recet"
 pubDate: "2024-07-27T12:34:57.000Z"
 updatedDate: "2024-07-28T11:21:00.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Entreprise"

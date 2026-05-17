@@ -3,7 +3,7 @@ title: "Professionnels du bâtiment : pourquoi acheter vos outils coupants sur 
 description: "L’équipement d’un professionnel du bâtiment conditionne la qualité de ses interventions, mais également sa productivité au quotidien. Lorsque vient le moment de renouveler ou d’acquérir de nouveaux ou"
 pubDate: "2025-05-31T21:32:22.000Z"
 updatedDate: "2025-05-31T21:35:15.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
 heroImage: "/uploads/2025/05/f826cc93cee16211092515547fa8ff35-scaled.jpg"

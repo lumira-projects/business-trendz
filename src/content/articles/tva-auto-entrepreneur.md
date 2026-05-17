@@ -3,7 +3,7 @@ title: "TVA auto-entrepreneurs : comprendre les seuils et obligations"
 description: "Les auto-entrepreneurs bénéficient souvent d'une exonération de TVA, mais cela dépend de plusieurs facteurs. Le régime de la franchise en base de TVA leur permet d'être exemptés de cette taxe tant qu'"
 pubDate: "2024-08-13T09:05:48.000Z"
 updatedDate: "2024-08-13T09:08:04.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Fiscalité"
 heroImage: "/uploads/2024/08/tva-auto-entrepreneur.webp"

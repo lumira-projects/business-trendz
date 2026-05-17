@@ -3,7 +3,7 @@ title: "Promesse d'embauche non tenue : que faire ?"
 description: "L'embauche est une phase cruciale tant pour l'employeur que pour le candidat. Elle est souvent matérialisée par une promesse d'embauche, un engagement moral et parfois contractuel de la part de l'entr"
 pubDate: "2024-08-05T17:04:36.000Z"
 updatedDate: "2024-08-12T10:04:56.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
 heroImage: "/uploads/2024/08/promesse-dembauche-non-tenue-1.webp"

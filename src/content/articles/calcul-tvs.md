@@ -3,7 +3,7 @@ title: "Comment Calculer la Taxe sur les Véhicules de Société (TVS)"
 description: "La Taxe sur les Véhicules de Société (TVS) est une obligation fiscale pour les entreprises utilisant des véhicules à des fins professionnelles. Son calcul repose sur les émissions de CO2 et la puissan"
 pubDate: "2025-03-20T18:02:55.000Z"
 updatedDate: "2025-03-20T18:02:56.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
 heroImage: "/uploads/2025/03/luxury-sports-car-modern-city-streets-generated-by-ai-1-scaled.webp"

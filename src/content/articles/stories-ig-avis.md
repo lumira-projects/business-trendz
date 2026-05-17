@@ -3,7 +3,7 @@ title: "Comment voir les stories Instagram anonymement : Outils, fonctionnalité
 description: "Instagram est devenu un acteur incontournable dans le monde des réseaux sociaux, permettant aux utilisateurs de partager divers contenus avec leurs abonnés. C'est pourquoi, voir les stories Instagram "
 pubDate: "2024-08-26T14:51:27.000Z"
 updatedDate: "2024-08-26T15:15:49.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Lifestyle"
   - "Marketing"

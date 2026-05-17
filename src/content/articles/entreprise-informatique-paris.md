@@ -3,7 +3,7 @@ title: "Les meilleures entreprises informatiques de Paris"
 description: "Dans la ville dynamique de Paris, de nombreuses entreprises offrent des services informatiques variés pour répondre aux besoins des particuliers et des entreprises. Que vous ayez besoin de dépannage, "
 pubDate: "2024-08-12T14:18:59.000Z"
 updatedDate: "2025-05-20T22:32:23.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
 heroImage: "/uploads/2024/08/entreprise-informatique-paris.webp"

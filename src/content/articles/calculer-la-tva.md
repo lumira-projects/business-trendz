@@ -3,7 +3,7 @@ title: "Comment calculer une TVA : tout ce que vous devez savoir"
 description: "La taxe sur la valeur ajoutée (TVA) est un élément essentiel des transactions commerciales, tant pour les produits que pour les services. Elle représente une source de revenu significative pour l'État"
 pubDate: "2024-08-15T15:55:32.000Z"
 updatedDate: "2024-08-15T15:55:52.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Entreprise"

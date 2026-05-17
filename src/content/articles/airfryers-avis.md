@@ -3,7 +3,7 @@ title: "Airfryers avis : les 5 meilleures friteuses sans huile sur le marché"
 description: "Les airfryers ont révolutionné la cuisine moderne en offrant une alternative plus saine à la friture traditionnelle. Leur promesse de cuisiner avec peu ou pas d'huile tout en obtenant un résultat crou"
 pubDate: "2024-08-11T17:43:31.000Z"
 updatedDate: "2024-08-11T17:44:25.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "High Tech"
   - "Lifestyle"

@@ -3,7 +3,7 @@ title: "Méthode CROC : Optimiser les Appels Téléphoniques en Prospection et e
 description: "Dans le domaine de la prospection commerciale et des ventes, une méthode structurée peut faire toute la différence entre un appel réussi et une opportunité manquée. La méthode CROC, qui signifie Conta"
 pubDate: "2024-08-27T18:58:18.000Z"
 updatedDate: "2024-08-27T18:58:19.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
 heroImage: "/uploads/2024/08/a_realistic_photograph_of_a_professional_33f4a4d9-3ee7-486f-b197-712826786504.webp"

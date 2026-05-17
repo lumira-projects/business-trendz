@@ -3,7 +3,7 @@ title: "Cartographie des risques : propulser la performance ESG en 2025"
 description: "En 2025, la pression réglementaire et sociétale place la gestion des risques au cœur des priorités stratégiques des entreprises. La directive CSRD, la taxonomie européenne ou encore le devoir de vigil"
 pubDate: "2025-06-09T22:08:47.000Z"
 updatedDate: "2025-06-09T22:08:47.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Entreprise"
