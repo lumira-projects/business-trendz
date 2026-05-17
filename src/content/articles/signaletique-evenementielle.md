@@ -29,7 +29,7 @@ Les supports de la signalétique d’information s’installent au niveau des en
 
 Encore appelée signalétique sur stand, la signalétique événementielle dynamique prend en compte tous les **éléments publicitaires utilisés sur et autour de votre stand**. Ils servent à faire la promotion de vos produits et services ou de votre marque. Les kakémonos, les bannières, les roll-ups et les drapeaux appartiennent à ce type de signalétiques publicitaires.
 
-On les **dispose stratégiquement**, de manière à attirer l’attention des prospects, leur communiquer un message ou simplement promouvoir votre entreprise. En général, les supports visuels de la signalétique dynamique sont fabriqués à partir de matériaux légers, ce qui **facilite leur déplacement** et **rangement**.
+On les **dispose stratégiquement**, de manière à attirer l’attention des prospects, leur communiquer un message ou simplement promouvoir votre entreprise — en complément des [goodies personnalisés distribués sur le stand](/articles/goodies-definition/), qui prolongent la présence marque bien après l’événement. En général, les supports visuels de la signalétique dynamique sont fabriqués à partir de matériaux légers, ce qui **facilite leur déplacement** et **rangement**.
 
 ## La signalétique événementielle digitale
 
