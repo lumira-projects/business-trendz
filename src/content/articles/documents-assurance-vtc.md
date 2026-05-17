@@ -3,7 +3,7 @@ title: "Documents utiles pour souscrire une assurance VTC"
 description: "La souscription à une assurance VTC requiert la constitution d’un dossier comprenant différents éléments. Voici une liste indicative permettant de préparer votre demande :"
 pubDate: "2025-04-15T00:30:08.000Z"
 updatedDate: "2025-04-15T00:30:33.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Fiscalité"
 heroImage: "/uploads/2025/04/blurred-motion-driving-night-city-life-generative-ai-scaled.webp"

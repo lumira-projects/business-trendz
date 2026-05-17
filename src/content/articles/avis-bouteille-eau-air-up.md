@@ -3,7 +3,7 @@ title: "Mon avis détaillé sur la bouteille d'eau Air Up : innovation, efficaci
 description: "La bouteille d'eau Air Up a fait des vagues dans le marché des bouteilles d'eau avec son concept révolutionnaire utilisant des capsules de saveur. Son système unique de parfumage de l'eau attire autan"
 pubDate: "2024-08-13T11:53:12.000Z"
 updatedDate: "2024-08-13T11:54:30.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Entreprise"

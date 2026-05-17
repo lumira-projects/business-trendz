@@ -3,7 +3,7 @@ title: "Accéder à l'ENT de l'Université de Rouen : Fonctionnalités et Assist
 description: "L’Espace Numérique de Travail (ENT) de l’Université de Rouen est une plateforme en ligne dédiée à la communauté universitaire, centralisant divers services numériques pour faciliter la gestion des étu"
 pubDate: "2024-09-15T15:52:05.000Z"
 updatedDate: "2024-09-15T15:52:50.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Formation"
 heroImage: "/uploads/2024/09/realistic_photograph_of_a_French_student_9c02ce48-37e1-4fea-987e-616c19a3c217.webp"

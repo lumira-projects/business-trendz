@@ -3,7 +3,7 @@ title: "\"Lu et approuvé\" : quelle valeur juridique ?"
 description: "Dans le droit des contrats en France, la mention manuscrite \"lu et approuvé\" a longtemps été une formule couramment utilisée. Bien ancrée dans les pratiques, elle continue de soulever des questions qu"
 pubDate: "2024-08-12T13:24:30.000Z"
 updatedDate: "2024-08-12T13:25:05.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Entreprise"

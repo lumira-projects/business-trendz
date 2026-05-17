@@ -3,7 +3,7 @@ title: "Salaire des professeurs : évolution et structure selon les niveaux édu
 description: "Les salaires des professeurs en France varient significativement en fonction de multiples facteurs comme le niveau d'enseignement, l'expérience professionnelle, les responsabilités supplémentaires et "
 pubDate: "2024-08-13T08:50:41.000Z"
 updatedDate: "2024-08-13T08:50:42.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
 heroImage: "/uploads/2024/08/salaire-prof.webp"

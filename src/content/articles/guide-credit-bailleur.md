@@ -3,7 +3,7 @@ title: "Le guide du crédit-bailleur"
 description: "Le crédit-bail est une solution de financement prisée par les entreprises souhaitant préserver leur trésorerie tout en accédant à des équipements performants. Au cœur de ce dispositif, le crédit-baill"
 pubDate: "2025-10-12T14:47:09.000Z"
 updatedDate: "2025-10-12T14:47:10.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Finance"

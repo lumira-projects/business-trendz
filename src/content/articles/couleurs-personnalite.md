@@ -3,7 +3,7 @@ title: "Couleurs et personnalités : la méthode DISC"
 description: "Avez-vous déjà remarqué comment vous vous entendez plus facilement avec certaines personnes et moins avec d'autres ? Ou pourquoi certains environnements vous dynamisent tandis que d'autres vous épuise"
 pubDate: "2024-07-09T18:29:31.000Z"
 updatedDate: "2024-07-16T17:33:43.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
   - "Formation"

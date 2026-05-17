@@ -3,7 +3,7 @@ title: "Guide d'affichage des prix en vitrine pour les professionnels"
 description: "L'affichage de prix pour vitrine est une exigence réglementaire posée par le Code de la consommation. Elle s'impose à toute personne proposant à la vente des produits ou des prestations de services à "
 pubDate: "2025-07-05T18:47:44.000Z"
 updatedDate: "2025-07-10T14:08:07.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
 heroImage: "/uploads/2025/07/assets_task_01jzdz9vmcf9esbh1nc6vczxxw_1751742035_img_0-1.webp"

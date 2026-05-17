@@ -3,7 +3,7 @@ title: "Acheter certification Instagram : tout ce qu'il faut savoir"
 description: "Alors que les réseaux sociaux continuent de dominer notre quotidien, obtenir une certification Instagram sur des plateformes comme Instagram est devenu un objectif pour beaucoup. La certification n'es"
 pubDate: "2024-07-10T08:21:00.000Z"
 updatedDate: "2024-07-16T17:31:22.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
   - "Lifestyle"

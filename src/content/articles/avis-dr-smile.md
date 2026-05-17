@@ -3,7 +3,7 @@ title: "Avis Dr. Smile: Découvrez l'efficacité et le confort des aligneurs den
 description: "Les aligneurs dentaires transparents ont révolutionné l'orthodontie moderne, offrant une alternative discrète et confortable aux appareils métalliques traditionnels. Parmi les leaders de cette innovat"
 pubDate: "2024-08-15T15:43:32.000Z"
 updatedDate: "2024-08-15T15:43:34.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Entreprise"

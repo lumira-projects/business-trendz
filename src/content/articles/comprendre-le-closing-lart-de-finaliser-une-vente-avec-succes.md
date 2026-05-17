@@ -3,7 +3,7 @@ title: "Comprendre le closing : l'art de finaliser une vente avec succès"
 description: "Dans le domaine commercial, le \"closing\" représente l'étape critique où un vendeur transforme un prospect en client. Cette phase finale du cycle de vente est déterminante pour générer des revenus et n"
 pubDate: "2024-11-30T18:06:28.000Z"
 updatedDate: "2024-11-30T18:16:28.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Formation"

@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const SITE_URL = 'https://business-trendz.com';
+const canonicalURL = 'https://business-trendz.com/auteurs/francois-aublin/';
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'François Aublin',
+  url: canonicalURL,
+  jobTitle: 'Fondateur',
+  worksFor: {
+    '@type': 'Organization',
+    name: 'Business Trendz',
+    url: SITE_URL,
+  },
+  sameAs: [
+    'https://www.linkedin.com/in/francois-aublin',
+    'https://francoisaublin.com',
+  ],
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: SITE_URL + '/' },
+    { '@type': 'ListItem', position: 2, name: 'François Aublin', item: canonicalURL },
+  ],
+};
+---
+
+<BaseLayout
+  title="François Aublin"
+  description="Fondateur de Business Trendz et expert en stratégie digitale, François Aublin partage des analyses concrètes pour entrepreneurs et dirigeants."
+  canonicalURL={canonicalURL}
+  structuredData={[personSchema, breadcrumbSchema]}
+>
+  <section class="author-page">
+    <div class="container author-container">
+      <h1 class="headline">François Aublin</h1>
+
+      <div class="prose author-prose">
+        <p>
+          François Aublin est entrepreneur et expert en <strong>stratégie digitale</strong> depuis plus de 10 ans.
+          Au fil de sa carrière, il a accompagné de nombreuses entreprises sur leurs problématiques de visibilité,
+          d'acquisition et de croissance organique, générant plus de <strong>50 millions de visites organiques</strong>
+          sur les projets qu'il a pilotés.
+        </p>
+        <p>
+          Il a fondé <strong>Business Trendz</strong> pour partager des analyses concrètes et des méthodes actionnables
+          sur l'entrepreneuriat, la finance, le marketing, l'immobilier et les nouvelles technologies. Le blog s'adresse
+          aux entrepreneurs, dirigeants et professionnels qui cherchent des contenus denses, sourcés et directement applicables.
+        </p>
+        <p>
+          Aujourd'hui, François intervient également auprès de <strong>marques internationales</strong> sur leurs enjeux
+          de visibilité en ligne.
+        </p>
+
+        <h2>Me contacter</h2>
+        <ul>
+          <li>Via la page contact de Business Trendz : <a href="https://business-trendz.com/nous-contacter/">business-trendz.com/nous-contacter/</a></li>
+          <li>Via la page contact de mon site personnel : <a href="https://francoisaublin.com/contact/">francoisaublin.com/contact/</a></li>
+          <li>Sur LinkedIn : <a href="https://www.linkedin.com/in/francois-aublin" target="_blank" rel="noopener noreferrer">linkedin.com/in/francois-aublin</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .author-page {
+    padding: var(--space-2xl) 0 var(--space-3xl);
+  }
+
+  .author-container {
+    max-width: 720px;
+  }
+
+  .author-prose {
+    margin-top: var(--space-xl);
+  }
+</style>

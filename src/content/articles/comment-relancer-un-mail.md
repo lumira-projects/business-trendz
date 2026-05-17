@@ -3,7 +3,7 @@ title: "Comment relancer un mail efficacement : Conseils pratiques et exemples c
 description: "Relancer un mail est une tâche délicate mais nécessaire dans de nombreux contextes professionnels. Que ce soit après une démonstration, une réunion ou un salon professionnel, savoir comment bien formu"
 pubDate: "2024-07-30T20:21:19.000Z"
 updatedDate: "2024-07-30T20:26:51.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Lifestyle"

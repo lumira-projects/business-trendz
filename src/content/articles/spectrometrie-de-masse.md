@@ -3,7 +3,7 @@ title: "Les avancées récentes en spectrométrie de masse et leurs applications
 description: "La spectrométrie de masse est une technique analytique essentielle en physique et en chimie, utilisée pour identifier et quantifier les molécules en fonction de leur masse. Ces dernières années, des p"
 pubDate: "2024-11-21T17:21:10.000Z"
 updatedDate: "2024-11-21T17:21:11.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "High Tech"
 heroImage: "/uploads/2024/11/images-that-simulate-x-rays-with-neon-colors-1-scaled.webp"

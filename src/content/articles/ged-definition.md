@@ -3,7 +3,7 @@ title: "GED : définition et avantages"
 description: "La Gestion Électronique de Documents (GED) est une solution informatique visant à organiser, gérer et stocker les documents d'une entreprise, que ce soit sous forme numérique ou papier. En ayant obser"
 pubDate: "2024-07-09T18:40:49.000Z"
 updatedDate: "2024-07-16T17:16:29.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
 heroImage: "/uploads/2024/07/hugo.primelis_Create_a_realistic_image_of_a_human_in_a_corporat_38b5b01e-6215-4802-b689-b3082d6b78c8.webp"

@@ -3,7 +3,7 @@ title: "MyPeopleDoc : Un guide complet pour la gestion des ressources humaines"
 description: "Avec l'essor des technologies numériques, la gestion des ressources humaines (RH) n'a jamais été aussi efficace. Parmi les solutions innovantes, MyPeopleDoc se distingue par ses fonctionnalités avancé"
 pubDate: "2024-08-16T20:33:29.000Z"
 updatedDate: "2024-08-16T20:33:30.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
 heroImage: "/uploads/2024/08/Capture-decran-2024-08-16-a-22.29.21.webp"

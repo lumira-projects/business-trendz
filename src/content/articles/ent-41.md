@@ -3,7 +3,7 @@ title: "ENT 41 : La plateforme numérique pour les collèges du Loir-et-Cher"
 description: "L’ENT 41 est une plateforme numérique dédiée à la gestion scolaire dans le Loir-et-Cher, regroupant tous les services essentiels pour les élèves, parents et enseignants. Elle centralise les outils édu"
 pubDate: "2024-09-07T21:25:33.000Z"
 updatedDate: "2024-09-07T21:32:35.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Formation"
 heroImage: "/uploads/2024/09/realistic_photograph_of_a_young_French_78b85ed6-55c7-4c73-ac04-0c1d3b9d0681.webp"

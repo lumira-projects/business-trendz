@@ -3,7 +3,7 @@ title: "Comment augmenter le stockage iCloud gratuitement?"
 description: "Le stockage iCloud est un service précieux pour les utilisateurs d'Apple, permettant de sauvegarder et de synchroniser des données entre différents appareils. Cependant, avec seulement 5 Go d'espace g"
 pubDate: "2024-07-23T05:51:44.000Z"
 updatedDate: "2024-08-24T18:07:59.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Formation"
   - "High Tech"

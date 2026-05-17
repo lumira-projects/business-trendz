@@ -3,7 +3,7 @@ title: "Quels sont les revenus pris en compte pour le RSA ?"
 description: "Le Revenu de Solidarité Active (RSA) est une prestation sociale destinée à assurer un revenu minimum aux personnes sans emploi ou disposant de faibles ressources. Pour déterminer l’éligibilité et le m"
 pubDate: "2024-07-23T05:50:06.000Z"
 updatedDate: "2024-08-12T10:06:30.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Lifestyle"
 heroImage: "/uploads/2024/07/hugo.primelis_Create_a_highly_realistic_image_of_a_couple_sitti_4b8147c7-ab1b-44fa-a7fc-f7ad56ee2292.webp"

@@ -3,7 +3,7 @@ title: "TVA restauration en France : tout savoir"
 description: "La taxe sur la valeur ajoutée (TVA) représente un enjeu important pour les restaurateurs en France. Cette taxe affecte directement le prix des produits et services offerts, et une bonne compréhension "
 pubDate: "2024-08-11T17:52:22.000Z"
 updatedDate: "2024-08-12T10:04:17.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
   - "Fiscalité"

@@ -3,7 +3,7 @@ title: "Le salaire des aides-soignantes en France : Ce qu'il faut savoir"
 description: "L'évolution du salaire d'une aide-soignante en France est déterminée par plusieurs facteurs clés, notamment l'expérience, le secteur d'emploi et la localisation géographique. En 2023, les grilles sala"
 pubDate: "2024-11-30T18:56:07.000Z"
 updatedDate: "2024-11-30T18:56:07.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Finance"
 heroImage: "/uploads/2024/11/a_realistic_photograph_of_a_compassionat.webp"

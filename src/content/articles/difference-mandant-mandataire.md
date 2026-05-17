@@ -3,7 +3,7 @@ title: "Quelle est la différence entre un mandant et un mandataire ?"
 description: "Dans le monde des affaires et du droit, les termes \"mandant\" et \"mandataire\" sont fréquemment utilisés. Ils désignent deux parties impliquées dans un mandat, mais leurs rôles et responsabilités sont d"
 pubDate: "2024-07-28T10:16:34.000Z"
 updatedDate: "2024-07-30T20:28:34.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Immobilier"

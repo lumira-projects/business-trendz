@@ -3,7 +3,7 @@ title: "Forme juridique : L’erreur qui peut détruire votre entreprise !"
 description: "Choisir la forme juridique appropriée est une décision stratégique essentielle pour tout entrepreneur lors de la création de son entreprise. Ce choix influence non seulement la responsabilité et les o"
 pubDate: "2024-10-01T17:27:44.000Z"
 updatedDate: "2024-10-02T13:31:35.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Entreprise"

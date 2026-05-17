@@ -3,7 +3,7 @@ title: "Comparateur d’assurance habitation en ligne : comment choisir ?"
 description: "D’un simple clic, une myriade d’offres d’assurance habitation s’affichent à l’écran. Derrière ces chiffres et garanties en apparence similaires se cachent des différences parfois subtiles, mais essent"
 pubDate: "2025-02-14T11:18:57.000Z"
 updatedDate: "2025-02-14T11:18:58.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Immobilier"
 heroImage: "/uploads/2025/02/realistic_photograph_of_a_thoughtful_asian_cons_0ae9052e-1adf-4681-8ed5-3eea492b6a77.webp"

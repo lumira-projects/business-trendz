@@ -3,7 +3,7 @@ title: "Économie d'échelle : définition et exemples"
 description: "L'économie d'échelle est un concept clé en économie et en gestion des entreprises, qui permet de comprendre comment la production à grande échelle peut réduire les coûts unitaires de production. Dans "
 pubDate: "2024-07-28T09:53:02.000Z"
 updatedDate: "2024-07-30T20:28:58.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Entreprise"

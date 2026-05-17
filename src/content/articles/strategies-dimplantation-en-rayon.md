@@ -3,7 +3,7 @@ title: "L'impact de l'inflation sur les stratégies d'implantation en rayon"
 description: "Dans le contexte économique actuel, l'inflation modifie les comportements d'achat et pousse les distributeurs à repenser leurs stratégies d'implantation."
 pubDate: "2025-04-15T00:24:58.000Z"
 updatedDate: "2025-04-15T00:24:59.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
 heroImage: "/uploads/2025/04/portrait-man-shopping-buying-consumer-goods-scaled.webp"

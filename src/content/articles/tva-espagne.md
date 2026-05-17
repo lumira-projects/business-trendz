@@ -3,7 +3,7 @@ title: "TVA en Espagne : taux, régulations et implications pour les entreprises
 description: "La TVA en Espagne est un sujet complexe mais essentiel à comprendre pour toute entreprise opérant dans le pays ou envisageant d'y établir une présence."
 pubDate: "2024-08-26T15:16:15.000Z"
 updatedDate: "2024-08-28T15:35:38.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Fiscalité"
 heroImage: "/uploads/2024/08/tva-espagne.webp"

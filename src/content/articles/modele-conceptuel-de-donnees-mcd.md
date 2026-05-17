@@ -3,7 +3,7 @@ title: "Comprendre le Modèle Conceptuel de Données (MCD) pour une meilleure mo
 description: "Le modèle conceptuel de données, ou MCD, est essentiel pour créer une base de données structurée et efficace. Il permet de définir clairement les informations à stocker sans se préoccuper des aspects "
 pubDate: "2024-08-15T15:20:04.000Z"
 updatedDate: "2024-08-15T15:21:35.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
   - "Finance"

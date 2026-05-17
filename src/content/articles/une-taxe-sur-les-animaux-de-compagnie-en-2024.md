@@ -3,7 +3,7 @@ title: "Une taxe sur les animaux de compagnie en 2024 ?"
 description: "Depuis quelque temps, une rumeur persistante circule sur les réseaux sociaux, notamment TikTok, évoquant l'instauration d'une taxe sur les animaux domestiques en France à partir de 2024. Bien que cett"
 pubDate: "2024-07-26T06:22:39.000Z"
 updatedDate: "2024-08-12T10:06:15.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Fiscalité"
 heroImage: "/uploads/2024/07/a_hyper-realistic_high_resolution_image_-_66d5bab5-99ae-4d0e-8976-6239f30bafd9.webp"

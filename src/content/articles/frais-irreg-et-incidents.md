@@ -3,7 +3,7 @@ title: "Frais irrégularités et incidents : qu’est-ce que c’est et comment 
 description: "Les frais d'irrégularités et incidents bancaires sont une source de frustration pour de nombreux consommateurs en France. Cet article explore les différents types de frais liés aux comptes bancaires t"
 pubDate: "2024-08-05T17:18:23.000Z"
 updatedDate: "2024-08-12T10:05:11.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Finance"
   - "Lifestyle"

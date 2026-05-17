@@ -3,7 +3,7 @@ title: "Salaire des Hôtesses de l'Air : tout ce que vous devez savoir"
 description: "Le métier d'hôtesse de l'air ou steward, également connu sous le nom de personnel navigant commercial (PNC), attire de nombreux candidats en raison de son aspect glamour et des opportunités de voyage "
 pubDate: "2024-08-15T16:06:06.000Z"
 updatedDate: "2024-08-15T16:06:54.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
   - "Entreprise"

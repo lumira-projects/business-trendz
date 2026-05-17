@@ -2,7 +2,7 @@
 title: "Mentions légales"
 description: "Propriétaire du site :"
 pubDate: "2024-07-09T14:03:53.000Z"
-updatedDate: "2026-05-16T00:00:00.000Z"
+updatedDate: "2026-05-16T12:00:00.000Z"
 ---
 
 **Propriétaire du site :**  
@@ -31,3 +31,6 @@ Le contenu de ce site web, incluant, sans s'y limiter, les images, textes, graph
 business-trendz.com ne pourra être tenu responsable des dommages directs et indirects causés au matériel de l'utilisateur, lors de l'accès au site business-trendz.com. De plus, le site business-trendz.com se réserve le droit de supprimer, sans mise en demeure préalable, tout contenu déposé dans cet espace qui contreviendrait à la législation applicable en France, en particulier aux dispositions relatives à la protection des données. Le cas échéant, François Aublin se réserve également la possibilité de mettre en cause la responsabilité civile et/ou pénale de l'utilisateur, notamment en cas de message à caractère raciste, injurieux, diffamant, ou pornographique, quel que soit le support utilisé (texte, photographie…).
 
 * * *
+
+**À propos de l'auteur :**  
+François Aublin signe les contenus publiés sur business-trendz.com. Sa fiche auteur détaillée est disponible sur la page [auteurs/francois-aublin](https://business-trendz.com/auteurs/francois-aublin/).

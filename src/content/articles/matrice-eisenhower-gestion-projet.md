@@ -3,7 +3,7 @@ title: "La matrice Eisenhower : Maîtrisez votre gestion de projet et atteignez 
 description: "La gestion de projet est essentielle pour atteindre les objectifs fixés dans les entreprises modernes. La complexité des tâches et des priorités nécessite une planification efficace et des méthodes ad"
 pubDate: "2025-01-17T10:28:48.000Z"
 updatedDate: "2025-01-17T10:46:55.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Business"
 heroImage: "/uploads/2025/01/Realistic_photograph_of_a_thoughtful_black_skin_06b49d1d-307d-4d92-87f4-a9f0344f5534.webp"

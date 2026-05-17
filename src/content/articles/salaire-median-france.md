@@ -3,7 +3,7 @@ title: "Salaire médian : quel salaire moyen en France ?"
 description: "Le salaire médian est une mesure statistique essentielle pour évaluer l'économie d'un pays. En France, il révèle non seulement la santé économique générale mais aussi les disparités économiques entre "
 pubDate: "2024-08-28T15:25:07.000Z"
 updatedDate: "2024-08-28T15:35:01.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Entreprise"
   - "Lifestyle"

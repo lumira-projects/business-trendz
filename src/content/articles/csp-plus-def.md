@@ -3,7 +3,7 @@ title: "CSP+: définition et à quoi ça sert ?"
 description: "Les catégories socio-professionnelles (CSP) et plus spécifiquement les CSP+ jouent un rôle essentiel dans le monde du marketing et de la segmentation en France. Ces segments permettent aux spécialiste"
 pubDate: "2024-07-31T13:33:31.000Z"
 updatedDate: "2024-08-12T10:05:36.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Marketing"
 heroImage: "/uploads/2024/07/csp-def-2.webp"

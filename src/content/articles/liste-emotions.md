@@ -3,7 +3,7 @@ title: "Liste des émotions : apprenez à les comprendre et les reconnaitre"
 description: "Les émotions humaines jouent un rôle central dans notre expérience de la vie quotidienne. Les reconnaître et les nommer constitue une part essentielle du développement de l'intelligence émotionnelle. "
 pubDate: "2024-08-02T09:00:18.000Z"
 updatedDate: "2024-08-02T09:10:30.000Z"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Lifestyle"
 heroImage: "/uploads/2024/08/liste-emotions-1.webp"
