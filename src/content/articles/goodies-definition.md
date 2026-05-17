@@ -19,8 +19,6 @@ heroImageAlt: "Goodies d'entreprise personnalisés disposés sur un bureau marke
 readingTime: 14
 ---
 
-# Goodies : définition, fiscalité et utilisation marketing en 2026
-
 Un **goodies** est un objet promotionnel personnalisé, généralement de faible valeur unitaire, offert gratuitement par une marque à ses clients, prospects ou collaborateurs pour ancrer sa notoriété. Le terme vient de l'anglais *goods* (« biens »), employé en français comme anglicisme invariable depuis les années 1990. Sur le plan marketing, un goodies appartient à la famille des **objets médias**, un canal qui pèse **1,512 milliard d'euros par an** en France selon la 2FPCO.
 
 ## Goodies : définition et sens en marketing
