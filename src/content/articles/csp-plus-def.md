@@ -37,7 +37,7 @@ Pour illustrer comment les entreprises peuvent utiliser cette segmentations, pre
 
 1.  Analyse initiale : L’entreprise commence par un audit détaillé de sa base de données clients pour identifier ceux qui appartiennent aux CSP+.
 2.  Segmentation : Les données sont segmentées pour isoler ce groupe particulier et aligner les messages de marketing en conséquence.
-3.  Stratégie de contenu : Des contenus exclusifs tels que des invitations à des événements VIP, des pré-lancements de nouveaux modèles, et divers documents promotionnels spécifiques sont ciblés vers ces clients.
+3.  Stratégie de contenu : Des contenus exclusifs tels que des invitations à des événements VIP, des pré-lancements de nouveaux modèles, et des [goodies haut de gamme pour cibler les CSP+](/articles/goodies-definition/) — objets tech, gourdes premium, carnets cuir — sont ciblés vers ces clients pour renforcer la valeur perçue de la marque.
 4.  Investissement sur les canaux : Placer des annonces sur des plateformes fréquentées par les CSP+, comme certains magazines spécialisés, réseaux sociaux professionnels et sites d'informations financières.
 
 ## **Les implications pour les annonceurs**

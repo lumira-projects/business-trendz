@@ -99,7 +99,7 @@ Il s'agit de la TVA que l'entreprise prélève sur ses ventes. Par exemple, si u
 
 ### **TVA déductible**
 
-Correspond à la TVA que l'entreprise a payée sur ses propres achats de biens ou de services nécessaires à son activité. Supposons qu'une entreprise achète du matériel pour 50€ HT à un taux de 20%, elle paie donc 10€ de TVA qui sont déductibles.
+Correspond à la TVA que l'entreprise a payée sur ses propres achats de biens ou de services nécessaires à son activité. Attention : les cadeaux clients suivent un régime spécifique — consultez les [règles de déductibilité TVA sur les goodies et cadeaux d'affaires](/articles/goodies-definition/) pour connaître le seuil de 73 € TTC applicable en 2026. Supposons qu'une entreprise achète du matériel pour 50€ HT à un taux de 20%, elle paie donc 10€ de TVA qui sont déductibles.
 
 ### **Calcul de la TVA à reverser à l'État**
 
