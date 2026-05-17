@@ -7,7 +7,7 @@ description: "Découvrez la définition exacte des goodies, leur fiscalité 2026
 pubDate: "2026-05-16T10:00:00.000Z"
 updatedDate: "2026-05-16T10:00:00.000Z"
 date: "2026-05-16"
-author: "Business Trendz"
+author: "François Aublin"
 categories:
   - "Marketing"
   - "Business"
