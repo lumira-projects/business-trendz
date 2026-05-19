@@ -9,7 +9,7 @@ updatedDate: "2026-05-19T00:00:00.000Z"
 categories:
   - "Business"
   - "Entreprise"
-heroImage: "/uploads/2024/07/difference-mandant-mandataire.webp"
+heroImage: "/uploads/2024/07/mandant-vs-mandataire-1.webp"
 heroImageAlt: "Différence mandant mandataire signature contrat de mandat bureau juridique"
 author: "François Aublin"
 readingTime: 19
