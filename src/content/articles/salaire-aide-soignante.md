@@ -19,7 +19,7 @@ En tant qu'aide-soignante débutante, le salaire peut varier considérablement s
 
 ### **Aide-soignante débutante**
 
-**Au début** de leur carrière, les aides-soignantes perçoivent généralement un salaire annuel brut approximatif de 20 000 à 26 000 euros. Le salaire moyen pour une aide-soignante débutante est d'environ 1 700 euros bruts mensuels, équivalant à environ 1 300 euros nets après déductions fiscales et sociales.
+**Au début** de leur carrière, les aides-soignantes perçoivent généralement un salaire annuel brut approximatif de 20 000 à 26 000 euros. Le salaire moyen pour une aide-soignante débutante est d'environ 1 700 euros bruts mensuels, équivalant à environ 1 300 euros nets après déductions fiscales et sociales. Ces montants sont à mettre en perspective avec le [salaire médian en France en 2024](https://business-trendz.com/articles/salaire-median-france/), qui atteint 2 190 € net mensuel pour le secteur privé : une aide-soignante débutante se situe ainsi nettement en dessous de la médiane nationale, ce qui illustre les tensions de recrutement dans la profession.
 
 -   **Secteur public :** entre 1 650 et 1 800 euros bruts mensuels
 -   **Secteur privé :** légèrement supérieur, autour de 1 800 euros bruts mensuels
