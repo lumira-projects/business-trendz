@@ -116,6 +116,8 @@ Chaque facture émise doit inclure :
 -   La mention "TVA applicable – montant" suivi du taux appliqué (20%, 10%, 5.5% ou 2.1%).
 -   Le numéro de TVA intracommunautaire de l’auto-entrepreneur.
 
+Pour automatiser ces mentions légales et gérer la déclaration de TVA depuis un outil adapté à votre régime, le [comparatif des meilleurs logiciels comptables gratuits pour auto-entrepreneurs](https://business-trendz.com/articles/meilleur-logiciel-comptable-gratuit/) présente les solutions conformes aux obligations 2026.
+
 ### **Déclaration et paiement**
 
 Chaque période imposable (mensuelle ou trimestrielle), l’auto-entrepreneur procède à :
