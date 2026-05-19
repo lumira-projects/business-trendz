@@ -50,7 +50,7 @@ Les entreprises individuelles sont soumises à l'impôt sur le revenu tandis que
 
 ### **Régime social**
 
-Les dirigeants de SARL sont soumis au régime social des travailleurs indépendants (RSI), alors que ceux de SAS relèvent du **régime général de la sécurité sociale**. Chacun présente des avantages et des inconvénients en termes de coût et de couverture sociale.
+Les dirigeants de SARL sont soumis au régime social des travailleurs indépendants (RSI), alors que ceux de SAS relèvent du **régime général de la sécurité sociale**. Chacun présente des avantages et des inconvénients en termes de coût et de couverture sociale. Cette distinction tient au [statut de mandataire social du dirigeant](https://business-trendz.com/articles/difference-mandant-mandataire/), dont le régime varie selon la forme juridique choisie.
 
 ## **Exemples pratiques de l'impact du choix de la forme juridique**
 

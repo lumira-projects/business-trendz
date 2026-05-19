@@ -66,6 +66,7 @@ Certaines situations spécifiques bénéficient encore de l'utilisation volontai
 -   **Reconnaissance de dettes :** L'acte de reconnaissance de dette doit comporter une mention manuscrite selon laquelle le débiteur reconnait spécialement devoir une somme précise.
 -   **Actes de cautionnement :** Le cautionnement solennel exige des formules manuscrites spéciales de la part de la personne qui se porte garante.
 -   **Promesses unilatérales :** Certaines promesses peuvent demander des mentions manuscrites spécifiques pour confirmer la pleine compréhension et acceptation des engagements.
+-   **Procurations et mandats :** Un [mandat de procuration notarié pour la vente d'un bien immobilier](https://business-trendz.com/articles/difference-mandant-mandataire/) exige un écrit à peine de nullité (loi Hoguet) ; la mention manuscrite y renforce la preuve du consentement éclairé du mandant.
 
 ## **Considérations pratiques en droit contemporain**
 
