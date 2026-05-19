@@ -11,7 +11,7 @@ heroImageAlt: "Salaire fonctionnaire : structure, calcul et paiement en 2024"
 readingTime: 4
 ---
 
-Le salaire des fonctionnaires en France est un sujet essentiel car il détermine non seulement leurs conditions de vie, mais aussi la structure de leur travail au quotidien. Composé principalement du traitement indiciaire et de diverses indemnités, ce salaire repose sur des barèmes spécifiques qui tiennent compte du grade, de l'échelon, et de l'ancienneté. Le calcul du salaire des fonctionnaires s'articule autour de l'indice majoré et de la valeur du point d'indice, offrant ainsi une grille claire et précise pour déterminer la rémunération mensuelle de chaque agent public.
+Le salaire des fonctionnaires en France est un sujet essentiel car il détermine leurs conditions de vie au quotidien — à titre de référence, le [salaire médian en France](https://business-trendz.com/articles/salaire-median-france/) s'établit à 2 190 € net mensuel pour le secteur privé en 2024, tandis que le médian de la fonction publique atteint 2 290 € selon l'INSEE. Composé principalement du traitement indiciaire et de diverses indemnités, ce salaire repose sur des barèmes spécifiques qui tiennent compte du grade, de l'échelon, et de l'ancienneté. Le calcul du salaire des fonctionnaires s'articule autour de l'indice majoré et de la valeur du point d'indice, offrant ainsi une grille claire et précise pour déterminer la rémunération mensuelle de chaque agent public.
 
 ## **Comprendre la structure du salaire des fonctionnaires**
 

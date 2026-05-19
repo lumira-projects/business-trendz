@@ -29,6 +29,8 @@ L'**expérience** joue un rôle majeur dans le salaire des infirmières. Une inf
 
 <table class="responsive-table"><tbody><tr><td><b>Années d'expérience</b></td><td><b>Salaire mensuel brut moyen (euros)</b></td></tr><tr><td><span style="font-weight: 400;">0-5 ans</span></td><td><span style="font-weight: 400;">2000 - 2400</span></td></tr><tr><td><span style="font-weight: 400;">6-15 ans</span></td><td><span style="font-weight: 400;">2500 - 3000</span></td></tr><tr><td><span style="font-weight: 400;">16-25 ans</span></td><td><span style="font-weight: 400;">3100 - 3500</span></td></tr><tr><td><span style="font-weight: 400;">26 ans et plus</span></td><td><span style="font-weight: 400;">3600 - 4000</span></td></tr></tbody></table>
 
+Pour contextualiser ces fourchettes, rappelons que le [salaire médian français (2 190 € net mensuel)](https://business-trendz.com/articles/salaire-median-france/) constitue la référence : une infirmière débutante se situe en dessous de cette médiane, une infirmière expérimentée (+16 ans) s'en approche ou la dépasse selon son établissement.
+
 ### **La spécialisation**
 
 Certaines spécialisations permettent aux infirmières de bénéficier d'un **salaire plus élevé**. Par exemple :
