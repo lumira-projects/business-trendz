@@ -1,8 +1,8 @@
 ---
-title: "Différence mandant mandataire : rôles, obligations et responsabilités en 2026"
-title_tag: "Différence mandant mandataire : guide complet 2026 | Business Trendz"
-description: "Comprenez la différence mandant mandataire en 2026 : définitions, obligations, responsabilités, types de mandat et révocation, sourcés sur le Code civil."
-meta_description: "Comprenez la différence mandant mandataire en 2026 : définitions, obligations, responsabilités, types de mandat et révocation, sourcés sur le Code civil."
+title: "Différence mandant mandataire : rôles, obligations et responsabilités"
+title_tag: "Différence mandant mandataire : guide complet | Business Trendz"
+description: "Comprenez la différence mandant mandataire : définitions, obligations, responsabilités, types de mandat et révocation, sourcés sur le Code civil."
+meta_description: "Comprenez la différence mandant mandataire : définitions, obligations, responsabilités, types de mandat et révocation, sourcés sur le Code civil."
 slug: "difference-mandant-mandataire"
 pubDate: "2024-07-28T00:00:00.000Z"
 updatedDate: "2026-05-19T00:00:00.000Z"
@@ -222,7 +222,7 @@ Le mandat prend fin par cinq causes prévues à l'article 2003 du Code civil : r
 
 ## Ce qu'il faut retenir sur la différence mandant mandataire
 
-Le mandant donne le pouvoir, le mandataire l'exerce. Cette relation triangulaire (mandant, mandataire, tiers) s'appuie sur les articles 1984 à 2010 du Code civil, complétés par des régimes spéciaux pour l'immobilier (loi Hoguet), le commerce (Code de commerce), la justice (Code de commerce, livre VI) ou la protection juridique (loi 2007-308). Quatre points méritent une attention particulière en 2026 : la distinction mandat civil vs mandat social, la différence mandat/procuration, l'irrévocabilité du mandat d'intérêt commun, et l'obligation de Carnet d'Information du Logement dans la gestion locative depuis le 1er janvier 2025.
+Le mandant donne le pouvoir, le mandataire l'exerce. Cette relation triangulaire (mandant, mandataire, tiers) s'appuie sur les articles 1984 à 2010 du Code civil, complétés par des régimes spéciaux pour l'immobilier (loi Hoguet), le commerce (Code de commerce), la justice (Code de commerce, livre VI) ou la protection juridique (loi 2007-308). Quatre points méritent une attention particulière : la distinction mandat civil vs mandat social, la différence mandat/procuration, l'irrévocabilité du mandat d'intérêt commun, et l'obligation de Carnet d'Information du Logement dans la gestion locative depuis le 1er janvier 2025.
 
 <script type="application/ld+json">
 {
