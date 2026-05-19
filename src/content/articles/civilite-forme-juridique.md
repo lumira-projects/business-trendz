@@ -46,7 +46,7 @@ Les obligations fiscales et sociales varient significativement entre les différ
 
 ### **Éléments fiscaux**
 
-Les entreprises individuelles sont soumises à l'impôt sur le revenu tandis que les sociétés comme les SAS et les SARL peuvent opter pour l'**impôt sur les sociétés**, souvent plus avantageux fiscalement. Les choix fiscaux affectent aussi les dividendes versés et l'imposition globale des dirigeants.
+Les entreprises individuelles sont soumises à l'impôt sur le revenu tandis que les sociétés comme les SAS et les SARL peuvent opter pour l'**impôt sur les sociétés**, souvent plus avantageux fiscalement. Cette logique IS s'applique également lorsque le dirigeant souhaite [investir la trésorerie excédentaire en bourse via un compte-titres société](https://business-trendz.com/articles/meilleur-site-investir-bourse/) : les plus-values sont alors imposées à 15% jusqu'à 42 500 € de bénéfice, contre 31,4% en nom propre.
 
 ### **Régime social**
 
