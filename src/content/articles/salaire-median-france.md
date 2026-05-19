@@ -1,6 +1,7 @@
 ---
 title: "Salaire médian France 2026 : chiffre INSEE, régions, secteurs et déciles"
 title_tag: "Salaire médian France 2026 : chiffre, régions, secteurs | Business Trendz"
+description: "Découvrez le salaire médian en France en 2026 (2 190 € net selon INSEE), avec déciles, régions, secteurs, écart femmes-hommes et comparaison Eurostat."
 meta_description: "Découvrez le salaire médian en France en 2026 (2 190 € net selon INSEE), avec déciles, régions, secteurs, écart femmes-hommes et comparaison Eurostat."
 slug: "salaire-median-france"
 date: "2026-05-19"
