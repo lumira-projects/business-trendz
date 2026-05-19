@@ -78,6 +78,8 @@ Extranet propriétaire audité chaque trimestre par Mazars SA ; ordres d’a
 | Fiscalité | Métaux précieux ou PV mobilières | PV mobilières | PV mobilières |
 | Roll‑over contrats | N/A | N/A | Risque de roll‑over futures |
 
+Pour les investisseurs qui souhaitent allouer une partie de leur portefeuille aux ETF actions ou obligataires via une plateforme réglementée, le [comparatif des meilleurs sites pour investir en bourse en 2026](https://business-trendz.com/articles/meilleur-site-investir-bourse/) détaille les grilles tarifaires et les critères de sécurité (FGDR, ségrégation, agrément AMF) des principaux courtiers français.
+
 ## **Vision ESG et durabilité**
 
 FDNGT s’engage à sourcer exclusivement du métal répondant au label LBMA Good Delivery et conforme à la directive UE 2017/821 sur les chaînes d’approvisionnement responsables. Aucune livraison physique = réduction d’empreinte carbone (pas de transport sécurisé ni d’assurance).

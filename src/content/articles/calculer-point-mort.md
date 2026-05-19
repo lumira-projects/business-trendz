@@ -121,7 +121,7 @@ Intégrer le revenu attendu basé sur le point mort dans votre planification bud
 
 ### **Décisions d'investissement**
 
-Lorsqu'il s'agit d'expansion ou d'autres grandes décisions d'investissement, intégrer le point mort permet de visualiser la rentabilité future et les risques potentiels.
+Lorsqu'il s'agit d'expansion ou d'autres grandes décisions d'investissement, intégrer le point mort permet de visualiser la rentabilité future et les risques potentiels. Pour les dirigeants dont l'entreprise dégage régulièrement des excédents de trésorerie au-delà du point mort, [placer cette trésorerie en bourse via les meilleurs courtiers en ligne](https://business-trendz.com/articles/meilleur-site-investir-bourse/) constitue une option à évaluer sur le plan fiscal et opérationnel.
 
 ### **Stratégie de réduction des coûts**
 
