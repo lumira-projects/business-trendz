@@ -4,7 +4,7 @@ title_tag: "Entreprise informatique Lyon 2026 : top 10 | Business Trendz"
 description: "Trouvez la meilleure entreprise informatique à Lyon : maintenance, infogérance, dépannage, cloud. Notre sélection des 10 prestataires les mieux notés en 2026."
 slug: entreprise-informatique-lyon
 pubDate: 2026-05-23T00:00:00.000Z
-updatedDate: 2026-05-23T00:00:00.000Z
+updatedDate: 2026-05-24T00:00:00.000Z
 heroImage: /uploads/2026/05/entreprise-informatique-lyon.webp
 heroImageAlt: "Technicien informatique au travail dans les locaux d'une entreprise lyonnaise"
 categories:
@@ -15,75 +15,163 @@ readingTime: 6
 
 Lyon, deuxième pôle économique de France, concentre une offre dense en services informatiques : infogérance, maintenance réseau, cybersécurité, cloud et dépannage. Que vous soyez une TPE cherchant un support réactif ou une PME souhaitant externaliser votre DSI, choisir le bon prestataire peut faire toute la différence. Pour cette sélection, nous avons analysé les entreprises informatiques lyonnaises les mieux notées sur Google Maps, en tenant compte de la régularité des avis, de la diversité des services proposés et de la réactivité client. Voici les 10 entreprises informatiques à Lyon qui se distinguent en 2026.
 
+<div id="bt-map" style="height:420px;border-radius:12px;overflow:hidden;margin:1.5rem 0;border:1px solid #e5e7eb"></div>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+<script>
+(function(){
+  var el = document.getElementById('bt-map');
+  if (!el) return;
+  var biz = [
+    {n:"1. Xyldia Informatique Lyon",r:"5,0",a:"20 Rue Georges Courteline",lat:45.7781068,lng:4.8775195},
+    {n:"2. N-DATASAVE",r:"4,9",a:"55 Bd des États-Unis",lat:45.7356772,lng:4.8629069},
+    {n:"3. Exalt Lyon",r:"4,9",a:"6 Quai Tilsitt",lat:45.7583105,lng:4.828781},
+    {n:"4. ACTIV Informatique",r:"4,9",a:"5 Rue Roux Soignat",lat:45.7472356,lng:4.8816432},
+    {n:"5. iilyo",r:"4,9",a:"33 Pl. Bellecour",lat:45.7580367,lng:4.8299917},
+    {n:"6. XEFI Lyon Presqu'île",r:"4,7",a:"41 Rue Paul Chenavard",lat:45.7651074,lng:4.8332653},
+    {n:"7. Lyon Informatique",r:"4,7",a:"69 Gd Rue de la Guillotière",lat:45.7526807,lng:4.8459518},
+    {n:"8. AXOPEN",r:"4,4",a:"235 Cours Lafayette",lat:45.7640406,lng:4.8625761},
+    {n:"9. Novatim",r:"4,0",a:"62 Rue de Bonnel",lat:45.7617863,lng:4.8490551},
+    {n:"10. DCS EASYWARE Lyon",r:"3,7",a:"20 Bd Eugène Deruelle",lat:45.762587,lng:4.854023}
+  ];
+  function init() {
+    var s = document.createElement('script');
+    s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    s.crossOrigin = '';
+    s.onload = function() {
+      var map = L.map('bt-map', {scrollWheelZoom: false});
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom: 19
+      }).addTo(map);
+      var bounds = [];
+      biz.forEach(function(b) {
+        bounds.push([b.lat, b.lng]);
+        L.marker([b.lat, b.lng])
+          .addTo(map)
+          .bindPopup('<strong>' + b.n + '</strong><br>⭐ ' + b.r + '/5<br><em>' + b.a + '</em>');
+      });
+      map.fitBounds(bounds, {padding: [30, 30]});
+    };
+    document.head.appendChild(s);
+  }
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(e) {
+      if (e[0].isIntersecting) { obs.disconnect(); init(); }
+    }, {rootMargin: '300px'});
+    obs.observe(el);
+  } else {
+    init();
+  }
+})();
+</script>
+
 ## 1. Xyldia Informatique Lyon — ⭐ 5,0/5
 
 - **Adresse** : 20 Rue Georges Courteline, Lyon
 - **Téléphone** : +33 7 64 38 87 45
-- **Horaires** : Ouvert 24h/24
 - **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi – Dimanche : Ouvert 24h/24
 
 Xyldia Informatique Lyon affiche la note parfaite de 5/5 sur Google Maps, signe d'une satisfaction client exceptionnelle. Cette entreprise se distingue notamment par sa disponibilité en continu — 24h/24 —, ce qui en fait un partenaire idéal pour les structures dont les systèmes ne peuvent se permettre aucune interruption. Elle intervient sur tout type de problématique informatique, de la maintenance préventive au dépannage d'urgence, avec un service personnalisé adapté aux besoins des TPE et PME lyonnaises.
 
-## 2. ACTIV Informatique — ⭐ 4,9/5
-
-- **Adresse** : 5 Rue Roux Soignat, Lyon
-- **Téléphone** : +33 4 28 29 11 79
-- **Horaires** : Ouvre à 08:00 le lundi
-- **Catégorie** : Assistance et services informatiques
-
-ACTIV Informatique est une référence lyonnaise pour l'assistance aux entreprises, avec une note de 4,9/5 saluée par de nombreux clients professionnels. La société propose des contrats de maintenance, de la gestion de parc informatique et des interventions ponctuelles sur site ou à distance. Son ouverture dès 8h00 en semaine témoigne d'une organisation orientée vers les besoins des professionnels qui démarrent tôt leur activité.
-
-## 3. N-DATASAVE — ⭐ 4,9/5
+## 2. N-DATASAVE — ⭐ 4,9/5
 
 - **Adresse** : 55 Boulevard des États-Unis, Lyon
 - **Téléphone** : +33 7 53 53 99 53
-- **Horaires** : Ouvre à 08:00 le lundi
 - **Catégorie** : Service de réparation d'ordinateurs
+- **Horaires** :
+  - Lundi : Ouvre à 08:00
+  - Mardi : Non communiqués
+  - Mercredi : Non communiqués
+  - Jeudi : Non communiqués
+  - Vendredi : Non communiqués
+  - Samedi : Non communiqués
+  - Dimanche : Fermé
 
 N-DATASAVE se spécialise dans le dépannage express et la réparation de PC et Mac, aussi bien sur les composants matériels que les problèmes logiciels. Avec une note de 4,9/5, l'entreprise est reconnue pour sa rapidité d'intervention et la qualité de ses diagnostics. Elle s'adresse aux particuliers comme aux professionnels, et couvre l'ensemble des pannes courantes : récupération de données, remplacement de pièces, réinstallation système.
 
-## 4. Exalt Lyon — ⭐ 4,9/5
+## 3. Exalt Lyon — ⭐ 4,9/5
 
 - **Adresse** : 6 Quai Tilsitt, Lyon
 - **Téléphone** : Non communiqué
-- **Horaires** : Ouvre à 09:00 le lundi
 - **Catégorie** : Consultant informatique
+- **Horaires** :
+  - Lundi : Ouvre à 09:00
+  - Mardi : Non communiqués
+  - Mercredi : Non communiqués
+  - Jeudi : Non communiqués
+  - Vendredi : Non communiqués
+  - Samedi : Non communiqués
+  - Dimanche : Fermé
 
 Exalt Lyon se positionne sur le conseil et l'ingénierie informatique, avec une approche orientée transformation digitale et accompagnement stratégique. Bien installée dans le quartier de la Presqu'île, cette structure attire des clients souhaitant aller au-delà de la simple maintenance pour repenser leur architecture IT. Sa note de 4,9/5 reflète une relation client soignée et une expertise reconnue dans les projets d'envergure.
 
-## 5. XEFI Lyon Presqu'île — ⭐ 4,7/5
+## 4. ACTIV Informatique — ⭐ 4,9/5
+
+- **Adresse** : 5 Rue Roux Soignat, Lyon
+- **Téléphone** : +33 4 28 29 11 79
+- **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi : Ouvre à 08:00
+  - Mardi : Non communiqués
+  - Mercredi : Non communiqués
+  - Jeudi : Non communiqués
+  - Vendredi : Non communiqués
+  - Samedi : Non communiqués
+  - Dimanche : Fermé
+
+ACTIV Informatique est une référence lyonnaise pour l'assistance aux entreprises, avec une note de 4,9/5 saluée par de nombreux clients professionnels. La société propose des contrats de maintenance, de la gestion de parc informatique et des interventions ponctuelles sur site ou à distance. Son ouverture dès 8h00 en semaine témoigne d'une organisation orientée vers les besoins des professionnels qui démarrent tôt leur activité.
+
+## 5. iilyo — ⭐ 4,9/5
+
+- **Adresse** : 33 Place Bellecour, Lyon
+- **Téléphone** : +33 4 81 13 00 20
+- **Catégorie** : Service d'hébergement de site web
+- **Horaires** :
+  - Lundi – Dimanche : Ouvert 24h/24
+
+iilyo est une entreprise lyonnaise spécialisée dans l'hébergement web et les infrastructures digitales, implantée au cœur de Lyon sur la Place Bellecour. Sa note de 4,9/5 et sa disponibilité 24h/24 en font un partenaire de choix pour les entreprises ayant des besoins critiques en ligne. Elle s'adresse aux agences, e-commerçants et TPE qui souhaitent un hébergement local, réactif et techniquement maîtrisé.
+
+## 6. XEFI Lyon Presqu'île — ⭐ 4,7/5
 
 - **Adresse** : 41 Rue Paul Chenavard, Lyon
 - **Téléphone** : +33 4 37 27 06 06
-- **Horaires** : Ouvre à 09:30 le lundi
 - **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi : Ouvre à 09:30
+  - Mardi : Non communiqués
+  - Mercredi : Non communiqués
+  - Jeudi : Non communiqués
+  - Vendredi : Non communiqués
+  - Samedi : Non communiqués
+  - Dimanche : Fermé
 
 XEFI est l'un des acteurs majeurs de l'infogérance pour PME en France, avec plusieurs agences présentes à Lyon. L'agence de la Presqu'île, notée 4,7/5, propose des contrats d'infogérance globale : gestion du parc, sécurité, cloud, télétravail et support utilisateurs. Son appartenance à un réseau national lui permet d'offrir des outils industrialisés et des niveaux de service élevés, particulièrement adaptés aux entreprises de 10 à 250 salariés.
 
-## 6. Lyon Informatique — ⭐ 4,7/5
+## 7. Lyon Informatique — ⭐ 4,7/5
 
 - **Adresse** : 69 Grande Rue de la Guillotière, Lyon
 - **Téléphone** : +33 4 78 61 70 04
-- **Horaires** : Non communiqués
 - **Catégorie** : Service de réparation d'ordinateurs
+- **Horaires** :
+  - Lundi – Dimanche : Non communiqués (vérifier sur Google Maps)
 
 Lyon Informatique est une boutique spécialisée dans la réparation d'ordinateurs, implantée dans le quartier de la Guillotière. Avec une note de 4,7/5, elle est appréciée pour son accessibilité et ses tarifs transparents. L'entreprise s'adresse principalement aux particuliers et aux indépendants cherchant une réparation rapide et fiable, sans engagement contractuel. Un atout de proximité dans un secteur souvent dominé par les grandes enseignes.
-
-## 7. XEFI Lyon 6 — ⭐ 4,5/5
-
-- **Adresse** : 108 Rue Vendôme, Lyon 6e
-- **Téléphone** : +33 4 27 85 90 00
-- **Horaires** : Ouvre à 14:00 le lundi
-- **Catégorie** : Assistance et services informatiques
-
-Deuxième agence XEFI présente dans notre sélection, l'agence Lyon 6 couvre principalement le 6e arrondissement et les communes du nord de Lyon. Elle propose les mêmes services d'infogérance que sa consœur de la Presqu'île, avec une expertise locale appréciée des commerçants et professions libérales du secteur. Son horaire d'ouverture l'après-midi le lundi est un critère à vérifier selon vos contraintes opérationnelles.
 
 ## 8. AXOPEN — ⭐ 4,4/5
 
 - **Adresse** : 235 Cours Lafayette, Lyon
 - **Téléphone** : +33 4 82 53 26 44
-- **Horaires** : Ouvre à 09:00 le lundi
 - **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi : Ouvre à 09:00
+  - Mardi : Non communiqués
+  - Mercredi : Non communiqués
+  - Jeudi : Non communiqués
+  - Vendredi : Non communiqués
+  - Samedi : Non communiqués
+  - Dimanche : Fermé
 
 AXOPEN est une ESN (Entreprise de Services du Numérique) lyonnaise qui se distingue par son expertise dans le développement applicatif et la transformation numérique, en plus des services d'infogérance traditionnels. Noté 4,4/5, cet acteur s'adresse surtout aux entreprises souhaitant allier maintenance IT et projets de digitalisation : ERP, applications métiers, intégration de solutions cloud. Un choix pertinent pour les structures en pleine évolution technologique.
 
@@ -91,8 +179,15 @@ AXOPEN est une ESN (Entreprise de Services du Numérique) lyonnaise qui se disti
 
 - **Adresse** : 62 Rue de Bonnel (Immeuble l'Europe), Lyon
 - **Téléphone** : +33 4 84 31 43 00
-- **Horaires** : Ouvre à 09:00 le lundi
 - **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi : Ouvre à 09:00
+  - Mardi : Non communiqués
+  - Mercredi : Non communiqués
+  - Jeudi : Non communiqués
+  - Vendredi : Non communiqués
+  - Samedi : Non communiqués
+  - Dimanche : Fermé
 
 Novatim est un prestataire informatique spécialisé dans la maintenance, l'infogérance, la cybersécurité et les solutions cloud pour les PME. Basé dans le quartier Part-Dieu, il bénéficie d'une bonne localisation pour intervenir rapidement sur l'ensemble de la métropole lyonnaise. Sa note de 4,0/5 reflète un service solide, particulièrement adapté aux entreprises cherchant à sécuriser leur infrastructure et à accompagner le télétravail de leurs équipes.
 
@@ -100,8 +195,9 @@ Novatim est un prestataire informatique spécialisé dans la maintenance, l'info
 
 - **Adresse** : 20 Boulevard Eugène Deruelle Britannia B, Lyon
 - **Téléphone** : +33 4 78 95 81 70
-- **Horaires** : Non communiqués
 - **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi – Dimanche : Non communiqués (vérifier sur Google Maps)
 
 DCS EASYWARE est une société nationale spécialisée dans la distribution et la maintenance de matériel informatique professionnel. L'agence lyonnaise, située dans le quartier de la Part-Dieu, s'adresse principalement aux grandes entreprises et aux collectivités pour la gestion de parcs informatiques étendus. Sa note de 3,7/5 invite à comparer les avis récents avant engagement, mais son appartenance à un groupe structuré peut rassurer sur la pérennité du prestataire.
 
@@ -131,7 +227,7 @@ Un prestataire informatique assure généralement la maintenance, le dépannage 
 
 ### Puis-je avoir un support informatique disponible 24h/24 à Lyon ?
 
-Oui, certains prestataires comme Xyldia Informatique Lyon proposent une disponibilité en continu. C'est particulièrement utile pour les entreprises dont les systèmes fonctionnent en dehors des heures ouvrées (e-commerce, restauration, santé). Vérifiez si ce service est inclus dans le contrat ou facturé en supplément.
+Oui, certains prestataires comme Xyldia Informatique Lyon ou iilyo proposent une disponibilité en continu. C'est particulièrement utile pour les entreprises dont les systèmes fonctionnent en dehors des heures ouvrées (e-commerce, restauration, santé). Vérifiez si ce service est inclus dans le contrat ou facturé en supplément.
 
 ### Comment changer de prestataire informatique à Lyon sans interruption de service ?
 
@@ -170,21 +266,6 @@ Oui, la quasi-totalité des prestataires listés proposent du support à distanc
       "position": 2,
       "item": {
         "@type": "LocalBusiness",
-        "name": "ACTIV Informatique",
-        "telephone": "+33428291179",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "5 Rue Roux Soignat",
-          "addressLocality": "Lyon",
-          "addressCountry": "FR"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "item": {
-        "@type": "LocalBusiness",
         "name": "N-DATASAVE",
         "telephone": "+33753539953",
         "address": {
@@ -197,7 +278,7 @@ Oui, la quasi-totalité des prestataires listés proposent du support à distanc
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 3,
       "item": {
         "@type": "LocalBusiness",
         "name": "Exalt Lyon",
@@ -211,7 +292,37 @@ Oui, la quasi-totalité des prestataires listés proposent du support à distanc
     },
     {
       "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "LocalBusiness",
+        "name": "ACTIV Informatique",
+        "telephone": "+33428291179",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5 Rue Roux Soignat",
+          "addressLocality": "Lyon",
+          "addressCountry": "FR"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
       "position": 5,
+      "item": {
+        "@type": "LocalBusiness",
+        "name": "iilyo",
+        "telephone": "+33481130020",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "33 Place Bellecour",
+          "addressLocality": "Lyon",
+          "addressCountry": "FR"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
       "item": {
         "@type": "LocalBusiness",
         "name": "XEFI Lyon Presqu'île",
@@ -226,7 +337,7 @@ Oui, la quasi-totalité des prestataires listés proposent du support à distanc
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 7,
       "item": {
         "@type": "LocalBusiness",
         "name": "Lyon Informatique",
@@ -234,21 +345,6 @@ Oui, la quasi-totalité des prestataires listés proposent du support à distanc
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "69 Grande Rue de la Guillotière",
-          "addressLocality": "Lyon",
-          "addressCountry": "FR"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 7,
-      "item": {
-        "@type": "LocalBusiness",
-        "name": "XEFI Lyon 6",
-        "telephone": "+33427859000",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "108 Rue Vendôme",
           "addressLocality": "Lyon",
           "addressCountry": "FR"
         }
