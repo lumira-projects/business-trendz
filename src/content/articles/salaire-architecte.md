@@ -11,7 +11,7 @@ categories:
   - Business
   - Finance
 readingTime: 14
-author: "Business Trendz"
+author: "François Aublin"
 ---
 
 Vous êtes étudiant en école d'architecture, jeune diplômé sur le point de signer votre premier contrat, ou architecte confirmé qui s'interroge sur la valeur de son profil sur le marché ? La question du salaire reste souvent taboue dans la profession, alors même qu'elle est centrale dans chaque étape de carrière. Ce guide vous donne des données chiffrées, fiables et à jour pour 2026 sur la rémunération des architectes en France. Nous aborderons les grilles salariales par niveau d'expérience, l'impact du statut (salarié en agence, libéral, fonctionnaire), les différences géographiques et l'influence des spécialisations comme le BIM ou l'architecture durable. Toutes les données présentées s'appuient sur l'enquête emploi du CNOA (Conseil National de l'Ordre des Architectes), les statistiques de l'INSEE et l'analyse de la convention collective nationale des entreprises d'architecture. *Dernière mise à jour : mai 2026.*
@@ -218,7 +218,7 @@ Que ce soit lors d'un premier entretien d'embauche ou d'une négociation annuell
 
 7. **En cas de refus, proposez une révision à 6 mois.** Si l'employeur ne peut pas aller au niveau souhaité, négociez une clause de revoyure écrite à 6 mois, conditionnée à des objectifs précis.
 
-> **Notre retour d'expérience (Marc Delannoy, 18 ans de pratique) :** *"La négociation la plus efficace que j'aie jamais faite, c'était en chiffrant précisément la valeur de mon réseau. J'avais trois contacts qualifiés susceptibles d'apporter des projets à l'agence dans les 12 mois. Ça a transformé un entretien de recrutement en discussion de partenariat. Ne sous-estimez jamais la valeur de votre carnet d'adresses : en architecture, les projets se gagnent souvent grâce aux relations."*
+> **Notre retour d'expérience :** *"La négociation la plus efficace que j'aie jamais faite, c'était en chiffrant précisément la valeur de mon réseau. J'avais trois contacts qualifiés susceptibles d'apporter des projets à l'agence dans les 12 mois. Ça a transformé un entretien de recrutement en discussion de partenariat. Ne sous-estimez jamais la valeur de votre carnet d'adresses : en architecture, les projets se gagnent souvent grâce aux relations."*
 
 ---
 
@@ -269,7 +269,7 @@ Un architecte associé combine généralement un salaire fixe et une part variab
 
 En résumé, le salaire d'un architecte en France est le résultat d'une équation à plusieurs variables : l'expérience reste le principal moteur de progression, le statut (salarié, libéral, fonctionnaire) structure le modèle économique global, et la spécialisation — notamment BIM et développement durable — est devenue un différenciateur majeur sur le marché du travail 2026. Les perspectives restent solides pour les profils qui combinent compétences techniques, inscription à l'Ordre et capacité à gérer des projets de complexité croissante. Ce métier passionnant offre des trajectoires salariales très diverses, dont la richesse tient précisément à cette multiplicité de voies possibles.
 
-*Ce guide a été rédigé par Marc Delannoy, architecte HMONP avec 18 ans d'expérience en agence et en libéral, aujourd'hui consultant en développement de carrière pour les professionnels de l'architecture.*
+*Ce guide a été rédigé par [François Aublin](/auteurs/francois-aublin/), rédacteur spécialisé Business & Finance chez Business Trendz.*
 
 ---
 
@@ -287,9 +287,8 @@ En résumé, le salaire d'un architecte en France est le résultat d'une équati
       "dateModified": "2026-05-24",
       "author": {
         "@type": "Person",
-        "name": "Marc Delannoy",
-        "jobTitle": "Architecte HMONP, consultant en gestion de carrière",
-        "sameAs": "https://www.linkedin.com/in/marc-delannoy-architecte"
+        "name": "François Aublin",
+        "url": "https://business-trendz.com/auteurs/francois-aublin/"
       },
       "publisher": {
         "@type": "Organization",
