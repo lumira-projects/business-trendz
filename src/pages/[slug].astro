@@ -12,20 +12,36 @@ export async function getStaticPaths() {
       .filter((a) => !a.data.draft)
       .map((article) => ({
         params: { slug: article.slug },
-        props: { entry: article, type: 'article' as const },
+        props: { entry: article, type: 'article' as const, allArticles: articles.filter((a) => !a.data.draft) },
       })),
     ...pages
       .filter((p) => !p.data.draft)
       .map((page) => ({
         params: { slug: page.slug },
-        props: { entry: page, type: 'page' as const },
+        props: { entry: page, type: 'page' as const, allArticles: [] },
       })),
   ];
 }
 
-const { entry, type } = Astro.props;
+const { entry, type, allArticles } = Astro.props;
 const { Content } = await entry.render();
 const canonicalURL = new URL(`/${entry.slug}/`, Astro.site).toString();
+
+const relatedArticles = type === 'article'
+  ? allArticles
+      .filter((a) => a.slug !== entry.slug && a.data.categories?.some((c: string) => entry.data.categories?.includes(c)))
+      .sort((a, b) => (b.data.updatedDate ?? b.data.pubDate).valueOf() - (a.data.updatedDate ?? a.data.pubDate).valueOf())
+      .slice(0, 3)
+      .map((a) => ({
+        slug: a.slug,
+        title: a.data.title,
+        description: a.data.description,
+        category: a.data.categories?.[0],
+        pubDate: a.data.pubDate,
+        heroImage: a.data.heroImage,
+        heroImageAlt: a.data.heroImageAlt,
+      }))
+  : [];
 ---
 
 {type === 'article' ? (
@@ -40,6 +56,7 @@ const canonicalURL = new URL(`/${entry.slug}/`, Astro.site).toString();
     heroImageAlt={entry.data.heroImageAlt}
     readingTime={entry.data.readingTime}
     canonicalURL={canonicalURL}
+    relatedArticles={relatedArticles}
   >
     <Content />
   </ArticleLayout>

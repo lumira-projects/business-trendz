@@ -20,6 +20,47 @@ Vous êtes étudiant en école d'architecture, jeune diplômé sur le point de s
 
 Avant d'entrer dans le détail, voici un tableau synthétique qui croise expérience et localisation pour donner une lecture rapide de la rémunération brute annuelle en France.
 
+<figure style="margin:2rem 0;background:#FAFAFA;border-radius:16px;padding:2rem;font-family:'Inter',sans-serif;">
+<p style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#6B6B6B;margin:0 0 1.5rem 0;">PROGRESSION SALARIALE · ARCHITECTE SALARIÉ EN FRANCE · 2026</p>
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;">
+<div style="background:#fff;border-radius:12px;overflow:hidden;">
+<div style="height:3px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 100%);"></div>
+<div style="padding:1.25rem;">
+<div style="font-family:'Archivo Black',sans-serif;font-size:26px;color:#0A0A0A;line-height:1.1;">28–40</div>
+<div style="font-size:12px;color:#6B6B6B;margin-top:0.2rem;">k€ brut / an</div>
+<div style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#9A9A9A;margin-top:0.75rem;border-top:1px solid rgba(10,10,10,0.08);padding-top:0.5rem;">Débutant · 0–2 ans</div>
+</div>
+</div>
+<div style="background:#fff;border-radius:12px;overflow:hidden;">
+<div style="height:3px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 50%,#EC4899 100%);"></div>
+<div style="padding:1.25rem;">
+<div style="font-family:'Archivo Black',sans-serif;font-size:26px;color:#0A0A0A;line-height:1.1;">35–50</div>
+<div style="font-size:12px;color:#6B6B6B;margin-top:0.2rem;">k€ brut / an</div>
+<div style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#9A9A9A;margin-top:0.75rem;border-top:1px solid rgba(10,10,10,0.08);padding-top:0.5rem;">Confirmé · 2–5 ans</div>
+</div>
+</div>
+<div style="background:#fff;border-radius:12px;overflow:hidden;">
+<div style="height:3px;background:linear-gradient(135deg,#6366F1 0%,#EC4899 50%,#FF6B6B 100%);"></div>
+<div style="padding:1.25rem;">
+<div style="font-family:'Archivo Black',sans-serif;font-size:26px;color:#0A0A0A;line-height:1.1;">42–62</div>
+<div style="font-size:12px;color:#6B6B6B;margin-top:0.2rem;">k€ brut / an</div>
+<div style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#9A9A9A;margin-top:0.75rem;border-top:1px solid rgba(10,10,10,0.08);padding-top:0.5rem;">Intermédiaire · 5–10 ans</div>
+</div>
+</div>
+<div style="background:#fff;border-radius:12px;overflow:hidden;">
+<div style="height:3px;background:linear-gradient(135deg,#EC4899 0%,#FF6B6B 100%);"></div>
+<div style="padding:1.25rem;">
+<div style="font-family:'Archivo Black',sans-serif;font-size:26px;color:#0A0A0A;line-height:1.1;">52–80</div>
+<div style="font-size:12px;color:#6B6B6B;margin-top:0.2rem;">k€ brut / an</div>
+<div style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#9A9A9A;margin-top:0.75rem;border-top:1px solid rgba(10,10,10,0.08);padding-top:0.5rem;">Senior · +10 ans</div>
+</div>
+</div>
+</div>
+<figcaption style="margin-top:1.25rem;font-size:12px;color:#9A9A9A;border-top:1px solid rgba(10,10,10,0.08);padding-top:0.75rem;">Source : Enquête emploi CNOA 2024–2025 · analyse Business Trendz 2026</figcaption>
+</figure>
+
+L'enseignement principal de ce tableau est clair : l'écart entre Paris et la province atteint en moyenne **15 à 20 %** à expérience égale. Ce différentiel se réduit toutefois lorsque l'on intègre le coût de la vie, notamment les loyers franciliens. Les régions Auvergne-Rhône-Alpes et PACA affichent des salaires légèrement supérieurs à la moyenne provinciale, portés par des marchés immobiliers actifs.
+
 | Expérience | Paris / Île-de-France | Autres régions |
 |---|---|---|
 | Débutant (0–2 ans) | 34 000 € – 40 000 € | 28 000 € – 35 000 € |
@@ -28,8 +69,6 @@ Avant d'entrer dans le détail, voici un tableau synthétique qui croise expéri
 | Senior (+10 ans) | 58 000 € – 80 000 € + | 48 000 € – 68 000 € |
 
 *Source : Enquête emploi CNOA 2024–2025, analyse Business Trendz 2026.*
-
-L'enseignement principal de ce tableau est clair : l'écart entre Paris et la province atteint en moyenne **15 à 20 %** à expérience égale. Ce différentiel se réduit toutefois lorsque l'on intègre le coût de la vie, notamment les loyers franciliens. Les régions Auvergne-Rhône-Alpes et PACA affichent des salaires légèrement supérieurs à la moyenne provinciale, portés par des marchés immobiliers actifs.
 
 ## Grille de salaire architecte : quelle évolution selon l'expérience ?
 
@@ -99,6 +138,40 @@ Selon les données du CNOA, environ **55 % des architectes inscrits à l'Ordre e
   - Retraite avantageuse (fonctionnaire)
   - Rémunération souvent inférieure au secteur privé pour des niveaux équivalents
   - Rythme de travail plus régulier, charge mentale différente
+
+<figure style="margin:2rem 0;background:#FAFAFA;border-radius:16px;padding:2rem;font-family:'Inter',sans-serif;">
+<p style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#6B6B6B;margin:0 0 1.5rem 0;">COMPARATIF REVENUS · TROIS STATUTS D'ARCHITECTE</p>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;">
+<div style="background:#fff;border-radius:12px;overflow:hidden;">
+<div style="height:3px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 100%);"></div>
+<div style="padding:1.5rem 1.25rem;">
+<div style="font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#9A9A9A;margin-bottom:0.75rem;">Salarié en agence</div>
+<div style="font-family:'Archivo Black',sans-serif;font-size:32px;color:#0A0A0A;line-height:1;">42–80</div>
+<div style="font-size:12px;color:#6B6B6B;margin-top:0.25rem;">k€ brut / an</div>
+<div style="font-size:12px;color:#2E2E2E;margin-top:1rem;line-height:1.5;">Stable, cotisations patronales à 50 %, progression selon grille CCN.</div>
+</div>
+</div>
+<div style="background:#fff;border-radius:12px;overflow:hidden;">
+<div style="height:3px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%);"></div>
+<div style="padding:1.5rem 1.25rem;">
+<div style="font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#9A9A9A;margin-bottom:0.75rem;">Libéral (BNC)</div>
+<div style="font-family:'Archivo Black',sans-serif;font-size:32px;color:#0A0A0A;line-height:1;">~53</div>
+<div style="font-size:12px;color:#6B6B6B;margin-top:0.25rem;">k€ net avant IR*</div>
+<div style="font-size:12px;color:#2E2E2E;margin-top:1rem;line-height:1.5;">Autonomie totale. Variable selon le carnet de commandes. *Pour un CA de 100 k€.</div>
+</div>
+</div>
+<div style="background:#fff;border-radius:12px;overflow:hidden;">
+<div style="height:3px;background:linear-gradient(135deg,#6366F1 0%,#EC4899 100%);"></div>
+<div style="padding:1.5rem 1.25rem;">
+<div style="font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#9A9A9A;margin-bottom:0.75rem;">Fonctionnaire AUE</div>
+<div style="font-family:'Archivo Black',sans-serif;font-size:32px;color:#0A0A0A;line-height:1;">32–65</div>
+<div style="font-size:12px;color:#6B6B6B;margin-top:0.25rem;">k€ brut / an</div>
+<div style="font-size:12px;color:#2E2E2E;margin-top:1rem;line-height:1.5;">Grille indiciaire + RIFSEEP. Sécurité maximale, retraite avantageuse.</div>
+</div>
+</div>
+</div>
+<figcaption style="margin-top:1.25rem;font-size:12px;color:#9A9A9A;border-top:1px solid rgba(10,10,10,0.08);padding-top:0.75rem;">Note : libéral et salarié ne sont pas directement comparables (brut vs. net avant IR). Source : CNOA 2024–2025.</figcaption>
+</figure>
 
 ### L'architecte à son compte : TJM, charges et revenu net
 

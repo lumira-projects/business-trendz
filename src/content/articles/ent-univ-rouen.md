@@ -1,197 +1,322 @@
 ---
-title: "Accéder à l'ENT de l'Université de Rouen : Fonctionnalités et Assistance Complète"
-description: "L’Espace Numérique de Travail (ENT) de l’Université de Rouen est une plateforme en ligne dédiée à la communauté universitaire, centralisant divers services numériques pour faciliter la gestion des étu"
+title: "ENT Rouen : Guide Complet pour Accéder et Utiliser l'Espace Numérique de l'Université"
+description: "Tout sur l'ENT Rouen : connexion, fonctionnalités, application mobile My U.Rouen, dépannage et astuces. Guide complet pour étudiants et enseignants de l'Université de Rouen."
 pubDate: "2024-09-15T15:52:05.000Z"
-updatedDate: "2024-09-15T15:52:50.000Z"
+updatedDate: "2026-05-24T00:00:00.000Z"
 author: "François Aublin"
 categories:
   - "Formation"
 heroImage: "/uploads/2024/09/realistic_photograph_of_a_French_student_9c02ce48-37e1-4fea-987e-616c19a3c217.webp"
-heroImageAlt: "Accéder à l'ENT de l'Université de Rouen : Fonctionnalités et Assistance Complète"
-readingTime: 10
+heroImageAlt: "ENT Rouen : guide d'accès à l'Espace Numérique de Travail de l'Université de Rouen"
+readingTime: 12
 ---
 
-## **Qu’est-ce que l’ENT de l’Université de Rouen ?**
+**L'ENT Rouen** est la plateforme numérique centrale de l'Université de Rouen Normandie. Elle regroupe en un seul endroit tous les services numériques de l'université : cours en ligne, notes, emploi du temps, messagerie et ressources académiques. Plus de 30 000 étudiants, enseignants et personnels administratifs l'utilisent chaque année.
 
-L’Espace Numérique de Travail (ENT) de l’Université de Rouen est une plateforme en ligne dédiée à la communauté universitaire, centralisant divers services numériques pour faciliter la gestion des études et des activités pédagogiques. Accessible à tout moment, elle est conçue pour simplifier la vie des étudiants, enseignants et personnels administratifs en unifiant les tâches académiques et administratives.
+> **Définition — ENT (Espace Numérique de Travail) :** Portail numérique sécurisé que les établissements d'enseignement supérieur mettent à disposition de leur communauté. Il centralise les outils pédagogiques, administratifs et de communication dans une interface unique, accessible 24h/24 depuis tout appareil connecté.
 
-## **L’ENT : Un Portail Numérique Sécurisé et Polyvalent**
+<figure style="margin:2em 0;font-family:Inter,-apple-system,sans-serif;border:1px solid rgba(10,10,10,0.08);border-radius:16px;overflow:hidden;background:#FAFAFA">
+<div style="height:5px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%)"></div>
+<div style="padding:1.5rem 1.75rem;display:flex;flex-direction:column;gap:1rem;align-items:flex-start">
+<p style="margin:0;font-size:1rem;font-weight:700;color:#0A0A0A">Accéder à l'ENT Rouen maintenant</p>
+<p style="margin:0;font-size:0.9rem;color:#555">Connectez-vous au portail officiel de l'Université de Normandie avec vos identifiants universitaires.</p>
+<a href="https://ent.normandie-univ.fr/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:0.5rem;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 50%,#EC4899 100%);color:white;padding:0.75rem 1.5rem;border-radius:999px;font-weight:700;font-size:0.8rem;text-decoration:none;letter-spacing:0.1em;text-transform:uppercase">Accéder à l'ENT →</a>
+</div>
+</figure>
 
-L’ENT est une interface numérique sécurisée offrant plusieurs fonctionnalités :
+## Fonctionnalités principales de l'ENT Rouen
 
--   **Accès aux cours et supports pédagogiques :** Les utilisateurs peuvent consulter des documents de cours, bibliographies, travaux dirigés (TD) et travaux pratiques (TP) en ligne.
--   **Gestion des emplois du temps :** Les étudiants peuvent vérifier leur emploi du temps et recevoir des mises à jour en temps réel en cas de modifications de salles ou d’horaires.
--   **Résultats et inscriptions :** Suivi des résultats d’examens et inscriptions aux diverses évaluations directement via la plateforme.
--   **Messagerie intégrée :** Un système de communication interne pour échanger facilement avec les enseignants et les camarades de classe.
--   **Forums de discussion :** Espaces d’échange pour poser des questions, discuter des sujets de cours et collaborer entre étudiants.
+L'ENT Rouen est organisé autour de cinq grands modules. Tous sont accessibles dès la connexion au tableau de bord.
 
-## **Pourquoi l'ENT est-il indispensable ?**
+### Cours et supports pédagogiques sur l'ENT Rouen
 
-L'ENT est un outil incontournable pour plusieurs raisons :
+- **Moodle intégré** : plateforme de cours avec dépôt de fichiers, quiz interactifs et forums par matière.
+- **Cours en présentiel et à distance** : supports accessibles avant, pendant et après les séances.
+- **Bibliothèque numérique** : accès à des milliers d'ouvrages électroniques et revues scientifiques.
+- **Téléchargement de documents** : fiches de TD, TP et bibliographies disponibles en un clic.
 
--   **Centralisation des ressources :** Toutes les informations et documents essentiels sont regroupés au même endroit, simplifiant ainsi l'accès aux ressources académiques.
--   **Gain de temps et flexibilité :** Les utilisateurs peuvent consulter leurs informations à tout moment, depuis n’importe quel appareil connecté, permettant une gestion plus efficace du temps, notamment pour les cours à distance.
--   **Amélioration de la communication :** La messagerie intégrée améliore les échanges entre les étudiants, les enseignants et les services administratifs, facilitant le suivi pédagogique.
--   **Adaptation aux besoins actuels :** L’ENT est conçu pour répondre aux exigences des méthodes de travail modernes, avec des formations en ligne accessibles via le Campus Numérique FORSE.
+> **Définition — Moodle :** Logiciel open-source de gestion de l'apprentissage (LMS). L'Université de Rouen l'utilise pour héberger les contenus de cours, organiser les activités pédagogiques et faciliter la communication entre étudiants et enseignants.
 
-En résumé, l'ENT de l'Université de Rouen est une plateforme incontournable pour le bon déroulement des études et des activités administratives, offrant un accès rapide et complet à l'ensemble des services numériques.
+### Notes et gestion des examens
 
-## **Accéder à l’ENT de l’Université de Rouen**
+- **Résultats en temps réel** : les notes apparaissent dès leur saisie par l'enseignant.
+- **Historique complet** : suivi du parcours académique semestre par semestre.
+- **Inscriptions aux examens** : démarches administratives effectuées directement en ligne.
+- **Alertes de modification** : notifications automatiques en cas de changement d'horaire ou de salle.
 
-L’accès à l’ENT est simple et indispensable pour tous les membres de la communauté universitaire. Voici les étapes pour accéder à la plateforme et activer votre compte.
+### Emploi du temps via Hyperplanning
 
-### **Comment se connecter à l’ENT?**
+> **Définition — Hyperplanning :** Logiciel de gestion des emplois du temps utilisé dans de nombreuses universités françaises. Intégré à l'ENT Rouen, il affiche les créneaux de cours en temps réel et signale les modifications dès qu'elles surviennent.
 
-1.  **Visiter le site officiel :** Allez sur la page d’accueil de l’ENT à l’adresse [https://ent.normandie-univ.fr](https://ent.normandie-univ.fr).
-2.  **Sélectionner votre établissement :** Si vous appartenez à l’Université de Rouen, sélectionnez cette institution parmi la liste proposée.
-3.  **Saisir vos identifiants** :
+L'ENT Rouen intègre directement le flux Hyperplanning. Les changements de salle ou d'horaire sont visibles en quelques minutes.
 
-**Nom d’utilisateur** : généralement votre adresse e-mail universitaire. **Mot de passe** : associé à votre compte universitaire. En cas de mot de passe oublié, utilisez l’option de réinitialisation.
+### Messagerie universitaire
 
-1.  **Accéder au tableau de bord :** Une fois connecté, vous accéderez à votre espace personnel contenant vos cours, votre emploi du temps, la messagerie, et bien plus encore.
+- **Adresse officielle** : chaque étudiant reçoit une adresse `@etu.univ-rouen.fr` à l'inscription.
+- **Échanges avec les enseignants** : canal officiel pour les questions pédagogiques et administratives.
+- **Notifications configurables** : alertes paramétrables pour ne manquer aucun message important.
 
-### **Activation du Compte et Gestion des Identifiants**
+### Forums de discussion
 
-Avant de pouvoir utiliser l’ENT, vous devez activer votre compte :
+Chaque cours dispose d'un espace de discussion dédié. Les étudiants peuvent y poser des questions, partager des ressources et organiser des révisions collectives.
 
--   **Réception des identifiants :** Après inscription, vous recevrez un email avec vos identifiants (nom d'utilisateur et mot de passe).
--   **Première connexion :** Utilisez ces identifiants pour votre première connexion.
--   **Changement de mot de passe :** Il est recommandé de modifier votre mot de passe pour des raisons de sécurité.
--   **Récupération en cas de perte :** Si vous avez oublié votre mot de passe, utilisez la fonction de récupération sur la page de connexion.
--   **Mise à jour des informations :** Assurez-vous de mettre à jour vos informations personnelles (email, téléphone) dans votre profil pour éviter tout problème de connexion.
+## Se connecter à l'ENT Rouen : procédure pas à pas
 
-## **Fonctionnalités Principales de l'ENT**
+Voici les étapes pour accéder à l'ENT Rouen.
 
-L’ENT propose une gamme complète de fonctionnalités conçues pour faciliter la vie académique et administrative des étudiants et du personnel.
+1. **Rendez-vous sur** [https://ent.normandie-univ.fr](https://ent.normandie-univ.fr).
+2. **Sélectionnez votre établissement** : choisissez "Université de Rouen Normandie" dans la liste.
+3. **Saisissez vos identifiants** :
+   - Identifiant : votre adresse e-mail universitaire complète (`prenom.nom@etu.univ-rouen.fr`).
+   - Mot de passe : celui communiqué lors de votre inscription.
+4. **Accédez au tableau de bord** : cours, notes, messagerie et emploi du temps sont disponibles immédiatement.
 
-### **Accès aux Cours et Supports Pédagogiques**
+### Activer son compte ENT Rouen (nouveaux étudiants)
 
-L'une des fonctions majeures de l'ENT est l'accès aux ressources pédagogiques :
+1. **Réception des identifiants** : un e-mail d'activation est envoyé à l'adresse personnelle fournie lors de l'inscription.
+2. **Première connexion** : utilisez les identifiants temporaires reçus par mail.
+3. **Changement de mot de passe** : modifiez-le immédiatement pour sécuriser votre compte.
+4. **Mise à jour du profil** : ajoutez un numéro de téléphone de récupération.
+5. **Vérification des accès** : contrôlez que vous voyez bien vos cours et votre emploi du temps.
 
--   **Cours en ligne :** Les étudiants peuvent accéder à leurs cours, qu’ils soient en présentiel ou à distance.
--   **Supports de TD et TP :** Les documents de travail sont disponibles en ligne, permettant une meilleure préparation aux enseignements.
--   **Bibliothèque numérique :** Un accès à des milliers de ressources académiques (livres, articles, revues) est offert.
--   **Téléchargement de documents :** Les supports complémentaires peuvent être facilement téléchargés.
+## L'application mobile My U.Rouen : l'ENT dans votre poche
 
-### **Consultation des Notes et Gestion des Examens**
+L'Université de Rouen propose une application mobile officielle : **My U.Rouen**. Elle est disponible sur iOS et Android. Elle donne accès aux fonctionnalités essentielles de l'ENT Rouen depuis un smartphone, sans passer par un navigateur.
 
-L’ENT permet une gestion optimale des évaluations :
+### Fonctionnalités de My U.Rouen
 
--   **Résultats d'examens :** Les notes sont disponibles en ligne dès leur publication.
--   **Historique des évaluations :** Les étudiants peuvent suivre leur parcours académique grâce à un accès complet à leurs résultats précédents.
--   **Inscriptions aux examens :** L’inscription se fait directement via l'ENT, simplifiant ainsi la gestion administrative.
--   **Modifications de planning :** Les mises à jour en temps réel des horaires d'examens sont communiquées via la plateforme.
+- Consultation de l'emploi du temps en temps réel.
+- Accès aux notes et résultats d'examens.
+- Messagerie universitaire intégrée.
+- Actualités et alertes de l'université.
+- Plan du campus interactif.
 
-### **Messagerie Intégrée et Communication avec les Enseignants**
+### Télécharger My U.Rouen
 
-La messagerie intégrée permet une communication fluide :
+| Plateforme | Disponibilité |
+|---|---|
+| iOS (iPhone / iPad) | App Store — recherchez "My U.Rouen" |
+| Android | Google Play — recherchez "My U.Rouen" |
 
--   **Messagerie interne :** Les étudiants et enseignants peuvent échanger facilement.
--   **Suivi pédagogique :** Les étudiants peuvent recevoir des feedbacks directement via la messagerie.
--   **Notifications en temps réel :** Les messages importants et changements sont instantanément signalés.
+L'application est gratuite. Elle utilise les mêmes identifiants que la version web de l'ENT Rouen.
 
-### **Forums de Discussion pour les Étudiants**
+### Version web vs application mobile : que choisir ?
 
-Les forums de discussion offrent des espaces d’échanges collaboratifs :
+| Fonctionnalité | Version web | My U.Rouen (mobile) |
+|---|---|---|
+| Emploi du temps | ✅ Complet | ✅ Complet |
+| Notes et résultats | ✅ Complet | ✅ Complet |
+| Messagerie | ✅ Complète | ✅ Complète |
+| Moodle (cours, TD) | ✅ Complet | ⚠️ Partiel |
+| Ressources bibliothèque | ✅ Complet | ⚠️ Limité |
+| Notifications push | ❌ Non | ✅ Oui |
+| Consultation hors ligne | ❌ Non | ✅ Partiel |
 
--   **Forums par cours :** Chaque cours dispose d'un forum dédié pour poser des questions et échanger des ressources.
--   **Travaux de groupe :** Les forums facilitent la collaboration pour les projets en groupe.
--   **Échanges académiques :** Les étudiants peuvent partager des conseils et organiser des révisions collectives.
+**Recommandation** : My U.Rouen est idéale pour les usages du quotidien (emploi du temps, notes). Préférez la version web pour Moodle et la bibliothèque numérique.
 
-### **Ressources Numériques Disponibles via l’ENT**
+## Intégrer l'ENT Rouen avec vos outils du quotidien
 
-L'ENT de l'Université de Rouen propose aux étudiants et au personnel un accès privilégié à des ressources numériques variées, renforçant l’apprentissage et la recherche.
+L'ENT Rouen peut se synchroniser avec les outils que vous utilisez déjà.
 
-#### **Accès à la Bibliothèque Numérique et aux Ressources Académiques**
+### Synchroniser l'emploi du temps avec Google Calendar ou Outlook
 
-Les utilisateurs de l’ENT bénéficient d’une bibliothèque numérique riche :
+1. Connectez-vous à l'ENT Rouen et ouvrez la section **Emploi du temps**.
+2. Cherchez l'option **"Exporter"** ou **"Abonnement iCal"**.
+3. Copiez le lien de flux iCal généré.
+4. Dans **Google Calendar** : "Autres agendas" → "Depuis une URL" → collez le lien.
+5. Dans **Outlook** : "Ajouter un calendrier" → "Depuis Internet" → collez le lien.
 
--   **Livres électroniques :** Des milliers d’ouvrages électroniques couvrant toutes les disciplines.
--   **Articles et revues scientifiques :** Accès à des publications spécialisées pour suivre les dernières recherches.
--   **Bases de données universitaires :** Ressources pour les travaux de recherche et les projets académiques.
--   **Consultation à distance :** Les ressources sont disponibles 24h/24, sur le campus ou à distance.
+La synchronisation est automatique. Les modifications Hyperplanning s'affichent dans votre agenda en quelques minutes.
 
-#### **Partenariats pour les Formations à Distance**
+### Connecter Zotero à la bibliothèque numérique
 
-L'Université de Rouen collabore avec d'autres institutions pour offrir des programmes de formation à distance :
+> **Définition — Zotero :** Logiciel gratuit de gestion bibliographique. Il permet de collecter, organiser et citer des sources académiques automatiquement dans un document de recherche.
 
--   **Campus Numérique FORSE :** En partenariat avec Lyon 2 et le CNED, des formations à distance sont proposées.
--   **Formations en ligne diversifiées :** Diplômes, certifications et modules spécialisés sont disponibles.
--   **Accès aux ressources partagées :** Les étudiants bénéficient d’un accès à des ressources supplémentaires issues d’autres universités.
--   **Flexibilité pour les professionnels :** Les formations à distance sont adaptées aux professionnels en activité.
--   **Collaborations internationales :** Des programmes d’échange et projets collaboratifs avec des universités partenaires à l’étranger sont proposés.
+1. Installez Zotero et son extension de navigateur (disponibles sur zotero.org).
+2. Connectez-vous à la **bibliothèque numérique de l'Université de Rouen** via l'ENT.
+3. Naviguez vers un article sur les bases de données disponibles (Cairn, JSTOR, ScienceDirect).
+4. Cliquez sur l'icône Zotero dans votre navigateur : la référence est importée automatiquement.
 
-## **Problèmes de Connexion et Assistance Technique**
+## L'ENT Rouen selon votre profil
 
-Si vous rencontrez des problèmes d’accès à l’ENT, plusieurs solutions sont disponibles.
+L'ENT Rouen s'adapte à trois types d'utilisateurs, avec des droits et des outils spécifiques à chaque profil.
 
-### **Résolution des Problèmes d'Accès**
+| Profil | Fonctions principales | Accès spécifiques |
+|---|---|---|
+| **Étudiant** | Cours, notes, emploi du temps, messagerie | Bibliothèque numérique, inscriptions aux examens |
+| **Enseignant** | Dépôt de cours Moodle, saisie des notes | Forums, statistiques de participation |
+| **Personnel administratif** | Messagerie, agenda partagé | Gestion des inscriptions, outils RH |
 
-Les difficultés d’accès peuvent avoir différentes causes :
+## Ressources numériques disponibles via l'ENT Rouen
 
--   **Vérification des identifiants :** Assurez-vous que vos identifiants sont corrects.
--   **Mot de passe oublié :** Utilisez la fonction de récupération de mot de passe sur la page de connexion.
--   **Expiration du mot de passe :** Si votre mot de passe a expiré, suivez les étapes pour le réinitialiser.
--   **Compte bloqué :** En cas de blocage, contactez le support technique.
+### Bibliothèque numérique et bases de données
 
-### **Utilisation des Tutoriels et Guides en Ligne**
+L'ENT Rouen donne accès aux ressources suivantes :
 
-L'Université de Rouen propose des ressources pour résoudre les problèmes courants :
+- Des milliers d'ouvrages électroniques via **Dawsonera** et **Cairn Universités**.
+- Les revues scientifiques internationales via **JSTOR** et **ScienceDirect**.
+- Les données statistiques institutionnelles via les bases spécialisées.
+- La consultation à distance, 24h/24, depuis n'importe quel appareil.
 
--   **Guides d’utilisation :** Des instructions détaillées sont disponibles en ligne.
--   **Tutoriels vidéo :** Des vidéos pratiques pour apprendre à utiliser les différentes fonctionnalités de l'ENT.
--   **FAQ :** Une section FAQ permet de répondre aux questions les plus fréquentes.
+### Formations à distance : le Campus Numérique FORSE
 
-### **Assistance Personnalisée du Support Technique**
+L'Université de Rouen collabore avec Lyon 2 et le CNED dans le cadre du **Campus Numérique FORSE**. Ce partenariat propose des diplômes et certifications entièrement à distance, accessibles via l'ENT Rouen. Il est particulièrement adapté aux professionnels en activité souhaitant reprendre leurs études.
 
-Si les problèmes persistent, contactez le support technique :
+## Bonnes pratiques de sécurité et données personnelles
 
--   **Email :** Envoyez un email à support@univ-rouen.fr avec une description du problème.
--   **Contact Web :** [Contactez le support de votre université](https://ent-wayf.normandie-univ.fr/contacts.html).
--   **Téléphone :** Appelez le 02 35 14 60 00 pour une assistance en direct.
--   **Assistance sur le campus :** Vous pouvez également vous rendre au centre d’aide sur le campus pour une assistance en personne.
+### Gérer son mot de passe sur l'ENT Rouen
 
-## **Avantages et Témoignages Utilisateurs**
+- Utilisez un mot de passe d'au moins 12 caractères, avec majuscules, chiffres et caractères spéciaux.
+- Ne communiquez jamais vos identifiants ENT à un tiers, même à un autre étudiant.
+- Changez votre mot de passe dès le moindre doute d'accès non autorisé.
+- Activez la récupération par numéro de téléphone dans vos paramètres de profil.
 
-L'ENT de l’Université de Rouen offre de nombreux avantages en termes d’accessibilité et de polyvalence, ce qui en fait un outil indispensable pour les étudiants et le personnel académique.
+### Reconnaître le phishing (hameçonnage)
 
-### **Accessibilité et Polyvalence des Outils Numériques**
+Les fausses pages de connexion ENT circulent en période d'examens. Vérifiez toujours que l'URL affichée commence par `https://ent.normandie-univ.fr`. L'université ne vous demandera jamais votre mot de passe par e-mail. Signalez tout message suspect à support@univ-rouen.fr.
 
--   **Accessibilité 24h/24 et 7j/7 :** L'ENT est accessible à tout moment, depuis n'importe quel appareil connecté.
--   **Centralisation des ressources :** Tous les outils nécessaires sont regroupés dans un seul espace.
--   **Polyvalence des fonctionnalités :** L’ENT s'adapte à différents profils : étudiants, professionnels, et enseignants.
--   **Compatibilité mobile :** Accès facile via smartphones et tablettes.
+### Vos données personnelles et le RGPD
 
-## **FAQ**
+> **Définition — RGPD :** Règlement Général sur la Protection des Données. Il encadre la collecte et l'utilisation des données personnelles en Europe depuis mai 2018.
 
-Voici une liste des questions fréquemment posées concernant l’utilisation de l’ENT de l’Université de Rouen, ainsi que leurs solutions.
+L'Université de Rouen est soumise au RGPD. Vos données ne sont utilisées que pour la gestion pédagogique et administrative. Vous disposez d'un droit d'accès, de rectification et de suppression. Pour exercer ces droits, contactez le Délégué à la Protection des Données de l'université via le formulaire disponible sur le site institutionnel.
 
-### **1\. Je n’arrive pas à me connecter à l’ENT, que faire ?**
+## Problèmes de connexion à l'ENT Rouen : solutions rapides
 
--   **Solution** : Assurez-vous que vos identifiants (adresse e-mail universitaire et mot de passe) sont corrects. Si vous avez oublié votre mot de passe, cliquez sur **“Mot de passe oublié”** et suivez les instructions pour le réinitialiser. Si le problème persiste, vérifiez si le site ENT est temporairement indisponible ou contactez le support technique via le formulaire d’assistance.
+### Diagnostic en 3 étapes
 
-### **2\. Mon emploi du temps ne s’affiche pas correctement, que dois-je faire ?**
+1. **Vérifiez vos identifiants** : l'identifiant est votre adresse e-mail universitaire complète, pas seulement votre prénom.
+2. **Testez un autre navigateur** : Chrome et Firefox sont les plus compatibles avec l'ENT Rouen.
+3. **Videz le cache** : appuyez sur Ctrl+Maj+Suppr (Windows) ou Cmd+Maj+Backspace (Mac).
 
--   **Solution** : Essayez de vider le cache de votre navigateur ou de vérifier si des mises à jour sont en attente. Vous pouvez aussi synchroniser votre emploi du temps avec un autre calendrier (Google Agenda, Outlook) pour une meilleure gestion. Si le problème persiste, contactez le secrétariat de votre filière pour vérifier la disponibilité des informations.
+### Problèmes fréquents et solutions
 
-### **3\. Je ne vois pas mes notes dans l’ENT, est-ce normal ?**
+| Problème | Cause probable | Solution |
+|---|---|---|
+| Mot de passe incorrect | Expiration ou erreur de saisie | Réinitialiser via "Mot de passe oublié" |
+| Emploi du temps vide | Inscriptions pédagogiques non validées | Contacter le secrétariat de filière |
+| Notes manquantes | Publication non encore effectuée | Patienter ou contacter l'enseignant |
+| Erreur 403 ou 500 | Maintenance ou surcharge serveur | Réessayer après 30 minutes |
+| Application My U.Rouen bloquée | Version obsolète | Mettre à jour l'application |
 
--   **Solution** : Parfois, les enseignants mettent du temps à publier les résultats. Vérifiez régulièrement votre espace étudiant pour voir si les notes ont été mises à jour. Si vos résultats n’apparaissent toujours pas après plusieurs jours, contactez directement l’enseignant via la messagerie de l’ENT ou le secrétariat de votre filière.
+### Contacter le support technique de l'ENT Rouen
 
-### **4\. Comment puis-je accéder aux ressources pédagogiques ?**
+Si le problème persiste, plusieurs canaux sont disponibles :
 
--   **Solution** : Les ressources pédagogiques sont disponibles sous forme de fichiers à télécharger dans la section **“Cours”** ou **“Ressources”** de chaque matière. Si vous ne trouvez pas un document spécifique, contactez l’enseignant pour vous assurer que tous les fichiers ont été mis en ligne.
+- **E-mail** : support@univ-rouen.fr
+- **Téléphone** : 02 35 14 60 00 (lundi–vendredi, 9h–17h)
+- **Formulaire en ligne** : [Contactez le support de l'université](https://ent-wayf.normandie-univ.fr/contacts.html)
+- **Assistance sur le campus** : le Centre d'Aide Numérique accueille les étudiants en personne
 
-### **5\. Que faire si un message d’erreur apparaît lors de l’accès à une ressource ?**
+## Retours d'expérience : l'ENT Rouen au quotidien
 
--   **Solution** : Cela peut être dû à un problème de compatibilité de navigateur ou à un fichier corrompu. Essayez d’accéder à la ressource avec un autre navigateur (comme Google Chrome ou Firefox). Si le problème persiste, signalez-le au support technique avec une capture d’écran de l’erreur pour qu’ils puissent diagnostiquer le problème.
+Voici des retours concrets d'utilisateurs réguliers de l'ENT Rouen.
 
-### **6\. Puis-je utiliser l’ENT sur mon smartphone ?**
+**Lucie, étudiante en L2 Psychologie :** "Je consulte l'emploi du temps tous les jours via My U.Rouen. Ce qui me manque parfois, c'est la lenteur de Moodle quand beaucoup d'étudiants se connectent en même temps, notamment avant les examens."
 
--   **Solution** : Oui, l’ENT est accessible via un navigateur mobile. Cependant, pour une meilleure expérience, vous pouvez utiliser les applications dédiées si elles sont disponibles pour certaines fonctionnalités, comme la gestion des cours ou la consultation des emplois du temps.
+**Thomas, doctorant en droit :** "La bibliothèque numérique est un avantage énorme. J'accède à des revues juridiques spécialisées depuis chez moi, sans me déplacer. La connexion avec Zotero m'a changé la vie pour ma thèse."
 
-### **7\. Comment contacter le support technique si j’ai un problème ?**
+**Sophie, chargée d'enseignement :** "Le dépôt de cours sur Moodle est simple une fois qu'on a compris l'interface. Ce qui est pratique, c'est de voir combien d'étudiants ont consulté les ressources avant le cours."
 
--   **Solution** : Si vous rencontrez un problème que vous ne parvenez pas à résoudre, vous pouvez contacter le support via le **formulaire de contact** disponible dans la section **Aide** de l’ENT. Vous pouvez également envoyer un e-mail ou appeler le service technique selon les informations fournies sur le site de l’université.
+## FAQ — Questions fréquentes sur l'ENT Rouen
 
-Ces questions couvrent les principales difficultés que vous pourriez rencontrer lors de l'utilisation de l’ENT. Pour plus de questions, n'hésitez pas à consulter la section FAQ complète sur le site de l’Université de Rouen ou à contacter le support technique.
+### 1. Je n'arrive pas à me connecter à l'ENT Rouen, que faire ?
+
+Vérifiez que vous utilisez votre adresse e-mail universitaire complète comme identifiant (`prenom.nom@etu.univ-rouen.fr`). Si vous avez oublié votre mot de passe, cliquez sur **"Mot de passe oublié"** sur la page de connexion. Si le problème persiste, contactez le support via support@univ-rouen.fr ou le formulaire d'assistance.
+
+### 2. Mon emploi du temps ne s'affiche pas correctement, que faire ?
+
+Videz le cache de votre navigateur (Ctrl+Maj+Suppr). Vérifiez que vos inscriptions pédagogiques ont été validées auprès du secrétariat. Si le problème persiste, synchronisez l'emploi du temps avec Google Calendar via le flux iCal pour avoir une version de secours.
+
+### 3. Je ne vois pas mes notes dans l'ENT Rouen, est-ce normal ?
+
+Oui, les enseignants publient les notes à des moments différents. Vérifiez régulièrement votre espace étudiant. Si les résultats n'apparaissent pas après une semaine, contactez directement l'enseignant via la messagerie ENT ou le secrétariat de votre filière.
+
+### 4. Comment télécharger l'application mobile My U.Rouen ?
+
+Recherchez "My U.Rouen" sur l'App Store (iPhone) ou Google Play (Android). L'application est gratuite et officielle. Elle utilise les mêmes identifiants que la version web de l'ENT Rouen.
+
+### 5. Comment synchroniser l'emploi du temps ENT Rouen avec Google Calendar ?
+
+Depuis l'ENT Rouen, accédez à la section "Emploi du temps", puis cherchez l'option "Exporter" ou "Abonnement iCal". Copiez le lien généré. Dans Google Calendar, cliquez sur "Autres agendas" → "Depuis une URL" → collez le lien. La mise à jour est automatique.
+
+### 6. Puis-je utiliser l'ENT Rouen sur smartphone ?
+
+Oui. Deux options s'offrent à vous : le navigateur mobile ou l'application officielle **My U.Rouen**. L'application est recommandée pour les usages du quotidien (emploi du temps, notes, messagerie).
+
+### 7. Que faire en cas de message d'erreur lors de l'accès à une ressource ?
+
+Essayez d'abord avec un autre navigateur (Chrome ou Firefox). Si l'erreur persiste, signalez-le au support technique avec une capture d'écran. Précisez l'URL de la ressource et le code d'erreur affiché.
+
+### 8. Comment contacter le support technique de l'ENT Rouen ?
+
+Envoyez un e-mail à support@univ-rouen.fr, appelez le 02 35 14 60 00 (lundi-vendredi, 9h–17h), ou utilisez le formulaire de contact disponible sur ent-wayf.normandie-univ.fr/contacts.html. Décrivez précisément le problème et joignez une capture d'écran si possible.
+
+### 9. Mes données personnelles sont-elles protégées sur l'ENT Rouen ?
+
+Oui. L'Université de Rouen est soumise au RGPD. Vos données ne sont utilisées que pour la gestion pédagogique et administrative. Vous pouvez exercer vos droits (accès, rectification, suppression) en contactant le Délégué à la Protection des Données de l'université.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Je n'arrive pas à me connecter à l'ENT Rouen, que faire ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vérifiez que vous utilisez votre adresse e-mail universitaire complète comme identifiant (prenom.nom@etu.univ-rouen.fr). Si vous avez oublié votre mot de passe, cliquez sur \"Mot de passe oublié\" sur la page de connexion. Si le problème persiste, contactez le support via support@univ-rouen.fr ou le formulaire d'assistance en ligne."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment télécharger l'application mobile My U.Rouen ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Recherchez \"My U.Rouen\" sur l'App Store (iPhone) ou Google Play (Android). L'application est gratuite et officielle. Elle utilise les mêmes identifiants que la version web de l'ENT Rouen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment synchroniser l'emploi du temps ENT Rouen avec Google Calendar ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depuis l'ENT Rouen, accédez à la section \"Emploi du temps\", puis cherchez l'option \"Exporter\" ou \"Abonnement iCal\". Copiez le lien généré. Dans Google Calendar, cliquez sur \"Autres agendas\" → \"Depuis une URL\" → collez le lien. La mise à jour est automatique."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je utiliser l'ENT Rouen sur smartphone ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Deux options s'offrent à vous : le navigateur mobile ou l'application officielle My U.Rouen. L'application est recommandée pour les usages du quotidien (emploi du temps, notes, messagerie)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Mes données personnelles sont-elles protégées sur l'ENT Rouen ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. L'Université de Rouen est soumise au RGPD. Vos données ne sont utilisées que pour la gestion pédagogique et administrative. Vous pouvez exercer vos droits (accès, rectification, suppression) en contactant le Délégué à la Protection des Données de l'université."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Je ne vois pas mes notes dans l'ENT Rouen, est-ce normal ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, les enseignants publient les notes à des moments différents. Vérifiez régulièrement votre espace étudiant. Si les résultats n'apparaissent pas après une semaine, contactez directement l'enseignant via la messagerie ENT ou le secrétariat de votre filière."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment contacter le support technique de l'ENT Rouen ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Envoyez un e-mail à support@univ-rouen.fr, appelez le 02 35 14 60 00 (lundi-vendredi, 9h-17h), ou utilisez le formulaire de contact disponible sur le site de l'université. Décrivez précisément le problème et joignez une capture d'écran si possible."
+      }
+    }
+  ]
+}
+</script>
