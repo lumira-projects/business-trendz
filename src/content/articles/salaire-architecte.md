@@ -5,7 +5,7 @@ description: "Découvrez le salaire d'un architecte en France en 2026 : grilles 
 slug: salaire-architecte
 pubDate: 2026-05-24T00:00:00.000Z
 updatedDate: 2026-05-24T00:00:00.000Z
-heroImage: /uploads/2026/05/salaire-architecte.webp
+heroImage: /uploads/2026/05/architecte-1.jpg
 heroImageAlt: "Architecte en train de travailler sur des plans dans son bureau, avec une calculatrice et des documents de rémunération"
 categories:
   - Business
