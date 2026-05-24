@@ -34,18 +34,6 @@ Le **salaire moyen net en France atteint 2 733 € en 2024** (INSEE), soit **543
 
 Comprendre la différence est essentiel pour interpréter correctement toute statistique salariale.
 
-| Indicateur | Définition | Valeur 2024 (net EQTP, privé) | Usage |
-|---|---|---|---|
-| **Salaire moyen** | Somme de tous les salaires divisée par le nombre de salariés | 2 733 € | Comparaison agrégée, analyse macro |
-| **Salaire médian** | Valeur qui partage la population en deux moitiés égales | 2 190 € | Représentation du salarié "typique" |
-| **SMIC mensuel net** | Plancher légal au 1er janvier 2026 | 1 443 € | Référence de salaire minimum |
-| **1er décile (D1)** | 10 % gagnent moins | 1 492 € | Seuil des bas salaires |
-| **9e décile (D9)** | 10 % gagnent plus | 4 334 € | Seuil des hauts salaires |
-
-Le **médian reflète mieux la réalité du salarié français** car il n'est pas influencé par les rémunérations extrêmes des dirigeants, des cadres supérieurs ou des sportifs professionnels. Lorsqu'un média annonce "le salaire moyen progresse de 0,8 % en 2024", il rapporte une moyenne qui peut masquer une stagnation pour la majorité.
-
-L'**Observatoire des inégalités** rappelle qu'utiliser la médiane plutôt que la moyenne réduit l'illusion d'enrichissement collectif. En France, environ 70 % des salariés gagnent moins que le salaire moyen, contre 50 % par définition pour le médian. Cette distinction est centrale pour parler honnêtement des inégalités.
-
 <figure style="margin:2.5em 0;font-family:Inter,-apple-system,sans-serif;border:1px solid rgba(10,10,10,0.06);border-radius:16px;overflow:hidden">
 <div style="height:5px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%)"></div>
 <div style="padding:1.5rem 1.75rem">
@@ -76,6 +64,18 @@ L'**Observatoire des inégalités** rappelle qu'utiliser la médiane plutôt que
 </div>
 </figure>
 
+
+Le **médian reflète mieux la réalité du salarié français** car il n'est pas influencé par les rémunérations extrêmes des dirigeants, des cadres supérieurs ou des sportifs professionnels. Lorsqu'un média annonce "le salaire moyen progresse de 0,8 % en 2024", il rapporte une moyenne qui peut masquer une stagnation pour la majorité.
+
+L'**Observatoire des inégalités** rappelle qu'utiliser la médiane plutôt que la moyenne réduit l'illusion d'enrichissement collectif. En France, environ 70 % des salariés gagnent moins que le salaire moyen, contre 50 % par définition pour le médian. Cette distinction est centrale pour parler honnêtement des inégalités.
+
+| Indicateur | Définition | Valeur 2024 (net EQTP, privé) | Usage |
+|---|---|---|---|
+| **Salaire moyen** | Somme de tous les salaires divisée par le nombre de salariés | 2 733 € | Comparaison agrégée, analyse macro |
+| **Salaire médian** | Valeur qui partage la population en deux moitiés égales | 2 190 € | Représentation du salarié "typique" |
+| **SMIC mensuel net** | Plancher légal au 1er janvier 2026 | 1 443 € | Référence de salaire minimum |
+| **1er décile (D1)** | 10 % gagnent moins | 1 492 € | Seuil des bas salaires |
+| **9e décile (D9)** | 10 % gagnent plus | 4 334 € | Seuil des hauts salaires |
 ## Net, brut, EQTP : décrypter les données INSEE sans se perdre
 
 Le **salaire brut** correspond à la rémunération inscrite sur le contrat de travail, avant déduction des cotisations sociales salariales (sécurité sociale, retraite, assurance chômage, CSG/CRDS). Le **salaire net** est ce qui reste après ces cotisations, mais avant prélèvement à la source de l'impôt sur le revenu.
@@ -113,26 +113,6 @@ Les baromètres salariaux 2025 (Hellowork, PageGroup, Robert Half) annoncent des
 
 L'**Île-de-France dépasse de 27,3 % la moyenne nationale** en 2024 selon l'INSEE, avec des pointes à +54,3 % dans les Hauts-de-Seine et +40,4 % à Paris intra-muros. Toutes les autres régions métropolitaines affichent un salaire inférieur à la moyenne France.
 
-| Région | Salaire moyen net EQTP 2024 (estimé) | Écart vs moyenne nationale |
-|---|---|---|
-| Île-de-France | 3 478 € | +27,3 % |
-| Auvergne-Rhône-Alpes | 2 720 € | -0,5 % |
-| Provence-Alpes-Côte d'Azur | 2 600 € | -4,9 % |
-| Grand Est | 2 530 € | -7,4 % |
-| Pays de la Loire | 2 510 € | -8,2 % |
-| Bretagne | 2 490 € | -8,9 % |
-| Nouvelle-Aquitaine | 2 470 € | -9,6 % |
-| Normandie | 2 460 € | -10,0 % |
-| Centre-Val de Loire | 2 450 € | -10,3 % |
-| Bourgogne-Franche-Comté | 2 440 € | -10,7 % |
-| Hauts-de-France | 2 430 € | -11,1 % |
-| Occitanie | 2 273 € | -16,8 % |
-| Corse | 2 220 € | -18,8 % |
-
-L'écart francilien s'explique par trois facteurs structurels : la **concentration des sièges sociaux** (60 % des sièges du CAC 40 sont en Île-de-France), la surreprésentation des cadres (38 % de la population active francilienne contre 22 % en moyenne nationale) et la spécialisation sectorielle (finance, conseil, tech). Ces données proviennent du dossier INSEE "Disparités de salaires et de revenus d'activité entre les régions".
-
-Le **médian régional est environ 20 % plus bas que la moyenne régionale**. En appliquant ce ratio, le médian net mensuel en Île-de-France se situe autour de 2 780 €, contre 1 820 € en Occitanie. L'écart régional du médian (960 €) est plus marqué que celui du moyen (1 200 €) en valeur relative, ce qui souligne la concentration des hauts salaires dans la capitale.
-
 <figure style="margin:2.5em 0;font-family:Inter,-apple-system,sans-serif;border:1px solid rgba(10,10,10,0.06);border-radius:16px;overflow:hidden">
 <div style="height:5px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%)"></div>
 <div style="padding:1.5rem 1.75rem">
@@ -154,6 +134,26 @@ Le **médian régional est environ 20 % plus bas que la moyenne régionale**. En
 </div>
 </figure>
 
+
+L'écart francilien s'explique par trois facteurs structurels : la **concentration des sièges sociaux** (60 % des sièges du CAC 40 sont en Île-de-France), la surreprésentation des cadres (38 % de la population active francilienne contre 22 % en moyenne nationale) et la spécialisation sectorielle (finance, conseil, tech). Ces données proviennent du dossier INSEE "Disparités de salaires et de revenus d'activité entre les régions".
+
+Le **médian régional est environ 20 % plus bas que la moyenne régionale**. En appliquant ce ratio, le médian net mensuel en Île-de-France se situe autour de 2 780 €, contre 1 820 € en Occitanie. L'écart régional du médian (960 €) est plus marqué que celui du moyen (1 200 €) en valeur relative, ce qui souligne la concentration des hauts salaires dans la capitale.
+
+| Région | Salaire moyen net EQTP 2024 (estimé) | Écart vs moyenne nationale |
+|---|---|---|
+| Île-de-France | 3 478 € | +27,3 % |
+| Auvergne-Rhône-Alpes | 2 720 € | -0,5 % |
+| Provence-Alpes-Côte d'Azur | 2 600 € | -4,9 % |
+| Grand Est | 2 530 € | -7,4 % |
+| Pays de la Loire | 2 510 € | -8,2 % |
+| Bretagne | 2 490 € | -8,9 % |
+| Nouvelle-Aquitaine | 2 470 € | -9,6 % |
+| Normandie | 2 460 € | -10,0 % |
+| Centre-Val de Loire | 2 450 € | -10,3 % |
+| Bourgogne-Franche-Comté | 2 440 € | -10,7 % |
+| Hauts-de-France | 2 430 € | -11,1 % |
+| Occitanie | 2 273 € | -16,8 % |
+| Corse | 2 220 € | -18,8 % |
 ## Salaire médian selon l'âge et la catégorie socioprofessionnelle
 
 Le **salaire médian progresse fortement avec l'âge** jusqu'à 54 ans, puis se stabilise. Les moins de 25 ans perçoivent en moyenne 1 820 € net mensuel EQTP en 2023 selon l'INSEE, contre 3 190 € pour les 55 ans et plus, soit un écart de 75 %.
@@ -170,15 +170,6 @@ Cette progression reflète l'**accumulation d'expérience**, les promotions inte
 
 La **catégorie socioprofessionnelle (CSP)** structure le salaire bien davantage que l'âge. Les écarts entre cadres, professions intermédiaires, employés et ouvriers se sont stabilisés ces cinq dernières années mais restent considérables.
 
-| CSP | Salaire moyen net EQTP 2024 | Écart vs ensemble |
-|---|---|---|
-| Cadres | 4 630 € | +69 % |
-| Professions intermédiaires | 2 660 € | -3 % |
-| Ouvriers | 2 050 € | -25 % |
-| Employés | 1 940 € | -29 % |
-
-Le **médian des cadres** s'établit à environ 4 100 € net mensuel en 2024. L'**APEC** publie un médian annuel brut spécifique aux cadres : 55 000 € brut annuel fixe + variable en juin 2025 (+1,8 % vs juin 2024), 80 % des cadres se situant entre 38 000 € et 95 000 € brut. Le médian des employés et des ouvriers reste proche du SMIC, autour de 1 700 à 1 800 € net mensuel.
-
 <figure style="margin:2.5em 0;font-family:Inter,-apple-system,sans-serif;border:1px solid rgba(10,10,10,0.06);border-radius:16px;overflow:hidden">
 <div style="height:5px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%)"></div>
 <div style="padding:1.5rem 1.75rem">
@@ -192,21 +183,18 @@ Le **médian des cadres** s'établit à environ 4 100 € net mensuel en 2024. L
 </div>
 </figure>
 
+
+Le **médian des cadres** s'établit à environ 4 100 € net mensuel en 2024. L'**APEC** publie un médian annuel brut spécifique aux cadres : 55 000 € brut annuel fixe + variable en juin 2025 (+1,8 % vs juin 2024), 80 % des cadres se situant entre 38 000 € et 95 000 € brut. Le médian des employés et des ouvriers reste proche du SMIC, autour de 1 700 à 1 800 € net mensuel.
+
+| CSP | Salaire moyen net EQTP 2024 | Écart vs ensemble |
+|---|---|---|
+| Cadres | 4 630 € | +69 % |
+| Professions intermédiaires | 2 660 € | -3 % |
+| Ouvriers | 2 050 € | -25 % |
+| Employés | 1 940 € | -29 % |
 ## Femmes et hommes : un écart de 13 à 22 % selon la méthode de calcul
 
 L'**écart salarial entre femmes et hommes atteint 14,0 % en EQTP dans le secteur privé en 2024**, selon l'INSEE Focus n°377 publié en 2025. Cet écart se réduit à **3,6 % à poste et établissement comparables**, mais grimpe à **21,8 % en revenu salarial total** lorsque l'on intègre les différences de temps de travail.
-
-| Indicateur | Écart femmes-hommes 2024 |
-|---|---|
-| Revenu salarial total | -21,8 % |
-| Salaire EQTP (privé) | -14,0 % |
-| Salaire EQTP à poste/établissement comparables | -3,6 % |
-
-Trois facteurs expliquent l'écart de 14 % en EQTP : la **ségrégation professionnelle** (les femmes sont concentrées dans des secteurs moins rémunérateurs comme la santé, l'éducation et l'administration), les **temps partiels subis** (28 % des femmes contre 8 % des hommes), et le **plafond de verre** (les femmes représentent 23 % des cadres dirigeants malgré 46 % de la population active).
-
-L'**Observatoire des inégalités** souligne que les écarts se réduisent lentement : depuis 1995, ils ont diminué d'un tiers, mais la cadence ralentit. Le rapport HCREP-INSEE de mars 2025 indique que la réduction tendancielle reste insuffisante pour atteindre la parité avant plusieurs décennies au rythme actuel.
-
-À poste comparable, l'écart résiduel de 3,6 % correspond à la **discrimination pure**, partiellement expliquée par des facteurs non observables (négociation salariale, primes au mérite, ancienneté dans le poste). La loi Rixain de 2021 impose désormais 30 % de femmes dans les comités de direction des entreprises de plus de 1 000 salariés à horizon 2027.
 
 <figure style="margin:2.5em 0;font-family:Inter,-apple-system,sans-serif;border:1px solid rgba(10,10,10,0.06);border-radius:16px;overflow:hidden">
 <div style="height:5px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%)"></div>
@@ -233,6 +221,18 @@ L'**Observatoire des inégalités** souligne que les écarts se réduisent lente
 </div>
 </figure>
 
+
+Trois facteurs expliquent l'écart de 14 % en EQTP : la **ségrégation professionnelle** (les femmes sont concentrées dans des secteurs moins rémunérateurs comme la santé, l'éducation et l'administration), les **temps partiels subis** (28 % des femmes contre 8 % des hommes), et le **plafond de verre** (les femmes représentent 23 % des cadres dirigeants malgré 46 % de la population active).
+
+L'**Observatoire des inégalités** souligne que les écarts se réduisent lentement : depuis 1995, ils ont diminué d'un tiers, mais la cadence ralentit. Le rapport HCREP-INSEE de mars 2025 indique que la réduction tendancielle reste insuffisante pour atteindre la parité avant plusieurs décennies au rythme actuel.
+
+À poste comparable, l'écart résiduel de 3,6 % correspond à la **discrimination pure**, partiellement expliquée par des facteurs non observables (négociation salariale, primes au mérite, ancienneté dans le poste). La loi Rixain de 2021 impose désormais 30 % de femmes dans les comités de direction des entreprises de plus de 1 000 salariés à horizon 2027.
+
+| Indicateur | Écart femmes-hommes 2024 |
+|---|---|
+| Revenu salarial total | -21,8 % |
+| Salaire EQTP (privé) | -14,0 % |
+| Salaire EQTP à poste/établissement comparables | -3,6 % |
 ## Public vs privé : deux médianes, deux réalités salariales
 
 Le **salaire moyen net en EQTP atteint 2 652 € dans la fonction publique en 2023**, contre 2 735 € dans le secteur privé selon l'INSEE, soit un écart défavorable au public de 3,7 %. Ce différentiel s'est inversé depuis 2013, alors que le public était historiquement mieux rémunéré en moyenne.
@@ -255,23 +255,6 @@ Le pouvoir d'achat du salaire net moyen a progressé de **3,2 % dans le privé e
 
 La **France se classe au 7e rang européen** sur le salaire moyen équivalent temps plein, derrière le Luxembourg, l'Irlande, les Pays-Bas, le Danemark, la Belgique et l'Allemagne, selon les données Eurostat les plus récentes (référence 2023, publication 2024). Le salaire moyen ajusté à temps plein y atteint **3 555 € mensuel** selon Eurostat, à comparer à 6 755 € au Luxembourg et 1 125 € en Bulgarie.
 
-| Pays | Salaire moyen ajusté temps plein (Eurostat, 2023) |
-|---|---|
-| Luxembourg | 6 755 € |
-| Danemark | 5 800 € |
-| Irlande | 5 350 € |
-| Pays-Bas | 4 850 € |
-| Belgique | 4 200 € |
-| Allemagne | 4 100 € |
-| France | 3 555 € |
-| Italie | 2 950 € |
-| Espagne | 2 580 € |
-| Moyenne UE-27 | 3 155 € |
-
-Le **salaire médian français** (2 190 € net en 2024) se situe également au-dessus de la moyenne UE-27 mais reste en retrait par rapport à l'Allemagne (médian estimé à 2 850 € net) et à la Belgique (2 750 € net). En 2022, le SMIC français représentait 66 % du salaire médian brut, l'un des ratios les plus élevés de l'Union européenne aux côtés du Portugal et de la Slovénie.
-
-Cette comparaison doit être lue avec prudence : le **coût de la vie** varie fortement d'un pays à l'autre. À pouvoir d'achat équivalent (parité PPA), l'écart entre la France et l'Allemagne se réduit, et la France passe devant l'Italie et l'Espagne avec une marge plus confortable.
-
 <figure style="margin:2.5em 0;font-family:Inter,-apple-system,sans-serif;border:1px solid rgba(10,10,10,0.06);border-radius:16px;overflow:hidden">
 <div style="height:5px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%)"></div>
 <div style="padding:1.5rem 1.75rem">
@@ -290,6 +273,23 @@ Cette comparaison doit être lue avec prudence : le **coût de la vie** varie fo
 </div>
 </figure>
 
+
+Le **salaire médian français** (2 190 € net en 2024) se situe également au-dessus de la moyenne UE-27 mais reste en retrait par rapport à l'Allemagne (médian estimé à 2 850 € net) et à la Belgique (2 750 € net). En 2022, le SMIC français représentait 66 % du salaire médian brut, l'un des ratios les plus élevés de l'Union européenne aux côtés du Portugal et de la Slovénie.
+
+Cette comparaison doit être lue avec prudence : le **coût de la vie** varie fortement d'un pays à l'autre. À pouvoir d'achat équivalent (parité PPA), l'écart entre la France et l'Allemagne se réduit, et la France passe devant l'Italie et l'Espagne avec une marge plus confortable.
+
+| Pays | Salaire moyen ajusté temps plein (Eurostat, 2023) |
+|---|---|
+| Luxembourg | 6 755 € |
+| Danemark | 5 800 € |
+| Irlande | 5 350 € |
+| Pays-Bas | 4 850 € |
+| Belgique | 4 200 € |
+| Allemagne | 4 100 € |
+| France | 3 555 € |
+| Italie | 2 950 € |
+| Espagne | 2 580 € |
+| Moyenne UE-27 | 3 155 € |
 ## Comment se situer par rapport au salaire médian français
 
 Pour vous positionner sur l'échelle salariale française, comparez votre **salaire net mensuel EQTP** aux trois seuils de référence : SMIC net (1 443 €), médian net (2 190 €), 9e décile (4 334 €). En dessous de 1 492 € net mensuel, vous appartenez aux 10 % les moins bien rémunérés. Au-dessus de 4 334 € net, vous figurez parmi les 10 % les mieux rémunérés.
