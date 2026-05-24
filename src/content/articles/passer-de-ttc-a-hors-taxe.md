@@ -23,10 +23,10 @@ Ce guide vous donne la formule exacte, étape par étape, avec des exemples chif
 <div style="width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%);flex-shrink:0;"></div>
 <div>
 <p style="font-family:'Archivo Black',sans-serif;font-size:20px;color:#fff;margin:0;line-height:1.2;">Simulateur TTC vers HT gratuit</p>
-<p style="font-family:'Inter',sans-serif;font-size:13px;color:rgba(255,255,255,0.45);margin:0;">Résultat instantané · aucune inscription requise</p>
+<p style="font-family:'Inter',sans-serif;font-size:13px;color:rgba(255,255,255,0.7);margin:0;">Résultat instantané · aucune inscription requise</p>
 </div>
 </div>
-<p style="font-size:11px;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin:0 0 0.75rem;">Votre taux de TVA</p>
+<p style="font-size:11px;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.65);margin:0 0 0.75rem;">Votre taux de TVA</p>
 <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:2rem;" id="taux-btns">
 <button onclick="setTaux(0.021,this)" style="padding:0.5rem 1.25rem;border-radius:999px;border:1.5px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.65);font-family:'Inter',sans-serif;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;">2,1 %</button>
 <button onclick="setTaux(0.055,this)" style="padding:0.5rem 1.25rem;border-radius:999px;border:1.5px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.65);font-family:'Inter',sans-serif;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;">5,5 %</button>
@@ -35,7 +35,7 @@ Ce guide vous donne la formule exacte, étape par étape, avec des exemples chif
 </div>
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;align-items:stretch;">
 <div>
-<label for="calc-ttc" style="display:block;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:0.6rem;">Montant TTC (€)</label>
+<label for="calc-ttc" style="display:block;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.65);margin-bottom:0.6rem;">Montant TTC (€)</label>
 <input type="number" id="calc-ttc" placeholder="Ex : 240" min="0" step="0.01" oninput="calcTTCtoHT()" style="width:100%;padding:1rem 1.1rem;border:1.5px solid rgba(255,255,255,0.1);border-radius:12px;font-size:22px;font-family:'Inter',sans-serif;font-weight:500;color:#fff;background:#1A1A1A;box-sizing:border-box;outline:none;" />
 </div>
 <div style="background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%);border-radius:14px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;justify-content:center;">
@@ -44,8 +44,8 @@ Ce guide vous donne la formule exacte, étape par étape, avec des exemples chif
 <div id="calc-tva-val" style="font-size:13px;color:rgba(255,255,255,0.75);margin-top:0.5rem;">dont TVA : ...</div>
 </div>
 </div>
-<p id="calc-formula-display" style="display:none;margin:1.25rem 0 0;font-size:12px;color:rgba(255,255,255,0.3);font-family:'Inter',sans-serif;font-style:italic;letter-spacing:0.02em;"></p>
-<p style="font-size:11px;color:rgba(255,255,255,0.2);margin:1rem 0 0;font-family:'Inter',sans-serif;">Outil indicatif. Vérifiez avec votre expert-comptable pour les situations complexes.</p>
+<p id="calc-formula-display" style="display:none;margin:1.25rem 0 0;font-size:12px;color:rgba(255,255,255,0.6);font-family:'Inter',sans-serif;font-style:italic;letter-spacing:0.02em;"></p>
+<p style="font-size:11px;color:rgba(255,255,255,0.45);margin:1rem 0 0;font-family:'Inter',sans-serif;">Outil indicatif. Vérifiez avec votre expert-comptable pour les situations complexes.</p>
 </div>
 
 <script>
