@@ -1,5 +1,16 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+
+interface RelatedArticle {
+  slug: string;
+  title: string;
+  description: string;
+  category?: string;
+  pubDate: Date;
+  heroImage?: string;
+  heroImageAlt?: string;
+}
 
 interface Props {
   title: string;
@@ -12,6 +23,7 @@ interface Props {
   heroImageAlt?: string;
   readingTime?: number;
   canonicalURL?: string;
+  relatedArticles?: RelatedArticle[];
 }
 
 const {
@@ -25,6 +37,7 @@ const {
   heroImageAlt,
   readingTime,
   canonicalURL,
+  relatedArticles = [],
 } = Astro.props;
 
 const SITE_URL = 'https://business-trendz.com';
@@ -199,6 +212,30 @@ const breadcrumbSchema = {
         </div>
       </div>
     </div>
+
+    {relatedArticles.length > 0 && (
+      <section class="related-articles">
+        <div class="container">
+          <div class="related-header">
+            <span class="related-eyebrow">Continuer la lecture</span>
+            <h2 class="related-title">Ça pourrait vous intéresser</h2>
+          </div>
+          <div class="related-grid">
+            {relatedArticles.map((article) => (
+              <ArticleCard
+                href={`/${article.slug}/`}
+                title={article.title}
+                description={article.description}
+                category={article.category}
+                pubDate={article.pubDate}
+                heroImage={article.heroImage}
+                heroImageAlt={article.heroImageAlt}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
   </article>
 </BaseLayout>
 
@@ -464,6 +501,49 @@ const breadcrumbSchema = {
       position: sticky;
       top: 100px;
     }
+  }
+
+  /* ----- Related articles ----- */
+  .related-articles {
+    border-top: 1px solid var(--color-border);
+    padding: var(--space-2xl) 0;
+    margin-top: var(--space-xl);
+  }
+
+  .related-header {
+    margin-bottom: var(--space-xl);
+  }
+
+  .related-eyebrow {
+    display: block;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .related-title {
+    font-family: var(--font-headline);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin: 0;
+  }
+
+  .related-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+
+  @media (min-width: 640px) {
+    .related-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (min-width: 1024px) {
+    .related-grid { grid-template-columns: repeat(3, 1fr); }
   }
 
   /* Constrain only the TOC list, so the CTA + share boxes remain visible
