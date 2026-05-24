@@ -11,11 +11,7 @@ categories:
   - Business
   - Finance
 readingTime: 14
-author:
-  name: "Marc Delannoy"
-  title: "Architecte HMONP, consultant en gestion de carrière"
-  bio: "Architecte diplômé depuis 18 ans, Marc Delannoy a exercé en agence (grands groupes et structures indépendantes) avant de créer son propre cabinet libéral. Il accompagne aujourd'hui architectes et jeunes diplômés dans leur évolution professionnelle. Membre affilié au CNOA."
-  linkedin: "https://www.linkedin.com/in/marc-delannoy-architecte"
+author: "Business Trendz"
 ---
 
 Vous êtes étudiant en école d'architecture, jeune diplômé sur le point de signer votre premier contrat, ou architecte confirmé qui s'interroge sur la valeur de son profil sur le marché ? La question du salaire reste souvent taboue dans la profession, alors même qu'elle est centrale dans chaque étape de carrière. Ce guide vous donne des données chiffrées, fiables et à jour pour 2026 sur la rémunération des architectes en France. Nous aborderons les grilles salariales par niveau d'expérience, l'impact du statut (salarié en agence, libéral, fonctionnaire), les différences géographiques et l'influence des spécialisations comme le BIM ou l'architecture durable. Toutes les données présentées s'appuient sur l'enquête emploi du CNOA (Conseil National de l'Ordre des Architectes), les statistiques de l'INSEE et l'analyse de la convention collective nationale des entreprises d'architecture. *Dernière mise à jour : mai 2026.*
