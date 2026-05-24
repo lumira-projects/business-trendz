@@ -18,31 +18,34 @@ Vous venez de recevoir une facture à 240 € TTC et vous devez isoler le montan
 
 Ce guide vous donne la formule exacte, étape par étape, avec des exemples chiffrés et un tableau de conversion pour les principaux taux de TVA en France. Que vous soyez entrepreneur, comptable, auto-entrepreneur ou simplement curieux, ce calcul ne vous posera plus jamais de problème.
 
-<div style="background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%);border-radius:16px;padding:2.5rem 2rem;margin:2rem 0;">
-<p style="font-family:'Archivo Black',sans-serif;font-size:22px;color:#fff;margin:0 0 0.35rem;line-height:1.2;">Simulateur TTC vers HT gratuit</p>
-<p style="font-family:'Inter',sans-serif;font-size:14px;color:rgba(255,255,255,0.75);margin:0 0 2rem;">Résultat instantané · aucune inscription requise</p>
-<div style="background:rgba(255,255,255,0.1);border-radius:14px;padding:1.75rem;">
-<p style="font-size:11px;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.65);margin:0 0 0.75rem;">Votre taux de TVA</p>
-<div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1.5rem;" id="taux-btns">
-<button onclick="setTaux(0.021,this)" style="padding:0.5rem 1rem;border-radius:999px;border:1.5px solid rgba(255,255,255,0.4);background:transparent;color:rgba(255,255,255,0.8);font-family:'Inter',sans-serif;font-size:13px;font-weight:600;cursor:pointer;">2,1 %</button>
-<button onclick="setTaux(0.055,this)" style="padding:0.5rem 1rem;border-radius:999px;border:1.5px solid rgba(255,255,255,0.4);background:transparent;color:rgba(255,255,255,0.8);font-family:'Inter',sans-serif;font-size:13px;font-weight:600;cursor:pointer;">5,5 %</button>
-<button onclick="setTaux(0.10,this)" style="padding:0.5rem 1rem;border-radius:999px;border:1.5px solid rgba(255,255,255,0.4);background:transparent;color:rgba(255,255,255,0.8);font-family:'Inter',sans-serif;font-size:13px;font-weight:600;cursor:pointer;">10 %</button>
-<button onclick="setTaux(0.20,this)" style="padding:0.5rem 1rem;border-radius:999px;border:1.5px solid #fff;background:#fff;color:#0A0A0A;font-family:'Inter',sans-serif;font-size:13px;font-weight:600;cursor:pointer;">20 %</button>
+<div style="background:#0A0A0A;border-radius:20px;padding:2.5rem 2rem;margin:2rem 0;border:1px solid rgba(255,255,255,0.08);">
+<div style="display:flex;align-items:center;gap:1rem;margin-bottom:2rem;">
+<div style="width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%);flex-shrink:0;"></div>
+<div>
+<p style="font-family:'Archivo Black',sans-serif;font-size:20px;color:#fff;margin:0;line-height:1.2;">Simulateur TTC vers HT gratuit</p>
+<p style="font-family:'Inter',sans-serif;font-size:13px;color:rgba(255,255,255,0.45);margin:0;">Résultat instantané · aucune inscription requise</p>
+</div>
+</div>
+<p style="font-size:11px;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin:0 0 0.75rem;">Votre taux de TVA</p>
+<div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:2rem;" id="taux-btns">
+<button onclick="setTaux(0.021,this)" style="padding:0.5rem 1.25rem;border-radius:999px;border:1.5px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.65);font-family:'Inter',sans-serif;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;">2,1 %</button>
+<button onclick="setTaux(0.055,this)" style="padding:0.5rem 1.25rem;border-radius:999px;border:1.5px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.65);font-family:'Inter',sans-serif;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;">5,5 %</button>
+<button onclick="setTaux(0.10,this)" style="padding:0.5rem 1.25rem;border-radius:999px;border:1.5px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.65);font-family:'Inter',sans-serif;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;">10 %</button>
+<button onclick="setTaux(0.20,this)" style="padding:0.5rem 1.25rem;border-radius:999px;border:none;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%);color:#fff;font-family:'Inter',sans-serif;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;">20 %</button>
 </div>
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;align-items:stretch;">
 <div>
-<label for="calc-ttc" style="display:block;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.65);margin-bottom:0.5rem;">Montant TTC (€)</label>
-<input type="number" id="calc-ttc" placeholder="Ex : 240" min="0" step="0.01" oninput="calcTTCtoHT()" style="width:100%;padding:0.875rem 1rem;border:none;border-radius:12px;font-size:20px;font-family:'Inter',sans-serif;font-weight:500;color:#0A0A0A;background:#fff;box-sizing:border-box;outline:none;" />
+<label for="calc-ttc" style="display:block;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:0.6rem;">Montant TTC (€)</label>
+<input type="number" id="calc-ttc" placeholder="Ex : 240" min="0" step="0.01" oninput="calcTTCtoHT()" style="width:100%;padding:1rem 1.1rem;border:1.5px solid rgba(255,255,255,0.1);border-radius:12px;font-size:22px;font-family:'Inter',sans-serif;font-weight:500;color:#fff;background:#1A1A1A;box-sizing:border-box;outline:none;" />
 </div>
-<div style="background:rgba(255,255,255,0.15);border-radius:12px;padding:1rem 1.25rem;display:flex;flex-direction:column;justify-content:center;">
-<div style="font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.6);margin-bottom:0.25rem;">Montant HT</div>
+<div style="background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%);border-radius:14px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;justify-content:center;">
+<div style="font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.65);margin-bottom:0.4rem;">Montant HT</div>
 <div id="calc-ht-val" style="font-family:'Archivo Black',sans-serif;font-size:36px;color:#fff;line-height:1;">...</div>
-<div id="calc-tva-val" style="font-size:13px;color:rgba(255,255,255,0.7);margin-top:0.4rem;">dont TVA : ...</div>
+<div id="calc-tva-val" style="font-size:13px;color:rgba(255,255,255,0.75);margin-top:0.5rem;">dont TVA : ...</div>
 </div>
 </div>
-<p id="calc-formula-display" style="display:none;margin:1rem 0 0;font-size:12px;color:rgba(255,255,255,0.55);font-family:'Inter',sans-serif;font-style:italic;"></p>
-</div>
-<p style="font-size:11px;color:rgba(255,255,255,0.4);margin:0.75rem 0 0;font-family:'Inter',sans-serif;">Outil indicatif. Vérifiez avec votre expert-comptable pour les situations complexes.</p>
+<p id="calc-formula-display" style="display:none;margin:1.25rem 0 0;font-size:12px;color:rgba(255,255,255,0.3);font-family:'Inter',sans-serif;font-style:italic;letter-spacing:0.02em;"></p>
+<p style="font-size:11px;color:rgba(255,255,255,0.2);margin:1rem 0 0;font-family:'Inter',sans-serif;">Outil indicatif. Vérifiez avec votre expert-comptable pour les situations complexes.</p>
 </div>
 
 <script>
@@ -51,13 +54,13 @@ function setTaux(t, btn) {
   calcTaux = t;
   var btns = document.getElementById('taux-btns').querySelectorAll('button');
   btns.forEach(function(b) {
-    b.style.background = 'transparent';
-    b.style.color = 'rgba(255,255,255,0.8)';
-    b.style.borderColor = 'rgba(255,255,255,0.4)';
+    b.style.background = 'rgba(255,255,255,0.06)';
+    b.style.color = 'rgba(255,255,255,0.65)';
+    b.style.border = '1.5px solid rgba(255,255,255,0.12)';
   });
-  btn.style.background = '#fff';
-  btn.style.color = '#0A0A0A';
-  btn.style.borderColor = '#fff';
+  btn.style.background = 'linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%)';
+  btn.style.color = '#fff';
+  btn.style.border = 'none';
   calcTTCtoHT();
 }
 function calcTTCtoHT() {
