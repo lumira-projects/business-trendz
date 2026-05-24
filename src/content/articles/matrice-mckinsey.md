@@ -15,8 +15,6 @@ author: "François Aublin"
 readingTime: 18
 ---
 
-# Matrice McKinsey : Le guide complet pour l'analyse stratégique de portefeuille
-
 La matrice McKinsey est l'un des outils de stratégie d'entreprise les plus puissants qui existent. Pourtant, elle reste mal comprise, souvent confondue avec la matrice BCG, et parfois utilisée à contre-emploi. Son rôle est précis : aider les entreprises multi-activités à prioriser leurs investissements entre leurs différents **Domaines d'Activité Stratégique (DAS)**, en se basant sur une analyse pondérée et multi-critères.
 
 Ce guide complet est structuré pour vous rendre autonome dans l'utilisation de cet outil. Nous partons de la théorie — origines, définition des deux axes, description des 9 cases — pour aller vers la pratique : guide en 5 étapes illustré par des tableaux de notation, comparaison avec la matrice BCG, et application sur une étude de cas chiffrée. Un template Google Sheets téléchargeable est disponible en fin d'article pour construire votre propre matrice.
