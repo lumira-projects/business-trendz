@@ -135,9 +135,6 @@ const breadcrumbSchema = {
           <div class="sidebar-block">
             <span class="sidebar-label">Publié le</span>
             <p class="sidebar-value">{dateStr}</p>
-            {updatedStr && (
-              <p class="sidebar-updated">Mis à jour le {updatedStr}</p>
-            )}
           </div>
 
           <nav class="toc" id="toc" aria-label="Sommaire de l'article">
@@ -207,7 +204,7 @@ const breadcrumbSchema = {
             {author === 'Business Trendz'
               ? <strong>{author}</strong>
               : <strong><a href="/auteurs/francois-aublin/">{author}</a></strong>
-            }{' '}le {dateStr}.
+            }{' '}le {dateStr}{updatedStr ? `. Mis à jour le ${updatedStr}` : ''}.
           </p>
         </div>
       </div>

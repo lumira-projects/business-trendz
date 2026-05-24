@@ -311,4 +311,4 @@ Par rapport à la matrice BCG, la matrice McKinsey offre une nuance supérieure 
 
 ---
 
-*Article rédigé par François Aublin, consultant en stratégie et fondateur de Business Trendz. Publié le 23 mai 2026. Dernière mise à jour : 23 mai 2026.*
+*Article rédigé par François Aublin, consultant en stratégie et fondateur de Business Trendz. Publié le 23 mai 2026.*
