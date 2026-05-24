@@ -53,6 +53,69 @@ Une fois le montant HT connu, isoler la TVA est immédiat. La méthode se dérou
 
 Vous pouvez aussi obtenir la TVA directement avec la formule : **TVA = TTC × (t ÷ (1 + t))**. Pour un taux de 20 % : TVA = 120 × (0,20 ÷ 1,20) = 120 × 0,1667 = **20 €**.
 
+## Calculateur en Ligne : Passez du TTC au HT Instantanément
+
+Saisissez votre montant TTC et sélectionnez le taux de TVA applicable — le montant hors taxe et la TVA s'affichent en temps réel.
+
+<div style="margin:1.5rem 0;background:#FAFAFA;border-radius:16px;padding:2rem;font-family:'Inter',sans-serif;">
+<p style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#6B6B6B;margin:0 0 1.5rem 0;">CALCULATEUR TTC → HT · RÉSULTAT INSTANTANÉ</p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem;">
+<div>
+<label for="calc-ttc" style="display:block;font-size:12px;font-weight:600;color:#2E2E2E;margin-bottom:0.5rem;letter-spacing:0.02em;">Montant TTC (€)</label>
+<input type="number" id="calc-ttc" placeholder="Ex : 240" min="0" step="0.01" oninput="calcTTCtoHT()" style="width:100%;padding:0.75rem 1rem;border:1px solid rgba(10,10,10,0.12);border-radius:12px;font-size:16px;font-family:'Inter',sans-serif;color:#0A0A0A;background:#fff;box-sizing:border-box;outline:none;" />
+</div>
+<div>
+<label for="calc-taux" style="display:block;font-size:12px;font-weight:600;color:#2E2E2E;margin-bottom:0.5rem;letter-spacing:0.02em;">Taux de TVA</label>
+<select id="calc-taux" onchange="calcTTCtoHT()" style="width:100%;padding:0.75rem 1rem;border:1px solid rgba(10,10,10,0.12);border-radius:12px;font-size:15px;font-family:'Inter',sans-serif;color:#0A0A0A;background:#fff;box-sizing:border-box;outline:none;cursor:pointer;">
+<option value="0.20">20 % — Taux normal</option>
+<option value="0.10">10 % — Taux intermédiaire</option>
+<option value="0.055">5,5 % — Taux réduit</option>
+<option value="0.021">2,1 % — Taux super-réduit</option>
+</select>
+</div>
+</div>
+<div id="calc-results" style="display:none;grid-template-columns:1fr 1fr;gap:1rem;">
+<div style="background:#fff;border-radius:12px;overflow:hidden;">
+<div style="height:3px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%);"></div>
+<div style="padding:1.25rem;">
+<div style="font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#9A9A9A;margin-bottom:0.5rem;">Montant HT</div>
+<div id="calc-ht-val" style="font-family:'Archivo Black',sans-serif;font-size:32px;color:#0A0A0A;line-height:1;"></div>
+</div>
+</div>
+<div style="background:#fff;border-radius:12px;overflow:hidden;border:1px solid rgba(10,10,10,0.08);">
+<div style="padding:1.25rem;">
+<div style="font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#9A9A9A;margin-bottom:0.5rem;">Dont TVA</div>
+<div id="calc-tva-val" style="font-family:'Archivo Black',sans-serif;font-size:32px;color:#6B6B6B;line-height:1;"></div>
+</div>
+</div>
+</div>
+<p id="calc-formula-display" style="display:none;margin:1rem 0 0;font-size:12px;color:#9A9A9A;border-top:1px solid rgba(10,10,10,0.08);padding-top:0.75rem;"></p>
+</div>
+
+<script>
+function calcTTCtoHT() {
+  var ttc = parseFloat(document.getElementById('calc-ttc').value);
+  var taux = parseFloat(document.getElementById('calc-taux').value);
+  var results = document.getElementById('calc-results');
+  var formulaEl = document.getElementById('calc-formula-display');
+  if (!ttc || isNaN(ttc) || ttc <= 0) {
+    results.style.display = 'none';
+    formulaEl.style.display = 'none';
+    return;
+  }
+  var ht = ttc / (1 + taux);
+  var tva = ttc - ht;
+  document.getElementById('calc-ht-val').textContent = ht.toFixed(2).replace('.', ',') + ' €';
+  document.getElementById('calc-tva-val').textContent = tva.toFixed(2).replace('.', ',') + ' €';
+  var pct = taux * 100;
+  var pctStr = (pct % 1 === 0) ? pct.toFixed(0) : pct.toString().replace('.', ',');
+  var coeffStr = (1 + taux).toString().replace('.', ',');
+  formulaEl.textContent = ttc.toFixed(2).replace('.', ',') + ' € ÷ ' + coeffStr + ' (TVA ' + pctStr + ' %) = ' + ht.toFixed(2).replace('.', ',') + ' € HT';
+  results.style.display = 'grid';
+  formulaEl.style.display = 'block';
+}
+</script>
+
 ## L'Erreur Courante : Pourquoi Soustraire 20 % ne Permet pas de Passer du TTC au HT
 
 C'est l'erreur la plus fréquente, et elle est intuitive — ce qui la rend d'autant plus dangereuse. De nombreux professionnels, y compris des comptables débutants, pensent qu'enlever 20 % au prix TTC donne le prix HT. Cette logique est fausse.
