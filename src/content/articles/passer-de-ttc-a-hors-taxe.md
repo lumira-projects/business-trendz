@@ -5,7 +5,7 @@ description: "Formule exacte pour passer du TTC au HT en 2026 : HT = TTC ÷ (1 +
 slug: passer-de-ttc-a-hors-taxe
 pubDate: 2026-05-24T00:00:00.000Z
 updatedDate: 2026-05-24T00:00:00.000Z
-heroImage: /uploads/2026/05/passer-de-ttc-a-hors-taxe.webp
+heroImage: /uploads/2026/05/magnific_cropped-midtorso-young-wo_KjD6Temkqp.png
 heroImageAlt: "Calculatrice posée sur une facture avec la formule TTC divisé par 1,20 pour obtenir le prix hors taxe"
 categories:
   - Business
