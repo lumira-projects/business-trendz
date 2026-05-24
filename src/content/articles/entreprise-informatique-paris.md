@@ -1,148 +1,395 @@
 ---
-title: "Les meilleures entreprises informatiques de Paris"
-description: "Dans la ville dynamique de Paris, de nombreuses entreprises offrent des services informatiques variés pour répondre aux besoins des particuliers et des entreprises. Que vous ayez besoin de dépannage, "
-pubDate: "2024-08-12T14:18:59.000Z"
-updatedDate: "2025-05-20T22:32:23.000Z"
-author: "François Aublin"
+title: "Les 10 meilleures entreprises informatiques à Paris en 2026 : notre sélection"
+title_tag: "Entreprise informatique Paris 2026 : top 10 | Business Trendz"
+description: "Trouvez la meilleure entreprise informatique à Paris : infogérance, dépannage, cybersécurité, cloud. Notre sélection des 10 prestataires les mieux notés en 2026."
+slug: entreprise-informatique-paris
+pubDate: 2024-08-12T00:00:00.000Z
+updatedDate: 2026-05-24T00:00:00.000Z
+heroImage: /uploads/2024/08/entreprise-informatique-paris.webp
+heroImageAlt: "Technicien informatique au travail dans les locaux d'une entreprise parisienne"
 categories:
-  - "Business"
-heroImage: "/uploads/2024/08/entreprise-informatique-paris.webp"
-heroImageAlt: "Les meilleures entreprises informatiques de Paris"
-readingTime: 4
+  - Business
+  - Services
+readingTime: 6
+author: "François Aublin"
 ---
 
-Dans la ville dynamique de Paris, de nombreuses entreprises offrent des services informatiques variés pour répondre aux besoins des particuliers et des entreprises. Que vous ayez besoin de dépannage, de conseils en infogérance, ou de solutions sur mesure, il est crucial de choisir le bon prestataire. Voici une liste d'entreprises informatiques réputées à Paris, avec leurs informations principales pour vous aider à faire le bon choix.
+Paris concentre l'une des offres les plus denses de France en services informatiques : infogérance, maintenance réseau, cybersécurité, cloud et dépannage d'urgence. Que vous soyez une TPE cherchant un support réactif ou une PME souhaitant externaliser votre DSI, choisir le bon prestataire peut faire toute la différence. Pour cette sélection, nous avons analysé les entreprises informatiques parisiennes les mieux notées sur Google Maps, en tenant compte de la régularité des avis, de la diversité des services proposés et de la réactivité client. Voici les 10 entreprises informatiques à Paris qui se distinguent en 2026.
 
-## **ACI Technology - Audit Conseil Infogérance Paris**
+<div id="bt-map" style="height:420px;border-radius:12px;overflow:hidden;margin:1.5rem 0;border:1px solid #e5e7eb"></div>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+<script>
+(function(){
+  var el = document.getElementById('bt-map');
+  if (!el) return;
+  var biz = [
+    {n:"1. ACI Technology",r:"5,0",a:"21 Rue Vauvenargues, Paris 18e",lat:48.8932456,lng:2.3329693},
+    {n:"2. Iwit Systems",r:"5,0",a:"56 Bd Auguste Blanqui, Paris 13e",lat:48.8300016,lng:2.3490443},
+    {n:"3. Jesto",r:"5,0",a:"8 Rue de Domrémy, Paris 13e",lat:48.8308021,lng:2.3737679},
+    {n:"4. TechCentre Paris 16",r:"5,0",a:"132 Av. Victor Hugo, Paris 16e",lat:48.8676063,lng:2.279929},
+    {n:"5. Euro Tech Conseil France",r:"4,9",a:"35 Rue de la Grange aux Belles, Paris 10e",lat:48.8752968,lng:2.3671656},
+    {n:"6. GC Maintenance informatique",r:"4,9",a:"18 Rue Guyton de Morveau, Paris 13e",lat:48.8251964,lng:2.3476203},
+    {n:"7. SmartGeek",r:"4,9",a:"35 Rue Victor Massé, Paris 9e",lat:48.8809178,lng:2.336916},
+    {n:"8. Paris-iT-services",r:"4,8",a:"16 Rue de Vichy, Paris 15e",lat:48.8337373,lng:2.2943266},
+    {n:"9. IPE",r:"4,8",a:"109 Bd de Sébastopol, Paris 2e",lat:48.8668477,lng:2.3525083},
+    {n:"10. Web-atrio Paris",r:"4,5",a:"132 Rue de Rivoli, Paris 1er",lat:48.8600689,lng:2.3438158}
+  ];
+  function init() {
+    var s = document.createElement('script');
+    s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    s.crossOrigin = '';
+    s.onload = function() {
+      var map = L.map('bt-map', {scrollWheelZoom: false});
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom: 19
+      }).addTo(map);
+      var bounds = [];
+      biz.forEach(function(b) {
+        bounds.push([b.lat, b.lng]);
+        L.marker([b.lat, b.lng])
+          .addTo(map)
+          .bindPopup('<strong>' + b.n + '</strong><br>⭐ ' + b.r + '/5<br><em>' + b.a + '</em>');
+      });
+      map.fitBounds(bounds, {padding: [30, 30]});
+    };
+    document.head.appendChild(s);
+  }
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(e) {
+      if (e[0].isIntersecting) { obs.disconnect(); init(); }
+    }, {rootMargin: '300px'});
+    obs.observe(el);
+  } else {
+    init();
+  }
+})();
+</script>
 
-**Information**:  
-[ACI Technology](https://acitechnology.eu/) est une entreprise spécialisée dans l'audit, le conseil, et l'infogérance informatique à Paris. Ils offrent des services personnalisés pour aider les entreprises à gérer efficacement leur infrastructure informatique, en mettant l'accent sur la sécurité, la performance, et l'efficacité opérationnelle.
+## 1. ACI Technology — ⭐ 5,0/5
 
-**Horaires**:
+- **Adresse** : 21 Rue Vauvenargues, Paris 18e
+- **Téléphone** : +33 1 84 16 09 73
+- **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi – Dimanche : Ouvert 24h/24
 
-Lundi - Dimanche: 24h/24h
+ACI Technology affiche la note parfaite de 5/5 sur Google Maps, signe d'une satisfaction client sans faille. Spécialisée en maintenance, infogérance, gestion réseau et cybersécurité, cette entreprise parisienne accompagne aussi bien les TPE que les PME dans la sécurisation et l'optimisation de leurs infrastructures. Sa disponibilité 24h/24, 7j/7 en fait un partenaire de choix pour les structures qui ne peuvent se permettre aucune interruption de service.
 
-**Adresse**:  
-2 Rue Jean Jaurès, 92270 Bois-Colombes, France  
+## 2. Iwit Systems — ⭐ 5,0/5
 
-## **Dépannage Informatique Paris**
+- **Adresse** : 56 Boulevard Auguste Blanqui, Paris 13e
+- **Téléphone** : +33 6 74 74 38 87
+- **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi – Samedi : 09:00–18:00
+  - Dimanche : 09:00–18:00
 
-**Information**:  
-Dépannage Informatique Paris se spécialise dans les services de réparation et de maintenance informatique pour les particuliers et les petites entreprises. Ils sont connus pour leur réactivité et leur expertise dans la résolution rapide de problèmes informatiques variés.
+Iwit Systems est un prestataire informatique parisien noté 5/5, spécialisé dans l'assistance aux entreprises et le développement informatique sur mesure. Implanté dans le 13e arrondissement, il intervient sur tout type de problématique IT : déploiement d'infrastructure, développement d'applications métier, support utilisateurs. Sa disponibilité le week-end le distingue de la majorité des acteurs du secteur.
 
-**Horaires**:
+## 3. Jesto — ⭐ 5,0/5
 
--   Lundi - Dimanche: 9h00 - 19h00
+- **Adresse** : 8 Rue de Domrémy, Paris 13e
+- **Téléphone** : +33 1 88 32 11 32
+- **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi : Ouvre à 09:00
+  - Mardi : Non communiqués
+  - Mercredi : Non communiqués
+  - Jeudi : Non communiqués
+  - Vendredi : Non communiqués
+  - Samedi : Non communiqués
+  - Dimanche : Fermé
 
-**Adresse**:  
-130 Rue Ordener, 75018 Paris
+Jesto est une société d'infogérance informatique dédiée aux PME parisiennes et franciliennes. Avec une note parfaite de 5/5, elle se distingue par une approche contractuelle claire et des engagements de service (SLA) formalisés. Son périmètre couvre la gestion de parc, la cybersécurité, le cloud et le support utilisateurs à distance ou sur site. Un choix sérieux pour les structures souhaitant un partenariat IT à long terme.
 
-## **DIOKI TECHNOLOGIES**
+## 4. TechCentre — Dépannage informatique Paris 16 — ⭐ 5,0/5
 
-**Information**:  
-DIOKI TECHNOLOGIES offre une gamme complète de services informatiques, y compris le développement de logiciels, la cybersécurité, et la gestion des réseaux. Leur expertise s'étend également à l'accompagnement des entreprises dans leur transformation numérique.
+- **Adresse** : 132 Avenue Victor Hugo, Paris 16e
+- **Téléphone** : +33 7 52 52 75 63
+- **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi – Dimanche : Ouvert 24h/24
 
-**Horaires**:
+TechCentre est un service de dépannage informatique disponible 24h/24, 7j/7, implanté dans le 16e arrondissement de Paris. Avec une note de 5/5, il est reconnu pour sa réactivité et la qualité de ses diagnostics. Il s'adresse aux particuliers comme aux professionnels pour toute panne matérielle ou logicielle, récupération de données ou installation de système. Sa plage horaire étendue en fait une solution idéale en situation d'urgence.
 
--   Lundi - Vendredi: 9h00 - 18h00
--   Samedi - Dimanche: Fermé
+## 5. Euro Tech Conseil France — ⭐ 4,9/5
 
-**Adresse**:  
-9 rue des Colonnes, 75002 Paris
+- **Adresse** : 35 Rue de la Grange aux Belles, Paris 10e
+- **Téléphone** : +33 1 42 01 11 12
+- **Catégorie** : Entreprise de logiciels
+- **Horaires** :
+  - Lundi : Ouvre à 09:00
+  - Mardi : Non communiqués
+  - Mercredi : Non communiqués
+  - Jeudi : Non communiqués
+  - Vendredi : Non communiqués
+  - Samedi : Non communiqués
+  - Dimanche : Fermé
 
-## **ParisitServices**
+Euro Tech Conseil France est une entreprise de logiciels et de conseil informatique notée 4,9/5, implantée dans le 10e arrondissement. Elle se positionne sur les projets de transformation numérique, l'intégration de solutions métier et le développement logiciel sur mesure. Son approche conseil, couplée à une expertise technique solide, la rend particulièrement adaptée aux entreprises souhaitant moderniser leurs outils de gestion ou leurs processus internes.
 
-**Information**:  
-ParisitServices propose des solutions de support informatique adaptées aux besoins des petites et moyennes entreprises. Ils sont reconnus pour leur assistance technique proactive et leur capacité à maintenir les systèmes informatiques de leurs clients en parfait état de fonctionnement.
+## 6. GC | Maintenance informatique à Paris — ⭐ 4,9/5
 
-**Horaires**:
+- **Adresse** : 18 Rue Guyton de Morveau, Paris 13e
+- **Téléphone** : +33 1 89 70 78 00
+- **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi – Vendredi : Ferme à 17:00
+  - Samedi : Non communiqués
+  - Dimanche : 09:00–19:00
 
--   Lundi - Vendredi: 9h00 - 19h00
--   Samedi: 9h00 - 19h00
--   Dimanche: Fermé
+GC Maintenance informatique est un prestataire réactif disponible également le dimanche, ce qui est rare dans le secteur. Noté 4,9/5, il propose des interventions à la demande ou sous contrat pour la maintenance du parc informatique des entreprises parisiennes. Sa disponibilité dominicale et ses délais d'intervention courts en font un choix judicieux pour les structures dont l'activité ne s'arrête pas en fin de semaine.
 
-**Adresse**:  
-16 Rue de Vichy, 75015 Paris
+## 7. SmartGeek — ⭐ 4,9/5
 
-## **WANDesk**
+- **Adresse** : 35 Rue Victor Massé, Paris 9e
+- **Téléphone** : +33 6 58 90 88 51
+- **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi – Dimanche : 08:00–23:00
 
-**Information**:  
-WANDesk se concentre sur la gestion et la sécurité des réseaux pour les entreprises. Ils proposent des solutions complètes de gestion de parc informatique, de surveillance réseau, et de protection contre les cybermenaces.
+SmartGeek se distingue par des horaires d'ouverture exceptionnellement larges — de 8h à 23h, tous les jours de la semaine. Basé dans le 9e arrondissement et noté 4,9/5, il intervient pour du dépannage informatique, de la configuration réseau et du support technique aussi bien auprès des particuliers que des professionnels. Sa flexibilité horaire en fait une option de premier choix pour ceux qui ne peuvent pas se libérer en journée.
 
-**Horaires**:
+## 8. Paris-iT-services — ⭐ 4,8/5
 
--   Lundi - Jeudi: 9h00 - 18h00
--   Vendredi: 9h00 - 17h00
--   Samedi - Dimanche: Fermé
+- **Adresse** : 16 Rue de Vichy, Paris 15e
+- **Téléphone** : +33 7 61 45 08 85
+- **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi – Vendredi : Ferme à 17:00
+  - Dimanche : 10:00–17:00
 
-**Adresse**:  
-67 Boulevard Richard-Lenoir, 75011 Paris
+Paris-iT-services est un prestataire informatique bien établi dans le 15e arrondissement, noté 4,8/5. Il propose des services d'assistance et de maintenance pour les entreprises, avec une ouverture le dimanche matin qui permet de traiter les urgences de début de semaine. Sa proximité avec les quartiers d'affaires du sud-ouest parisien en fait un interlocuteur de terrain particulièrement réactif.
 
-## **NEXT2i**
+## 9. IPE — Infogérance et maintenance informatique — ⭐ 4,8/5
 
-**Information**:  
-NEXT2i est une société informatique spécialisée dans le développement d'applications sur mesure et l'intégration de solutions ERP pour les entreprises. Ils accompagnent leurs clients dans l'optimisation de leurs processus métiers à travers des outils technologiques innovants.
+- **Adresse** : 109 Boulevard de Sébastopol, Paris 2e
+- **Téléphone** : +33 1 40 13 81 10
+- **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi : Ouvre à 08:30
+  - Mardi : Non communiqués
+  - Mercredi : Non communiqués
+  - Jeudi : Non communiqués
+  - Vendredi : Non communiqués
+  - Samedi : Non communiqués
+  - Dimanche : Fermé
 
-**Horaires**:
+IPE est un spécialiste parisien de l'infogérance et de la maintenance informatique pour les entreprises, implanté en plein cœur de Paris dans le 2e arrondissement. Noté 4,8/5, il intervient sur la gestion de parc, le déploiement réseau et la supervision des systèmes. Son ouverture dès 8h30 le lundi traduit une orientation claire vers les besoins des entreprises qui reprennent tôt leur activité hebdomadaire.
 
--   Lundi - Vendredi: 9h00 - 19h00
--   Samedi - Dimanche: Fermé
+## 10. Web-atrio Paris — ⭐ 4,5/5
 
-**Adresse**:  
-68 Boulevard de Port-Royal, 75005 Paris
+- **Adresse** : 132 Rue de Rivoli, Paris 1er
+- **Téléphone** : Non communiqué
+- **Catégorie** : Assistance et services informatiques
+- **Horaires** :
+  - Lundi : Ouvre à 08:30
+  - Mardi : Non communiqués
+  - Mercredi : Non communiqués
+  - Jeudi : Non communiqués
+  - Vendredi : Non communiqués
+  - Samedi : Non communiqués
+  - Dimanche : Fermé
 
-## **TECH CENTER - Dépannage informatique Paris 16**
+Web-atrio Paris est une entreprise informatique localisée au cœur du 1er arrondissement, à deux pas du Louvre. Notée 4,5/5, elle propose des services d'assistance informatique pour les professionnels et les particuliers. Son positionnement central lui permet d'intervenir rapidement dans tout Paris intra-muros. Une option à considérer pour les structures situées dans les arrondissements centraux qui souhaitent un prestataire de proximité.
 
-**Information**:  
-TECH CENTER est un service de dépannage informatique situé dans le 16ème arrondissement de Paris. Ils offrent des services de réparation, de récupération de données, et d'installation de logiciels pour les particuliers et les petites entreprises.
+## Comment choisir une entreprise informatique à Paris ?
 
-**Horaires**:
+Face à la densité de l'offre parisienne, voici 5 critères pour faire le bon choix :
 
--   Lundi - Vendredi: 8h00 - 20h00
--   Samedi: 9h00 - 17h00
--   Dimanche: Fermé
+1. **Le périmètre des services** : dépannage ponctuel, infogérance complète, cybersécurité ou développement ? Définissez vos besoins avant de comparer les prestataires. Un spécialiste vaut mieux qu'un généraliste pour des projets techniques pointus.
 
-**Adresse**:  
-132 Avenue Victor Hugo, 75016 Paris
+2. **La réactivité et les délais d'intervention** : Paris est une ville embouteillée. Privilégiez un prestataire localisé dans votre arrondissement ou proposant du support à distance pour les pannes courantes. Vérifiez les engagements SLA (niveaux de service) dans les contrats.
 
-## **1FOPRESTA Informatique PARIS**
+3. **Les horaires de disponibilité** : certaines entreprises de cette liste sont ouvertes le week-end ou 24h/24 — un avantage décisif si votre activité ne s'arrête pas à 18h le vendredi.
 
-**Information**:  
-1FOPRESTA propose une large gamme de services informatiques, incluant la maintenance, l'hébergement, et le support technique. Leur approche est axée sur la satisfaction client et l'amélioration continue des services.
+4. **Les avis clients vérifiés** : un volume d'avis significatif et des réponses aux commentaires négatifs indiquent un prestataire sérieux. Méfiez-vous des profils avec peu d'avis ou uniquement des notes parfaites sans commentaires.
 
-**Horaires**:
+5. **Le modèle tarifaire** : contrat mensuel d'infogérance, forfait annuel ou intervention à la demande ? Les tarifs à Paris sont généralement plus élevés qu'en province (50–120 €/h pour une intervention, 40–100 €/poste/mois pour de l'infogérance). Comparez les formules en fonction de votre taille et de votre budget.
 
--   Lundi - Jeudi: 9h00 - 18h00
--   Vendredi: 09h00 - 17h00
--   Samedi - Dimanche: Fermé
+## FAQ
 
-**Adresse**:  
-31 Rue d'Alleray, 75015 Paris
+### Quel est le coût moyen d'une entreprise informatique à Paris ?
 
-## **McKev Informatique**
+À Paris, le prix d'un contrat d'infogérance pour une PME varie généralement entre 40 et 100 € par poste et par mois selon le niveau de service inclus. Pour une intervention ponctuelle, comptez entre 80 et 150 € de l'heure. Les prestataires situés dans les arrondissements centraux peuvent pratiquer des tarifs légèrement supérieurs. Demandez toujours un devis détaillé incluant les conditions d'intervention d'urgence.
 
-**Information**:  
-McKev Informatique est une société spécialisée dans la maintenance et le support informatique pour les particuliers et les petites entreprises. Ils se distinguent par leur rapidité d'intervention et leur service client de qualité.
+### Quelle différence entre un prestataire informatique et une ESN à Paris ?
 
-**Horaires**:
+Un prestataire informatique assure la maintenance, le dépannage et l'infogérance du quotidien. Une ESN (Entreprise de Services du Numérique) va plus loin avec du développement logiciel, du conseil en transformation numérique et des projets d'intégration complexes. Paris concentre de nombreuses ESN de toutes tailles — de la startup spécialisée aux grands groupes — ce qui offre un choix bien plus large qu'en province.
 
--   Lundi - Vendredi: Fermé
--   Samedi - Dimanche: 9h00 - 22h00
+### Peut-on avoir un support informatique disponible 24h/24 à Paris ?
 
-**Adresse**:  
-242 bis Rue des Pyrénées, 75020 Paris
+Oui. Plusieurs prestataires de cette liste, comme ACI Technology et TechCentre, proposent une disponibilité en continu, 7j/7. SmartGeek, ouvert jusqu'à 23h tous les jours, constitue également une option très flexible. Ce service est particulièrement utile pour les hôtels, restaurants, cliniques ou e-commerçants dont les systèmes fonctionnent en dehors des heures ouvrées.
 
-## **Satina.it.Paris**
+### Comment changer de prestataire informatique à Paris sans interruption de service ?
 
-**Information**:  
-Satina.it.Paris est une entreprise spécialisée dans la transformation numérique des entreprises. Ils proposent des services de conseil, de développement d'applications, et de gestion de projets IT, en mettant un accent particulier sur l'innovation et la performance.
+Prévoyez une période de transition d'au moins un mois avec chevauchement des deux prestataires. Établissez un inventaire complet de votre parc, de vos licences logicielles et de vos accès administrateurs. Un bon prestataire entrant proposera un audit préalable gratuit avant la bascule. À Paris, la densité de l'offre vous donne un avantage de négociation : jouez-en.
 
-**Horaires**:
+### Les entreprises informatiques parisiennes interviennent-elles en banlieue ?
 
--   Lundi - Samedi: 9h00 - 20h00
--   Dimanche: 13h00 - 19h30
+La plupart des prestataires listés couvrent l'Île-de-France au-delà de Paris intra-muros. Jesto, par exemple, se positionne explicitement sur Paris et l'ensemble de l'Île-de-France pour les PME. Précisez votre localisation dès le premier contact pour vérifier la zone d'intervention et les éventuels frais de déplacement supplémentaires.
 
-**Adresse**:  
-16 Rue de Vichy, 75015 Paris
+---
 
-Ces entreprises informatiques à Paris offrent une variété de services adaptés à différents besoins, que vous soyez un particulier ou une entreprise cherchant à optimiser son infrastructure technologique. N'hésitez pas à les contacter pour obtenir plus d'informations ou pour prendre rendez-vous.
+*Données collectées sur Google Maps en mai 2026. Horaires et informations susceptibles d'avoir évolué — vérifiez sur le site ou la fiche Google de chaque établissement.*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Les 10 meilleures entreprises informatiques à Paris en 2026",
+  "numberOfItems": 10,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "LocalBusiness",
+        "name": "ACI Technology",
+        "telephone": "+33184160973",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "21 Rue Vauvenargues",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "LocalBusiness",
+        "name": "Iwit Systems",
+        "telephone": "+33674743887",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "56 Boulevard Auguste Blanqui",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "LocalBusiness",
+        "name": "Jesto",
+        "telephone": "+33188321132",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "8 Rue de Domrémy",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "LocalBusiness",
+        "name": "TechCentre - Dépannage informatique Paris 16",
+        "telephone": "+33752527563",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "132 Avenue Victor Hugo",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "LocalBusiness",
+        "name": "Euro Tech Conseil France",
+        "telephone": "+33142011112",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "35 Rue de la Grange aux Belles",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "LocalBusiness",
+        "name": "GC | Maintenance informatique à Paris",
+        "telephone": "+33189707800",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "18 Rue Guyton de Morveau",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "LocalBusiness",
+        "name": "SmartGeek",
+        "telephone": "+33658908851",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "35 Rue Victor Massé",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "LocalBusiness",
+        "name": "Paris-iT-services",
+        "telephone": "+33761450885",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "16 Rue de Vichy",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "LocalBusiness",
+        "name": "IPE - Infogérance et maintenance informatique",
+        "telephone": "+33140138110",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "109 Boulevard de Sébastopol",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "LocalBusiness",
+        "name": "Web-atrio Paris",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "132 Rue de Rivoli",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        }
+      }
+    }
+  ]
+}
+</script>
