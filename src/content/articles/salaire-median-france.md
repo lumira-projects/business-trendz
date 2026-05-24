@@ -46,6 +46,36 @@ Le **médian reflète mieux la réalité du salarié français** car il n'est pa
 
 L'**Observatoire des inégalités** rappelle qu'utiliser la médiane plutôt que la moyenne réduit l'illusion d'enrichissement collectif. En France, environ 70 % des salariés gagnent moins que le salaire moyen, contre 50 % par définition pour le médian. Cette distinction est centrale pour parler honnêtement des inégalités.
 
+<figure style="margin:2.5em 0;font-family:Inter,-apple-system,sans-serif;border:1px solid rgba(10,10,10,0.06);border-radius:16px;overflow:hidden">
+<div style="height:5px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%)"></div>
+<div style="padding:1.5rem 1.75rem">
+<p style="margin:0 0 1.25rem;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:#9A9A9A;font-weight:600">Repères de la distribution salariale — secteur privé France 2024 · Source : INSEE</p>
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:1rem">
+<div style="padding:1rem;background:#FAFAFA;border-radius:12px;text-align:center;border:1px solid rgba(10,10,10,0.06)">
+<div style="font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:#9A9A9A;margin-bottom:6px">1er décile (D1)</div>
+<div style="font-family:'Archivo Black',sans-serif;font-size:22px;color:#0A0A0A;margin-bottom:4px">1 492 €</div>
+<div style="font-size:11px;color:#9A9A9A">10 % gagnent moins</div>
+</div>
+<div style="padding:1rem;background:linear-gradient(135deg,rgba(30,58,138,0.05),rgba(255,107,107,0.05));border-radius:12px;text-align:center;border:1px solid rgba(30,58,138,0.15)">
+<div style="font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:#9A9A9A;margin-bottom:6px">Médiane</div>
+<div style="font-family:'Archivo Black',sans-serif;font-size:22px;background:linear-gradient(135deg,#1E3A8A,#FF6B6B);-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:4px">2 190 €</div>
+<div style="font-size:11px;color:#9A9A9A">50 % gagnent moins</div>
+</div>
+<div style="padding:1rem;background:#FAFAFA;border-radius:12px;text-align:center;border:1px solid rgba(10,10,10,0.06)">
+<div style="font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:#9A9A9A;margin-bottom:6px">Moyenne</div>
+<div style="font-family:'Archivo Black',sans-serif;font-size:22px;color:#0A0A0A;margin-bottom:4px">2 733 €</div>
+<div style="font-size:11px;color:#9A9A9A">70 % gagnent moins</div>
+</div>
+<div style="padding:1rem;background:#FAFAFA;border-radius:12px;text-align:center;border:1px solid rgba(10,10,10,0.06)">
+<div style="font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:#9A9A9A;margin-bottom:6px">9e décile (D9)</div>
+<div style="font-family:'Archivo Black',sans-serif;font-size:22px;color:#0A0A0A;margin-bottom:4px">4 334 €</div>
+<div style="font-size:11px;color:#9A9A9A">10 % gagnent plus</div>
+</div>
+</div>
+<p style="margin:0;font-size:11px;color:#9A9A9A;border-top:1px solid rgba(10,10,10,0.06);padding-top:0.75rem">Montants en net mensuel EQTP. L'écart médiane/moyenne (543 €) illustre l'asymétrie de la distribution salariale. Source : INSEE Première n°2079, octobre 2025.</p>
+</div>
+</figure>
+
 ## Net, brut, EQTP : décrypter les données INSEE sans se perdre
 
 Le **salaire brut** correspond à la rémunération inscrite sur le contrat de travail, avant déduction des cotisations sociales salariales (sécurité sociale, retraite, assurance chômage, CSG/CRDS). Le **salaire net** est ce qui reste après ces cotisations, mais avant prélèvement à la source de l'impôt sur le revenu.
@@ -103,6 +133,27 @@ L'écart francilien s'explique par trois facteurs structurels : la **concentrati
 
 Le **médian régional est environ 20 % plus bas que la moyenne régionale**. En appliquant ce ratio, le médian net mensuel en Île-de-France se situe autour de 2 780 €, contre 1 820 € en Occitanie. L'écart régional du médian (960 €) est plus marqué que celui du moyen (1 200 €) en valeur relative, ce qui souligne la concentration des hauts salaires dans la capitale.
 
+<figure style="margin:2.5em 0;font-family:Inter,-apple-system,sans-serif;border:1px solid rgba(10,10,10,0.06);border-radius:16px;overflow:hidden">
+<div style="height:5px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%)"></div>
+<div style="padding:1.5rem 1.75rem">
+<p style="margin:0 0 1.25rem;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:#9A9A9A;font-weight:600">Salaire moyen net EQTP par région — France 2024 · Source : INSEE</p>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:175px;max-width:175px;font-size:12px;font-weight:700;color:#1E3A8A;text-align:right">Île-de-France</div><div style="flex:1;height:26px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:100%;height:100%;background:linear-gradient(135deg,#1E3A8A,#FF6B6B)"></div></div><div style="min-width:52px;font-family:'Archivo Black',sans-serif;font-size:13px;background:linear-gradient(135deg,#1E3A8A,#FF6B6B);-webkit-background-clip:text;background-clip:text;color:transparent">3 478 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:175px;max-width:175px;font-size:12px;color:#6B6B6B;text-align:right">Auvergne-Rhône-Alpes</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:78.2%;height:100%;background:#0A0A0A;opacity:0.15"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 720 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:175px;max-width:175px;font-size:12px;color:#6B6B6B;text-align:right">Provence-Alpes-Côte d'Azur</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:74.8%;height:100%;background:#0A0A0A;opacity:0.13"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 600 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:175px;max-width:175px;font-size:12px;color:#6B6B6B;text-align:right">Grand Est</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:72.7%;height:100%;background:#0A0A0A;opacity:0.13"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 530 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:175px;max-width:175px;font-size:12px;color:#6B6B6B;text-align:right">Pays de la Loire</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:72.2%;height:100%;background:#0A0A0A;opacity:0.13"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 510 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:175px;max-width:175px;font-size:12px;color:#6B6B6B;text-align:right">Bretagne</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:71.6%;height:100%;background:#0A0A0A;opacity:0.13"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 490 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:175px;max-width:175px;font-size:12px;color:#6B6B6B;text-align:right">Nouvelle-Aquitaine</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:71.0%;height:100%;background:#0A0A0A;opacity:0.12"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 470 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:175px;max-width:175px;font-size:12px;color:#6B6B6B;text-align:right">Normandie</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:70.7%;height:100%;background:#0A0A0A;opacity:0.12"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 460 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:175px;max-width:175px;font-size:12px;color:#6B6B6B;text-align:right">Centre-Val de Loire</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:70.5%;height:100%;background:#0A0A0A;opacity:0.12"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 450 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:175px;max-width:175px;font-size:12px;color:#6B6B6B;text-align:right">Bourgogne-Franche-Comté</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:70.2%;height:100%;background:#0A0A0A;opacity:0.12"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 440 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:175px;max-width:175px;font-size:12px;color:#6B6B6B;text-align:right">Hauts-de-France</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:69.9%;height:100%;background:#0A0A0A;opacity:0.12"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 430 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:175px;max-width:175px;font-size:12px;color:#6B6B6B;text-align:right">Occitanie</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:65.4%;height:100%;background:#0A0A0A;opacity:0.10"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 273 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:4px"><div style="min-width:175px;max-width:175px;font-size:12px;color:#6B6B6B;text-align:right">Corse</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:63.8%;height:100%;background:#0A0A0A;opacity:0.10"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 220 €</div></div>
+<p style="margin:1rem 0 0;font-size:11px;color:#9A9A9A;border-top:1px solid rgba(10,10,10,0.06);padding-top:0.75rem">L'Île-de-France dépasse de 27,3 % la moyenne nationale. Toutes les autres régions métropolitaines sont en dessous. Source : INSEE, disparités de salaires entre régions.</p>
+</div>
+</figure>
+
 ## Salaire médian selon l'âge et la catégorie socioprofessionnelle
 
 Le **salaire médian progresse fortement avec l'âge** jusqu'à 54 ans, puis se stabilise. Les moins de 25 ans perçoivent en moyenne 1 820 € net mensuel EQTP en 2023 selon l'INSEE, contre 3 190 € pour les 55 ans et plus, soit un écart de 75 %.
@@ -128,6 +179,19 @@ La **catégorie socioprofessionnelle (CSP)** structure le salaire bien davantage
 
 Le **médian des cadres** s'établit à environ 4 100 € net mensuel en 2024. L'**APEC** publie un médian annuel brut spécifique aux cadres : 55 000 € brut annuel fixe + variable en juin 2025 (+1,8 % vs juin 2024), 80 % des cadres se situant entre 38 000 € et 95 000 € brut. Le médian des employés et des ouvriers reste proche du SMIC, autour de 1 700 à 1 800 € net mensuel.
 
+<figure style="margin:2.5em 0;font-family:Inter,-apple-system,sans-serif;border:1px solid rgba(10,10,10,0.06);border-radius:16px;overflow:hidden">
+<div style="height:5px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%)"></div>
+<div style="padding:1.5rem 1.75rem">
+<p style="margin:0 0 1.25rem;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:#9A9A9A;font-weight:600">Salaire moyen net EQTP par catégorie socioprofessionnelle — France 2024 · Source : INSEE</p>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:160px;max-width:160px;font-size:12px;font-weight:700;color:#1E3A8A;text-align:right">Cadres</div><div style="flex:1;height:26px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:100%;height:100%;background:linear-gradient(135deg,#1E3A8A,#FF6B6B)"></div></div><div style="min-width:52px;font-family:'Archivo Black',sans-serif;font-size:13px;background:linear-gradient(135deg,#1E3A8A,#FF6B6B);-webkit-background-clip:text;background-clip:text;color:transparent">4 630 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:160px;max-width:160px;font-size:12px;color:#6B6B6B;text-align:right">Prof. intermédiaires</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:57.5%;height:100%;background:#0A0A0A;opacity:0.15"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 660 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:160px;max-width:160px;font-size:12px;color:#6B6B6B;text-align:right">Ouvriers</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:44.3%;height:100%;background:#0A0A0A;opacity:0.12"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 050 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:160px;max-width:160px;font-size:12px;color:#6B6B6B;text-align:right">Employés</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:41.9%;height:100%;background:#0A0A0A;opacity:0.12"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">1 940 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:4px"><div style="min-width:160px;max-width:160px;font-size:11px;color:#9A9A9A;text-align:right;font-style:italic">Médiane ensemble</div><div style="flex:1;height:16px;border:1.5px dashed #C9C9C9;border-radius:4px;overflow:hidden"><div style="width:47.3%;height:100%;border-right:2px solid #C9C9C9"></div></div><div style="min-width:52px;font-size:11px;color:#9A9A9A;font-style:italic">2 190 €</div></div>
+<p style="margin:1rem 0 0;font-size:11px;color:#9A9A9A;border-top:1px solid rgba(10,10,10,0.06);padding-top:0.75rem">L'écart cadres/employés atteint +138 %. La médiane ensemble (2 190 €, pointillé) se situe entre professions intermédiaires et ouvriers. Source : INSEE Première n°2079, octobre 2025.</p>
+</div>
+</figure>
+
 ## Femmes et hommes : un écart de 13 à 22 % selon la méthode de calcul
 
 L'**écart salarial entre femmes et hommes atteint 14,0 % en EQTP dans le secteur privé en 2024**, selon l'INSEE Focus n°377 publié en 2025. Cet écart se réduit à **3,6 % à poste et établissement comparables**, mais grimpe à **21,8 % en revenu salarial total** lorsque l'on intègre les différences de temps de travail.
@@ -143,6 +207,31 @@ Trois facteurs expliquent l'écart de 14 % en EQTP : la **ségrégation professi
 L'**Observatoire des inégalités** souligne que les écarts se réduisent lentement : depuis 1995, ils ont diminué d'un tiers, mais la cadence ralentit. Le rapport HCREP-INSEE de mars 2025 indique que la réduction tendancielle reste insuffisante pour atteindre la parité avant plusieurs décennies au rythme actuel.
 
 À poste comparable, l'écart résiduel de 3,6 % correspond à la **discrimination pure**, partiellement expliquée par des facteurs non observables (négociation salariale, primes au mérite, ancienneté dans le poste). La loi Rixain de 2021 impose désormais 30 % de femmes dans les comités de direction des entreprises de plus de 1 000 salariés à horizon 2027.
+
+<figure style="margin:2.5em 0;font-family:Inter,-apple-system,sans-serif;border:1px solid rgba(10,10,10,0.06);border-radius:16px;overflow:hidden">
+<div style="height:5px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%)"></div>
+<div style="padding:1.5rem 1.75rem">
+<p style="margin:0 0 1.25rem;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:#9A9A9A;font-weight:600">Écart salarial femmes-hommes — France 2024 · Source : INSEE Focus n°377</p>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:1rem">
+<div style="padding:1.125rem 1rem;background:#FAFAFA;border-radius:12px;text-align:center;border:1px solid rgba(10,10,10,0.06)">
+<div style="font-size:10px;letter-spacing:0.13em;text-transform:uppercase;color:#9A9A9A;margin-bottom:8px;line-height:1.4">Revenu salarial total</div>
+<div style="font-family:'Archivo Black',sans-serif;font-size:28px;background:linear-gradient(135deg,#1E3A8A,#FF6B6B);-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:4px">−21,8 %</div>
+<div style="font-size:11px;color:#9A9A9A">inclut temps partiel</div>
+</div>
+<div style="padding:1.125rem 1rem;background:#FAFAFA;border-radius:12px;text-align:center;border:1px solid rgba(10,10,10,0.06)">
+<div style="font-size:10px;letter-spacing:0.13em;text-transform:uppercase;color:#9A9A9A;margin-bottom:8px;line-height:1.4">Salaire EQTP (privé)</div>
+<div style="font-family:'Archivo Black',sans-serif;font-size:28px;color:#0A0A0A;margin-bottom:4px">−14,0 %</div>
+<div style="font-size:11px;color:#9A9A9A">temps plein équiv.</div>
+</div>
+<div style="padding:1.125rem 1rem;background:#FAFAFA;border-radius:12px;text-align:center;border:1px solid rgba(10,10,10,0.06)">
+<div style="font-size:10px;letter-spacing:0.13em;text-transform:uppercase;color:#9A9A9A;margin-bottom:8px;line-height:1.4">À poste comparable</div>
+<div style="font-family:'Archivo Black',sans-serif;font-size:28px;color:#0A0A0A;margin-bottom:4px">−3,6 %</div>
+<div style="font-size:11px;color:#9A9A9A">discrimination pure</div>
+</div>
+</div>
+<p style="margin:0;font-size:11px;color:#9A9A9A;border-top:1px solid rgba(10,10,10,0.06);padding-top:0.75rem">L'écart de 21,8 % reflète les différences de temps de travail (28 % de femmes à temps partiel vs 8 % d'hommes). Source : INSEE Focus n°377, 2025.</p>
+</div>
+</figure>
 
 ## Public vs privé : deux médianes, deux réalités salariales
 
@@ -182,6 +271,24 @@ La **France se classe au 7e rang européen** sur le salaire moyen équivalent te
 Le **salaire médian français** (2 190 € net en 2024) se situe également au-dessus de la moyenne UE-27 mais reste en retrait par rapport à l'Allemagne (médian estimé à 2 850 € net) et à la Belgique (2 750 € net). En 2022, le SMIC français représentait 66 % du salaire médian brut, l'un des ratios les plus élevés de l'Union européenne aux côtés du Portugal et de la Slovénie.
 
 Cette comparaison doit être lue avec prudence : le **coût de la vie** varie fortement d'un pays à l'autre. À pouvoir d'achat équivalent (parité PPA), l'écart entre la France et l'Allemagne se réduit, et la France passe devant l'Italie et l'Espagne avec une marge plus confortable.
+
+<figure style="margin:2.5em 0;font-family:Inter,-apple-system,sans-serif;border:1px solid rgba(10,10,10,0.06);border-radius:16px;overflow:hidden">
+<div style="height:5px;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 35%,#EC4899 70%,#FF6B6B 100%)"></div>
+<div style="padding:1.5rem 1.75rem">
+<p style="margin:0 0 1.25rem;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:#9A9A9A;font-weight:600">Salaire moyen ajusté temps plein — Europe 2023 · Source : Eurostat</p>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:130px;max-width:130px;font-size:12px;color:#6B6B6B;text-align:right">Luxembourg</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:100%;height:100%;background:#0A0A0A;opacity:0.15"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">6 755 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:130px;max-width:130px;font-size:12px;color:#6B6B6B;text-align:right">Danemark</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:85.9%;height:100%;background:#0A0A0A;opacity:0.12"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">5 800 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:130px;max-width:130px;font-size:12px;color:#6B6B6B;text-align:right">Irlande</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:79.2%;height:100%;background:#0A0A0A;opacity:0.12"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">5 350 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:130px;max-width:130px;font-size:12px;color:#6B6B6B;text-align:right">Pays-Bas</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:71.8%;height:100%;background:#0A0A0A;opacity:0.12"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">4 850 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:130px;max-width:130px;font-size:12px;color:#6B6B6B;text-align:right">Belgique</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:62.2%;height:100%;background:#0A0A0A;opacity:0.12"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">4 200 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:130px;max-width:130px;font-size:12px;color:#6B6B6B;text-align:right">Allemagne</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:60.7%;height:100%;background:#0A0A0A;opacity:0.12"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">4 100 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:130px;max-width:130px;font-size:12px;font-weight:700;color:#1E3A8A;text-align:right">France</div><div style="flex:1;height:26px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:52.6%;height:100%;background:linear-gradient(135deg,#1E3A8A,#FF6B6B)"></div></div><div style="min-width:52px;font-family:'Archivo Black',sans-serif;font-size:13px;background:linear-gradient(135deg,#1E3A8A,#FF6B6B);-webkit-background-clip:text;background-clip:text;color:transparent">3 555 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:130px;max-width:130px;font-size:12px;color:#9A9A9A;text-align:right;font-style:italic">Moyenne UE-27</div><div style="flex:1;height:20px;border:1.5px dashed #C9C9C9;border-radius:4px;overflow:hidden"><div style="width:46.7%;height:100%;border-right:2px solid #C9C9C9"></div></div><div style="min-width:52px;font-size:12px;color:#9A9A9A;font-style:italic">3 155 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:130px;max-width:130px;font-size:12px;color:#6B6B6B;text-align:right">Italie</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:43.7%;height:100%;background:#0A0A0A;opacity:0.10"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 950 €</div></div>
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:7px"><div style="min-width:130px;max-width:130px;font-size:12px;color:#6B6B6B;text-align:right">Espagne</div><div style="flex:1;height:20px;background:#F0F0F0;border-radius:4px;overflow:hidden"><div style="width:38.2%;height:100%;background:#0A0A0A;opacity:0.10"></div></div><div style="min-width:52px;font-size:12px;color:#6B6B6B">2 580 €</div></div>
+<p style="margin:1rem 0 0;font-size:11px;color:#9A9A9A;border-top:1px solid rgba(10,10,10,0.06);padding-top:0.75rem">France : 7e rang européen. Lecture en pouvoir d'achat nominal ; l'écart se réduit en parité PPA. Source : Eurostat, données 2023.</p>
+</div>
+</figure>
 
 ## Comment se situer par rapport au salaire médian français
 
