@@ -1,6 +1,6 @@
 ---
-title: "Passer de TTC à HT : Le Guide Complet avec Formule et Exemples"
-title_tag: "Calculateur TTC HT gratuit + formule 2026 | Business Trendz"
+title: "Comment passer de TTC à HT? Simulateur Gratuit et Guide Complet"
+title_tag: "Simulateur Gratuit pour Passer de TTC à HT | Business Trendz"
 description: "Simulateur gratuit pour passer du TTC au HT en ligne + formule HT = TTC ÷ (1 + taux), tableau des taux TVA, 5 exemples concrets et cas auto-entrepreneur."
 slug: passer-de-ttc-a-hors-taxe
 pubDate: 2026-05-24T00:00:00.000Z
