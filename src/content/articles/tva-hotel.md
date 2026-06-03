@@ -12,7 +12,7 @@ heroImageAlt: "Facture d'hôtel avec détail des taux de TVA applicables en Fran
 readingTime: 6
 ---
 
-La TVA hôtel est un sujet qui revient souvent lors des déplacements professionnels : quel taux s'applique à la nuitée ? Peut-on récupérer cette taxe sur la note de frais ? La réponse dépend du type de prestation, du statut de l'entreprise et de la forme de la facture. En France, l'hébergement hôtelier est soumis au **taux intermédiaire de 10%**, mais plusieurs services annexes — parking, bar, mini-bar — relèvent du taux normal de 20%. Maîtriser ces distinctions permet d'optimiser la gestion fiscale des déplacements, d'éviter les erreurs de comptabilité et de récupérer la TVA déductible dans les meilleures conditions.
+La TVA hôtel est un sujet qui revient souvent lors des déplacements professionnels : quel taux s'applique à la nuitée ? Peut-on récupérer cette taxe sur la note de frais ? La réponse dépend du type de prestation, du statut de l'entreprise et de la forme de la facture. En France, l'hébergement hôtelier est soumis au **taux intermédiaire de 10%**, mais plusieurs services annexes (parking, bar, mini-bar) relèvent du taux normal de 20%. Maîtriser ces distinctions permet d'optimiser la gestion fiscale des déplacements, d'éviter les erreurs de comptabilité et de récupérer la TVA déductible dans les meilleures conditions.
 
 ## Les taux de TVA applicables dans les hôtels
 
@@ -49,7 +49,7 @@ En France, la TVA hôtelière n'est pas uniforme. Un même séjour peut faire co
 
 ### Hébergement et nuitée : 10%
 
-La prestation d'hébergement proprement dite — c'est-à-dire la mise à disposition d'une chambre, d'une suite ou d'un appartement hôtelier — est taxée à **10%**. Ce taux intermédiaire s'applique aux hôtels classés de 1 à 5 étoiles, aux résidences de tourisme, aux chambres d'hôtes et aux locations meublées touristiques.
+La prestation d'hébergement proprement dite (mise à disposition d'une chambre, d'une suite ou d'un appartement hôtelier) est taxée à **10%**. Ce taux intermédiaire s'applique aux hôtels classés de 1 à 5 étoiles, aux résidences de tourisme, aux chambres d'hôtes et aux locations meublées touristiques.
 
 Cela vaut aussi pour les formules "chambre + petits-déjeuners" lorsque ces derniers sont inclus dans le tarif global sans distinction.
 
@@ -63,7 +63,7 @@ Le restaurant de l'hôtel, le room service et le service de snacking (sandwichs,
 
 ### Alcools et mini-bar : 20%
 
-Les boissons alcoolisées — qu'elles soient consommées au bar, en room service ou prélevées dans le mini-bar — sont soumises au taux normal de **20%**. Cette règle vaut pour le vin, la bière, les spiritueux et tout cocktail contenant de l'alcool.
+Les boissons alcoolisées (bar, room service ou mini-bar) sont soumises au taux normal de **20%**. Cette règle vaut pour le vin, la bière, les spiritueux et tout cocktail contenant de l'alcool.
 
 ### Services annexes : 20%
 
@@ -127,9 +127,9 @@ Un commercial séjourne une nuit dans un hôtel 3 étoiles. La chambre est factu
 
 Séjour de deux nuits à 90 € TTC/nuit + parking 20 € TTC/nuit + deux verres de vin à 8 € TTC chacun.
 
-- Chambres (2 nuits) HT : 180 / 1,10 = **163,64 €** · TVA à 10% : **16,36 €** — déductible
-- Parking (2 nuits) HT : 40 / 1,20 = **33,33 €** · TVA à 20% : **6,67 €** — déductible
-- Vins (2 verres) HT : 16 / 1,20 = **13,33 €** · TVA à 20% : **2,67 €** — **non déductible**
+- Chambres (2 nuits) HT : 180 / 1,10 = **163,64 €** · TVA à 10% : **16,36 €** (déductible)
+- Parking (2 nuits) HT : 40 / 1,20 = **33,33 €** · TVA à 20% : **6,67 €** (déductible)
+- Vins (2 verres) HT : 16 / 1,20 = **13,33 €** · TVA à 20% : **2,67 €** (**non déductible**)
 - **TVA récupérable : 23,03 €**
 
 ### Exemple 3 : hôtel avec salle de réunion
@@ -140,7 +140,7 @@ Une demi-journée en salle de conférence à 300 € HT (location + matériel) s
 
 ## TVA hôtel à l'étranger
 
-Lors de déplacements hors de France, les règles de TVA locales s'appliquent. Un salarié qui séjourne dans un hôtel en Espagne paie la TVA espagnole (IVA) — en principe à 10% sur l'hébergement — et non la TVA française.
+Lors de déplacements hors de France, les règles de TVA locales s'appliquent. Un salarié qui séjourne dans un hôtel en Espagne paie la TVA espagnole (IVA, en principe à 10% sur l'hébergement) et non la TVA française.
 
 Pour récupérer la TVA étrangère, l'entreprise française doit recourir à la **procédure de remboursement de TVA intracommunautaire** (directive 2008/9/CE), via le portail impots.gouv.fr (espace professionnel). Cette procédure est disponible pour tous les États membres de l'UE et impose des seuils minimaux annuels (50 € pour les remboursements annuels).
 
@@ -188,7 +188,7 @@ La TVA est ensuite la différence entre le TTC et le HT calculé. Par exemple, u
 
 ---
 
-*Informations fiscales à jour en juin 2026. La réglementation peut évoluer — consultez le Bulletin Officiel des Finances Publiques (BOFIP) ou un expert-comptable pour tout cas particulier.*
+*Informations fiscales à jour en juin 2026. La réglementation peut évoluer : consultez le Bulletin Officiel des Finances Publiques (BOFIP) ou un expert-comptable pour tout cas particulier.*
 
 <script type="application/ld+json">
 {
