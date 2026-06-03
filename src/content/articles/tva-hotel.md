@@ -7,7 +7,7 @@ author: "François Aublin"
 categories:
   - "Fiscalité"
   - "Entreprise"
-heroImage: "/uploads/2026/05/Vcaun.jpg"
+heroImage: "/uploads/2026/05/tva-hotel.webp"
 heroImageAlt: "Facture d'hôtel avec détail des taux de TVA applicables en France"
 readingTime: 6
 ---
