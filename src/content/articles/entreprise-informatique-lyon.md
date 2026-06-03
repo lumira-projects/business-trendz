@@ -81,12 +81,8 @@ Xyldia Informatique Lyon affiche la note parfaite de 5/5 sur Google Maps, signe 
 - **Téléphone** : +33 7 53 53 99 53
 - **Catégorie** : Service de réparation d'ordinateurs
 - **Horaires** :
-  - Lundi : Ouvre à 08:00
-  - Mardi : Non communiqués
-  - Mercredi : Non communiqués
-  - Jeudi : Non communiqués
-  - Vendredi : Non communiqués
-  - Samedi : Non communiqués
+  - Lundi : 08:00–20:00
+  - Mardi – Samedi : 08:00–21:00
   - Dimanche : Fermé
 
 N-DATASAVE se spécialise dans le dépannage express et la réparation de PC et Mac, aussi bien sur les composants matériels que les problèmes logiciels. Avec une note de 4,9/5, l'entreprise est reconnue pour sa rapidité d'intervention et la qualité de ses diagnostics. Elle s'adresse aux particuliers comme aux professionnels, et couvre l'ensemble des pannes courantes : récupération de données, remplacement de pièces, réinstallation système.
@@ -97,12 +93,9 @@ N-DATASAVE se spécialise dans le dépannage express et la réparation de PC et 
 - **Téléphone** : Non communiqué
 - **Catégorie** : Consultant informatique
 - **Horaires** :
-  - Lundi : Ouvre à 09:00
-  - Mardi : Non communiqués
-  - Mercredi : Non communiqués
-  - Jeudi : Non communiqués
-  - Vendredi : Non communiqués
-  - Samedi : Non communiqués
+  - Lundi : 09:00–20:00
+  - Mardi – Vendredi : 08:00–20:00
+  - Samedi : Fermé
   - Dimanche : Fermé
 
 Exalt Lyon se positionne sur le conseil et l'ingénierie informatique, avec une approche orientée transformation digitale et accompagnement stratégique. Bien installée dans le quartier de la Presqu'île, cette structure attire des clients souhaitant aller au-delà de la simple maintenance pour repenser leur architecture IT. Sa note de 4,9/5 reflète une relation client soignée et une expertise reconnue dans les projets d'envergure.
@@ -113,12 +106,7 @@ Exalt Lyon se positionne sur le conseil et l'ingénierie informatique, avec une 
 - **Téléphone** : +33 4 28 29 11 79
 - **Catégorie** : Assistance et services informatiques
 - **Horaires** :
-  - Lundi : Ouvre à 08:00
-  - Mardi : Non communiqués
-  - Mercredi : Non communiqués
-  - Jeudi : Non communiqués
-  - Vendredi : Non communiqués
-  - Samedi : Non communiqués
+  - Lundi – Samedi : 08:00–20:00
   - Dimanche : Fermé
 
 ACTIV Informatique est une référence lyonnaise pour l'assistance aux entreprises, avec une note de 4,9/5 saluée par de nombreux clients professionnels. La société propose des contrats de maintenance, de la gestion de parc informatique et des interventions ponctuelles sur site ou à distance. Son ouverture dès 8h00 en semaine témoigne d'une organisation orientée vers les besoins des professionnels qui démarrent tôt leur activité.
@@ -139,12 +127,10 @@ iilyo est une entreprise lyonnaise spécialisée dans l'hébergement web et les 
 - **Téléphone** : +33 4 37 27 06 06
 - **Catégorie** : Assistance et services informatiques
 - **Horaires** :
-  - Lundi : Ouvre à 09:30
-  - Mardi : Non communiqués
-  - Mercredi : Non communiqués
-  - Jeudi : Non communiqués
-  - Vendredi : Non communiqués
-  - Samedi : Non communiqués
+  - Lundi – Mercredi : 09:30–18:30
+  - Jeudi : 10:00–18:30
+  - Vendredi : 09:30–18:30
+  - Samedi : Fermé
   - Dimanche : Fermé
 
 XEFI est l'un des acteurs majeurs de l'infogérance pour PME en France, avec plusieurs agences présentes à Lyon. L'agence de la Presqu'île, notée 4,7/5, propose des contrats d'infogérance globale : gestion du parc, sécurité, cloud, télétravail et support utilisateurs. Son appartenance à un réseau national lui permet d'offrir des outils industrialisés et des niveaux de service élevés, particulièrement adaptés aux entreprises de 10 à 250 salariés.
@@ -165,12 +151,8 @@ Lyon Informatique est une boutique spécialisée dans la réparation d'ordinateu
 - **Téléphone** : +33 4 82 53 26 44
 - **Catégorie** : Assistance et services informatiques
 - **Horaires** :
-  - Lundi : Ouvre à 09:00
-  - Mardi : Non communiqués
-  - Mercredi : Non communiqués
-  - Jeudi : Non communiqués
-  - Vendredi : Non communiqués
-  - Samedi : Non communiqués
+  - Lundi – Vendredi : 09:00–12:00 / 14:00–18:00
+  - Samedi : Fermé
   - Dimanche : Fermé
 
 AXOPEN est une ESN (Entreprise de Services du Numérique) lyonnaise qui se distingue par son expertise dans le développement applicatif et la transformation numérique, en plus des services d'infogérance traditionnels. Noté 4,4/5, cet acteur s'adresse surtout aux entreprises souhaitant allier maintenance IT et projets de digitalisation : ERP, applications métiers, intégration de solutions cloud. Un choix pertinent pour les structures en pleine évolution technologique.
@@ -181,12 +163,8 @@ AXOPEN est une ESN (Entreprise de Services du Numérique) lyonnaise qui se disti
 - **Téléphone** : +33 4 84 31 43 00
 - **Catégorie** : Assistance et services informatiques
 - **Horaires** :
-  - Lundi : Ouvre à 09:00
-  - Mardi : Non communiqués
-  - Mercredi : Non communiqués
-  - Jeudi : Non communiqués
-  - Vendredi : Non communiqués
-  - Samedi : Non communiqués
+  - Lundi – Vendredi : 09:00–18:00
+  - Samedi : Fermé
   - Dimanche : Fermé
 
 Novatim est un prestataire informatique spécialisé dans la maintenance, l'infogérance, la cybersécurité et les solutions cloud pour les PME. Basé dans le quartier Part-Dieu, il bénéficie d'une bonne localisation pour intervenir rapidement sur l'ensemble de la métropole lyonnaise. Sa note de 4,0/5 reflète un service solide, particulièrement adapté aux entreprises cherchant à sécuriser leur infrastructure et à accompagner le télétravail de leurs équipes.

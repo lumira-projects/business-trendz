@@ -82,8 +82,7 @@ ACI Technology affiche la note parfaite de 5/5 sur Google Maps, signe d'une sati
 - **Téléphone** : +33 6 74 74 38 87
 - **Catégorie** : Assistance et services informatiques
 - **Horaires** :
-  - Lundi – Samedi : 09:00–18:00
-  - Dimanche : 09:00–18:00
+  - Lundi – Dimanche : 09:00–18:00
 
 Iwit Systems est un prestataire informatique parisien noté 5/5, spécialisé dans l'assistance aux entreprises et le développement informatique sur mesure. Implanté dans le 13e arrondissement, il intervient sur tout type de problématique IT : déploiement d'infrastructure, développement d'applications métier, support utilisateurs. Sa disponibilité le week-end le distingue de la majorité des acteurs du secteur.
 
@@ -93,12 +92,9 @@ Iwit Systems est un prestataire informatique parisien noté 5/5, spécialisé da
 - **Téléphone** : +33 1 88 32 11 32
 - **Catégorie** : Assistance et services informatiques
 - **Horaires** :
-  - Lundi : Ouvre à 09:00
-  - Mardi : Non communiqués
-  - Mercredi : Non communiqués
-  - Jeudi : Non communiqués
-  - Vendredi : Non communiqués
-  - Samedi : Non communiqués
+  - Lundi – Jeudi : 09:00–12:00 / 14:00–18:00
+  - Vendredi : 09:00–12:00 / 14:00–17:00
+  - Samedi : Fermé
   - Dimanche : Fermé
 
 Jesto est une société d'infogérance informatique dédiée aux PME parisiennes et franciliennes. Avec une note parfaite de 5/5, elle se distingue par une approche contractuelle claire et des engagements de service (SLA) formalisés. Son périmètre couvre la gestion de parc, la cybersécurité, le cloud et le support utilisateurs à distance ou sur site. Un choix sérieux pour les structures souhaitant un partenariat IT à long terme.
@@ -119,12 +115,8 @@ TechCentre est un service de dépannage informatique disponible 24h/24, 7j/7, im
 - **Téléphone** : +33 1 42 01 11 12
 - **Catégorie** : Entreprise de logiciels
 - **Horaires** :
-  - Lundi : Ouvre à 09:00
-  - Mardi : Non communiqués
-  - Mercredi : Non communiqués
-  - Jeudi : Non communiqués
-  - Vendredi : Non communiqués
-  - Samedi : Non communiqués
+  - Lundi – Vendredi : 09:00–18:00
+  - Samedi : Fermé
   - Dimanche : Fermé
 
 Euro Tech Conseil France est une entreprise de logiciels et de conseil informatique notée 4,9/5, implantée dans le 10e arrondissement. Elle se positionne sur les projets de transformation numérique, l'intégration de solutions métier et le développement logiciel sur mesure. Son approche conseil, couplée à une expertise technique solide, la rend particulièrement adaptée aux entreprises souhaitant moderniser leurs outils de gestion ou leurs processus internes.
@@ -135,9 +127,9 @@ Euro Tech Conseil France est une entreprise de logiciels et de conseil informati
 - **Téléphone** : +33 1 89 70 78 00
 - **Catégorie** : Assistance et services informatiques
 - **Horaires** :
-  - Lundi – Vendredi : Ferme à 17:00
-  - Samedi : Non communiqués
-  - Dimanche : 09:00–19:00
+  - Lundi – Vendredi : 09:00–19:00
+  - Samedi : 10:00–17:00
+  - Dimanche : 10:00–17:00
 
 GC Maintenance informatique est un prestataire réactif disponible également le dimanche, ce qui est rare dans le secteur. Noté 4,9/5, il propose des interventions à la demande ou sous contrat pour la maintenance du parc informatique des entreprises parisiennes. Sa disponibilité dominicale et ses délais d'intervention courts en font un choix judicieux pour les structures dont l'activité ne s'arrête pas en fin de semaine.
 
@@ -157,7 +149,8 @@ SmartGeek se distingue par des horaires d'ouverture exceptionnellement larges �
 - **Téléphone** : +33 7 61 45 08 85
 - **Catégorie** : Assistance et services informatiques
 - **Horaires** :
-  - Lundi – Vendredi : Ferme à 17:00
+  - Lundi – Vendredi : 09:30–19:00
+  - Samedi : 09:30–17:00
   - Dimanche : 10:00–17:00
 
 Paris-iT-services est un prestataire informatique bien établi dans le 15e arrondissement, noté 4,8/5. Il propose des services d'assistance et de maintenance pour les entreprises, avec une ouverture le dimanche matin qui permet de traiter les urgences de début de semaine. Sa proximité avec les quartiers d'affaires du sud-ouest parisien en fait un interlocuteur de terrain particulièrement réactif.
@@ -168,12 +161,8 @@ Paris-iT-services est un prestataire informatique bien établi dans le 15e arron
 - **Téléphone** : +33 1 40 13 81 10
 - **Catégorie** : Assistance et services informatiques
 - **Horaires** :
-  - Lundi : Ouvre à 08:30
-  - Mardi : Non communiqués
-  - Mercredi : Non communiqués
-  - Jeudi : Non communiqués
-  - Vendredi : Non communiqués
-  - Samedi : Non communiqués
+  - Lundi – Vendredi : 08:30–19:00
+  - Samedi : Fermé
   - Dimanche : Fermé
 
 IPE est un spécialiste parisien de l'infogérance et de la maintenance informatique pour les entreprises, implanté en plein cœur de Paris dans le 2e arrondissement. Noté 4,8/5, il intervient sur la gestion de parc, le déploiement réseau et la supervision des systèmes. Son ouverture dès 8h30 le lundi traduit une orientation claire vers les besoins des entreprises qui reprennent tôt leur activité hebdomadaire.
@@ -184,12 +173,8 @@ IPE est un spécialiste parisien de l'infogérance et de la maintenance informat
 - **Téléphone** : Non communiqué
 - **Catégorie** : Assistance et services informatiques
 - **Horaires** :
-  - Lundi : Ouvre à 08:30
-  - Mardi : Non communiqués
-  - Mercredi : Non communiqués
-  - Jeudi : Non communiqués
-  - Vendredi : Non communiqués
-  - Samedi : Non communiqués
+  - Lundi – Vendredi : 08:30–19:30
+  - Samedi : Fermé
   - Dimanche : Fermé
 
 Web-atrio Paris est une entreprise informatique localisée au cœur du 1er arrondissement, à deux pas du Louvre. Notée 4,5/5, elle propose des services d'assistance informatique pour les professionnels et les particuliers. Son positionnement central lui permet d'intervenir rapidement dans tout Paris intra-muros. Une option à considérer pour les structures situées dans les arrondissements centraux qui souhaitent un prestataire de proximité.
