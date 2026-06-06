@@ -54,6 +54,19 @@ Ne jamais commiter un `.jpg` ou `.png` sans l'avoir converti.
 - **Pas d'emojis** sauf demande explicite
 - **Pas de commentaires dans le code** sauf si le "pourquoi" est non évident
 
+### Année dans les titres et le corps : règle evergreen
+
+Ne pas mettre l'année (ex: "2026") dans le titre, H1 ou corps sauf si le contenu est intrinsèquement daté :
+
+| Mettre l'année | Ne pas mettre l'année |
+|---|---|
+| Salaires (évoluent chaque année) | Définitions et guides conceptuels |
+| Taux fiscaux, seuils réglementaires | Articles sur des faits historiques |
+| Comparatifs de produits/services | Guides pratiques stables |
+| Classements annuels | "Comment faire X" |
+
+Pour signaler la fraîcheur à Google sans dater le titre : mettre à jour `updatedDate` dans le frontmatter. Remplacer "en 2026" dans le corps par "aujourd'hui", "actuellement", "en France".
+
 ---
 
 ## Structure d'un article
