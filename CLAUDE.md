@@ -144,3 +144,40 @@ Phase 3 (séquentielle) : commits, merges, push unique
 ```
 
 Les images hero peuvent être ajoutées après coup article par article.
+
+---
+
+## Génération automatique d'images hero
+
+### Script
+```bash
+node scripts/generate-hero.mjs [slug] "[prompt]"
+```
+Utilise **Hugging Face Inference API** (FLUX.1-schnell, gratuit).
+Token requis dans `.env.local` : `HF_TOKEN=hf_xxx`
+Créer un token gratuit sur https://huggingface.co/settings/tokens
+
+Le script : télécharge l'image, convertit en .webp qualité 85, supprime le tmp, affiche le chemin heroImage.
+
+### Direction artistique (DA)
+
+Toujours : **personne en action, visage visible**, cadre startup épuré, lumière naturelle, profondeur de champ.
+Diversifier à chaque article : genre, âge (25-30 / 35-45 / 50-60 ans), ethnicité.
+
+**Template de prompt :**
+```
+Realistic editorial photograph of a [AGE]-year-old [GENDER] [ETHNICITY] professional,
+face clearly visible, [ACTION liée au sujet],
+modern minimalist startup office, natural window light, glass walls,
+design furniture, subtle green plants, shallow depth of field,
+warm neutral tones, no text visible, 16:9
+```
+
+**Actions selon thème :**
+- Fiscalité/TVA → reviewing documents on a laptop, pen in hand
+- Finance → analyzing charts on dual monitors
+- RH/Recrutement → conducting a video call, smiling
+- Marketing → sketching ideas on a whiteboard
+- Tech/IA → typing on a keyboard, focused
+- Management → leading a small team meeting
+- Immobilier → examining architectural plans
