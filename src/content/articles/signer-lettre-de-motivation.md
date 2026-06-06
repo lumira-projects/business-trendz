@@ -256,7 +256,6 @@ Il est d'usage de signer la lettre de motivation (sur papier), mais pas le CV. L
 
 ---
 
-```html
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -321,4 +320,3 @@ Il est d'usage de signer la lettre de motivation (sur papier), mais pas le CV. L
   ]
 }
 </script>
-```
