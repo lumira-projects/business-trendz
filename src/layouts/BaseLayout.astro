@@ -10,6 +10,7 @@ interface Props {
   ogType?: 'website' | 'article';
   canonicalURL?: string;
   structuredData?: object | object[];
+  noindex?: boolean;
 }
 
 const SITE_NAME = 'Business Trendz';
@@ -24,6 +25,7 @@ const {
   ogType = 'website',
   canonicalURL = new URL(Astro.url.pathname, Astro.site).toString(),
   structuredData,
+  noindex = false,
 } = Astro.props;
 
 const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
@@ -94,7 +96,7 @@ if (structuredData) {
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageAbs} />
 
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
 
     <!-- Preconnect to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

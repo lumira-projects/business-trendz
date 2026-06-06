@@ -27,6 +27,9 @@ const { entry, type, allArticles } = Astro.props;
 const { Content } = await entry.render();
 const canonicalURL = new URL(`/${entry.slug}/`, Astro.site).toString();
 
+const NOINDEX_SLUGS = ['mentions-legales', 'politique-confidentialite', 'politique-de-cookies', 'nous-contacter'];
+const isNoindex = type === 'page' && NOINDEX_SLUGS.includes(entry.slug);
+
 const relatedArticles = type === 'article'
   ? allArticles
       .filter((a) => a.slug !== entry.slug && a.data.categories?.some((c: string) => entry.data.categories?.includes(c)))
@@ -66,6 +69,7 @@ const relatedArticles = type === 'article'
     description={entry.data.description}
     updatedDate={entry.data.updatedDate}
     canonicalURL={canonicalURL}
+    noindex={isNoindex}
   >
     <Content />
   </PageLayout>
