@@ -53,6 +53,7 @@ Ne jamais commiter un `.jpg` ou `.png` sans l'avoir converti.
 - **Pas de "la maison" pour désigner un client** : utiliser le nom de l'entreprise
 - **Pas d'emojis** sauf demande explicite
 - **Pas de commentaires dans le code** sauf si le "pourquoi" est non évident
+- **JSON-LD jamais dans un bloc de code markdown** : écrire `<script type="application/ld+json">` en HTML brut, jamais entouré de backticks ` ```html ` — sinon Astro l'affiche comme du code visible sur la page
 
 ### Année dans les titres et le corps : règle evergreen
 
@@ -120,6 +121,65 @@ ls public/uploads/[chemin].webp
 
 # 3. Pas de fichier image original non converti
 find public/uploads -name "*.jpg" -newer public/uploads/[slug].webp
+
+# 4. Zéro code fence dans le fichier (JSON-LD ne doit pas être dans ```...```)
+grep -c '^\`\`\`' src/content/articles/[slug].md  # doit retourner 0
+
+# 5. Build propre avant push
+npm run build
+```
+
+---
+
+## HTML inline dans les articles markdown — règles critiques
+
+### Règle 1 : zéro ligne vide à l'intérieur d'un bloc HTML
+
+En CommonMark (le parseur markdown d'Astro), **toute ligne vide à l'intérieur d'un bloc HTML de type bloc (`<div>`, `<figure>`, `<script>`…) termine le bloc**. Le contenu indenté qui suit est alors interprété comme un bloc de code et s'affiche tel quel sur la page.
+
+**Toujours écrire les blocs HTML sur des lignes consécutives, sans aucune ligne vide interne.**
+
+```html
+<!-- ✅ Correct : tout sur des lignes consécutives, zéro ligne vide -->
+<figure style="..."><div style="..."></div><div style="..."><p>Texte</p></div></figure>
+
+<!-- ❌ Incorrect : la ligne vide termine le bloc, le reste s'affiche en code -->
+<figure style="...">
+  <div style="..."></div>
+
+  <div style="..."><p>Texte</p></div>
+</figure>
+```
+
+Pour les blocs longs, écrire chaque balise ouvrante/fermante sur sa propre ligne mais **sans jamais laisser de ligne vide entre elles**.
+
+### Règle 2 : ne jamais entourer le JSON-LD d'une balise code markdown
+
+Le JSON-LD doit être du HTML brut, pas un bloc de code affiché.
+
+```markdown
+<!-- ✅ Correct -->
+<script type="application/ld+json">
+{ ... }
+</script>
+
+<!-- ❌ Incorrect : s'affiche comme du code sur la page -->
+```html
+<script type="application/ld+json">
+{ ... }
+</script>
+```
+```
+
+### Checklist HTML avant commit
+
+```bash
+# Vérifier qu'aucun bloc HTML ne contient une ligne vide interne
+# (cherche une ligne vide entre deux balises HTML)
+grep -n "^$" src/content/articles/[slug].md
+
+# Vérifier que le JSON-LD n'est pas dans un code fence
+grep -n '^\`\`\`' src/content/articles/[slug].md  # doit retourner 0 résultat
 ```
 
 ---
