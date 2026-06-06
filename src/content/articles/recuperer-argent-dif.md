@@ -205,7 +205,6 @@ Non. C'est l'un des avantages fondamentaux du CPF par rapport au DIF. Le compte 
 
 ---
 
-```html
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -270,4 +269,3 @@ Non. C'est l'un des avantages fondamentaux du CPF par rapport au DIF. Le compte 
   ]
 }
 </script>
-```
