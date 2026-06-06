@@ -59,15 +59,15 @@ console.log(`Generating image for "${slug}"...`);
 console.log(`Prompt: ${prompt}\n`);
 
 // Call HuggingFace Inference API — FLUX.1-schnell (free, fast)
+// New endpoint since 2025: router.huggingface.co
 const HF_MODEL = 'black-forest-labs/FLUX.1-schnell';
 const response = await fetch(
-  `https://api-inference.huggingface.co/models/${HF_MODEL}`,
+  `https://router.huggingface.co/hf-inference/models/${HF_MODEL}`,
   {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${HF_TOKEN}`,
       'Content-Type': 'application/json',
-      'x-wait-for-model': 'true',
     },
     body: JSON.stringify({
       inputs: prompt,
