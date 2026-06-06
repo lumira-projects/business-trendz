@@ -6,16 +6,17 @@ interface Props {
   description?: string;
   updatedDate?: Date;
   canonicalURL?: string;
+  noindex?: boolean;
 }
 
-const { title, description, updatedDate, canonicalURL } = Astro.props;
+const { title, description, updatedDate, canonicalURL, noindex } = Astro.props;
 
 const updatedStr = updatedDate
   ? updatedDate.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })
   : null;
 ---
 
-<BaseLayout title={title} description={description} canonicalURL={canonicalURL}>
+<BaseLayout title={title} description={description} canonicalURL={canonicalURL} noindex={noindex}>
   <article class="page">
     <div class="container page-container">
       <header class="page-header">

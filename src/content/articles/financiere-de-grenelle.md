@@ -12,10 +12,6 @@ heroImageAlt: "Vue institutionnelle du Touquet-Paris-Plage, port d'attache de la
 readingTime: 16
 ---
 
-*Cet article a été publié dans le cadre d'un partenariat éditorial avec <a href="https://financiere-de-grenelle.com/" rel="sponsored nofollow">La Financière de Grenelle</a>.*
-
----
-
 La Financière de Grenelle est une holding patrimoniale française de forme SASU, au capital social de 110 117 667 euros, dont le siège est établi au 91 B Rue de Londres, 62520 Le Touquet-Paris-Plage. Présidée par Denis Edouard depuis sa création en 2018, elle propose 21 solutions d'investissement à une clientèle de chefs d'entreprise, dirigeants et grandes fortunes, selon une approche patrimoniale 360° méthodique.
 
 <figure style="margin:2.5em 0;font-family:Inter,-apple-system,sans-serif;border:1px solid rgba(10,10,10,0.06);border-radius:16px;overflow:hidden">
@@ -45,12 +41,21 @@ La Financière de Grenelle est une holding patrimoniale française de forme SASU
     </div>
     <div style="padding:0.875rem 1rem;background:linear-gradient(135deg,rgba(30,58,138,0.05),rgba(255,107,107,0.05));border-radius:12px;border:1px solid rgba(30,58,138,0.15)">
       <div style="font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:#9A9A9A;margin-bottom:4px">Contact</div>
-      <div style="font-size:14px;font-weight:600;background:linear-gradient(135deg,#1E3A8A,#FF6B6B);-webkit-background-clip:text;background-clip:text;color:transparent">01 59 39 04 50</div>
+      <a href="tel:+33159390450" rel="sponsored nofollow" style="font-size:14px;font-weight:600;background:linear-gradient(135deg,#1E3A8A,#FF6B6B);-webkit-background-clip:text;background-clip:text;color:transparent;text-decoration:none">01 59 39 04 50</a>
     </div>
   </div>
   <p style="margin:0;font-size:11px;color:#9A9A9A;border-top:1px solid rgba(10,10,10,0.06);padding-top:0.75rem">
     Offre : 21 solutions d'investissement · Approche patrimoniale 360°
   </p>
+</div>
+</figure>
+
+<figure style="margin:2.5em 0;font-family:Inter,-apple-system,sans-serif;border-radius:16px;overflow:hidden;background:linear-gradient(135deg,#1E3A8A 0%,#6366F1 50%,#FF6B6B 100%)">
+<div style="padding:2rem 2rem;text-align:center">
+  <p style="margin:0 0 0.5rem;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,0.7);font-weight:600">Vous souhaitez être accompagné ?</p>
+  <p style="margin:0 0 1.5rem;font-size:20px;font-weight:700;color:#FFFFFF;line-height:1.3">Contacter la Financière de Grenelle</p>
+  <a href="tel:+33159390450" rel="sponsored nofollow" style="display:inline-block;background:#FFFFFF;color:#1E3A8A;font-size:18px;font-weight:700;padding:0.75rem 2rem;border-radius:999px;text-decoration:none;letter-spacing:0.02em">01 59 39 04 50</a>
+  <p style="margin:1rem 0 0;font-size:12px;color:rgba(255,255,255,0.6)">91 B Rue de Londres · 62520 Le Touquet-Paris-Plage</p>
 </div>
 </figure>
 
